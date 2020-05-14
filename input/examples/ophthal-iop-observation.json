@@ -1,0 +1,52 @@
+{
+  "resourceType": "Observation",
+  "id": "01e0df2d-f6fa-4761-8fb7-c22f730ade55",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ophthal-iop-observation"
+    ]
+  },
+  "code": {
+    "text": "Intraocular Pressure",
+    "coding": [
+      {
+        "code": "56844-4",
+        "system": "http://loinc.org",
+        "display": "Intraocular pressure of Eye"
+      },
+      {
+        "code": "41633001",
+        "system": "http://snomed.info/sct",
+        "display": "Intraocular pressure of Eye"
+      }
+    ]
+  },
+  "effective": {
+    "dateTime": "2013-06-27T17:04:20+04:00"
+  },
+  "value": {
+    "Quantity": {
+      "code": "mm[Hg]",
+      "unit": "mm[Hg]",
+      "value": "25.4",
+      "system": "http://unitsofmeasure.org"
+    }
+  },
+  "issued": "2013-06-27T17:04:20.643+04:00",
+  "status": "final",
+  "subject": {
+    "id": "5812adb4-ef6d-4166-b8e1-0591525fb673",
+    "resourceType": "Patient"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "exam",
+          "system": "http://hl7.org/fhir/observation-category",
+          "display": "Exam"
+        }
+      ]
+    }
+  ]
+}
