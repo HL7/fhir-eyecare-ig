@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ophthal-iop-observation" />
+  <text>
+    <status value="extensions" />
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div>
+A specific observation profile for intraocular pressure.
+</div>
+    </div>
+  </text>
+  <url value="http://hl7.org/fhir/StructureDefinition/ophthal-iop-observation" />
+  <name value="IOPObservation" />
+  <title value="Intraocular pressure of Eye Profile" />
+  <status value="draft" />
+  <description value="A profile describing the observation for intraocular pressure of Eye" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation.category.coding">
+      <path value="Observation.category.coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Observation.category.coding.system">
+      <path value="Observation.category.coding.system" />
+      <fixedUri value="http://hl7.org/fhir/observation-category" />
+    </element>
+    <element id="Observation.category.coding.code">
+      <path value="Observation.category.coding.code" />
+      <fixedCode value="exam" />
+    </element>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://snomed.info/sct" />
+          <code value="41633001" />
+          <display value="Intraocular pressure of Eye" />
+        </coding>
+      </patternCodeableConcept>
+    </element>
+  </differential>
+</StructureDefinition>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="visual-acuity-observation" />
+  <text>
+    <status value="extensions" />
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>A specific observation for visual acuity</p>
+      <p>The quantity uses the LogMAR value</p>
+    </div>
+  </text>
+  <url value="http://hl7.org/fhir/StructureDefinition/ophthal-iop-observation" />
+  <name value="VisualAcuityObservation" />
+  <title value="Ophthalmology specific observation" />
+  <status value="draft" />
+  <experimental value="true" />
+  <description value="A profile for the visual acuity observation" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation.category.coding">
+      <path value="Observation.category.coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Observation.category.coding.system">
+      <path value="Observation.category.coding.system" />
+      <fixedUri value="http://hl7.org/fhir/observation-category" />
+    </element>
+    <element id="Observation.category.coding.code">
+      <path value="Observation.category.coding.code" />
+      <fixedCode value="exam" />
+    </element>
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <discriminator>
+          <type value="value" />
+          <path value="code" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+      <type>
+        <code value="Coding" />
+        <profile value="http://snomed.info/sct" />
+        <profile value="http://snomed.info/sct" />
+      </type>
+    </element>
+    <element id="Observation.code.coding.system">
+      <path value="Observation.code.coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.code.coding:leftEye">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.code.coding" />
+      <sliceName value="leftEye" />
+      <fixedCoding>
+        <system value="http://snomed.info/sct" />
+        <code value="413077008" />
+        <display value="LogMAR Visual Acuity Left Eye" />
+      </fixedCoding>
+    </element>
+    <element id="Observation.code.coding:rightEye">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.code.coding" />
+      <sliceName value="rightEye" />
+      <fixedCoding>
+        <system value="http://snomed.info/sct" />
+        <code value="413078003" />
+        <display value="LogMAR Visual Acuity Right Eye" />
+      </fixedCoding>
+    </element>
+    <element id="Observation.code.coding:rightEye.system">
+      <path value="Observation.code.coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.code.coding:rightEye.code">
+      <path value="Observation.code.coding.code" />
+      <fixedCode value="413078003" />
+    </element>
+  </differential>
+</StructureDefinition>
