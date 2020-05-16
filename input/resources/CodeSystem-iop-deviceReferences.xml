@@ -1,5 +1,5 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
-  <id value="iop-device-references"/>
+  <id value="iop-device-references-codesystem"/>
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -26,17 +26,17 @@
   <description value=""/>
   <copyright value="HL7"/>
   <caseSensitive value="true"/>
- <compositional value="false" />
-	<versionNeeded value="true" />
-	<content value="complete" />
-	<concept>
-		<code value="ICARE100" />
-		<display value="ICARE 100" />
-		<definition value="" />
-	</concept>
-	<concept>
-		<code value="ICARE200" />
-		<display value="ICARE 200" />
-		<definition value="" />
-	</concept>
+  <compositional value="false" />
+  <versionNeeded value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="ICARE100" />
+    <display value="ICARE 100" />
+    <definition value="" />
+  </concept>
+  <concept>
+    <code value="ICARE200" />
+    <display value="ICARE 200" />
+    <definition value="" />
+  </concept>
 </CodeSystem>

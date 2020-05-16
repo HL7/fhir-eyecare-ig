@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ophthal-service-request" />
   <url value="http://example.org/fhir/StructureDefinition/OphthalServiceRequest" />
   <name value="OphthalServiceRequest" />
   <status value="draft" />

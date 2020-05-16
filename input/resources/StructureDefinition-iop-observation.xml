@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="ophthal-iop-observation" />
+  <id value="iop-observation" />
   <text>
     <status value="extensions" />
     <div xmlns="http://www.w3.org/1999/xhtml">
       <div>A specific observation profile for intraocular pressure.</div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/StructureDefinition/ophthal-iop-observation" />
+  <url value="http://hl7.org/fhir/StructureDefinition/iop-observation" />
   <name value="IOPObservation" />
   <title value="Intraocular pressure of Eye Profile" />
   <status value="draft" />
@@ -35,7 +35,7 @@
       <sliceName value="deviceReference" />
       <short value="Device Reference" />
       <binding>
-        <strength value="preferred"/>
+        <strength value="preferred" />
         <description value="IOP Device References" />
         <valueSet value="http://hl7.org.au/fhir/ValueSet/iop-device-references" />
       </binding>
@@ -63,12 +63,17 @@
         </coding>
       </patternCodeableConcept>
     </element>
+    <!--
     <element id="Observation.bodySite">
       <path value="Observation.bodySite" />
       <slicing>
         <discriminator>
           <type value="value" />
           <path value="coding.code" />
+        </discriminator>
+        <discriminator>
+          <type value="value" />
+          <path value="coding.system" />
         </discriminator>
         <rules value="open" />
       </slicing>
@@ -90,22 +95,11 @@
       <fixedCodeableConcept>
         <coding>
           <system value="http://snomed.info/sct" />
+          <code value="24028007" />
+          <display value="Right Eye" />
         </coding>
       </fixedCodeableConcept>
     </element>
-    <element id="Observation.bodySite:rightEye.coding">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.bodySite.coding" />
-      <fixedCoding>
-        <system value="http://snomed.info/sct" />
-        <code value="24028007" />
-        <display value="Right Eye" />
-      </fixedCoding>
-    </element>
+    -->
   </differential>
 </StructureDefinition>
