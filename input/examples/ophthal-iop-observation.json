@@ -10,11 +10,6 @@
     "text": "Intraocular Pressure",
     "coding": [
       {
-        "code": "56844-4",
-        "system": "http://loinc.org",
-        "display": "Intraocular pressure of Eye"
-      },
-      {
         "code": "41633001",
         "system": "http://snomed.info/sct",
         "display": "Intraocular pressure of Eye"
@@ -35,8 +30,9 @@
   "issued": "2013-06-27T17:04:20.643+04:00",
   "status": "final",
   "subject": {
-    "id": "5812adb4-ef6d-4166-b8e1-0591525fb673",
-    "resourceType": "Patient"
+    "identifier": "5812adb4-ef6d-4166-b8e1-0591525fb673",
+    "resourceType": "Patient",
+    "reference": "Patient/5812adb4-ef6d-4166-b8e1-0591525fb673"
   },
   "category": [
     {
@@ -47,6 +43,24 @@
           "display": "Exam"
         }
       ]
+    }
+  ],
+  "deviceReference": {
+
+  },
+  "device": {
+    "coding": [
+      {
+        "system": "URL",
+        "code": "IC100"
+      }
+    ]
+  },
+  "bodySite": [
+    {
+      "code": "24028007",
+      "system": "http://snomed.info/sct",
+      "display": "Right Eye"
     }
   ]
 }

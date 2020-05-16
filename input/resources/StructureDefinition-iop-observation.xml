@@ -4,15 +4,14 @@
   <text>
     <status value="extensions" />
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <div>
-A specific observation profile for intraocular pressure.
-</div>
+      <div>A specific observation profile for intraocular pressure.</div>
     </div>
   </text>
   <url value="http://hl7.org/fhir/StructureDefinition/ophthal-iop-observation" />
   <name value="IOPObservation" />
   <title value="Intraocular pressure of Eye Profile" />
   <status value="draft" />
+  <experimental value="true" />
   <description value="A profile describing the observation for intraocular pressure of Eye" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
@@ -21,6 +20,26 @@ A specific observation profile for intraocular pressure.
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
   <derivation value="constraint" />
   <differential>
+    <element id="Observation.extension">
+      <path value="Observation.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.extension:deviceReference">
+      <path value="Observation.extension" />
+      <sliceName value="deviceReference" />
+      <short value="Device Reference" />
+      <binding>
+        <strength value="preferred"/>
+        <description value="IOP Device References" />
+        <valueSet value="http://hl7.org.au/fhir/ValueSet/iop-device-references" />
+      </binding>
+    </element>
     <element id="Observation.category.coding">
       <path value="Observation.category.coding" />
       <min value="1" />
@@ -43,6 +62,50 @@ A specific observation profile for intraocular pressure.
           <display value="Intraocular pressure of Eye" />
         </coding>
       </patternCodeableConcept>
+    </element>
+    <element id="Observation.bodySite">
+      <path value="Observation.bodySite" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="coding.code" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.bodySite:leftEye">
+      <path value="Observation.bodySite" />
+      <sliceName value="leftEye" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://snomed.info/sct" />
+          <code value="7771000" />
+          <display value="Left Eye" />
+        </coding>
+      </fixedCodeableConcept>
+    </element>
+    <element id="Observation.bodySite:rightEye">
+      <path value="Observation.bodySite" />
+      <sliceName value="rightEye" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://snomed.info/sct" />
+        </coding>
+      </fixedCodeableConcept>
+    </element>
+    <element id="Observation.bodySite:rightEye.coding">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.bodySite.coding" />
+      <fixedCoding>
+        <system value="http://snomed.info/sct" />
+        <code value="24028007" />
+        <display value="Right Eye" />
+      </fixedCoding>
     </element>
   </differential>
 </StructureDefinition>
