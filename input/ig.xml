@@ -84,6 +84,16 @@
         <reference value="ValueSet/ophthalmology-va-methods"/>
       </reference>
     </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/iop-rebound-tonometry-codesystem"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ophthalmology-iop-methods"/>
+      </reference>
+    </resource>
 
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
