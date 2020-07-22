@@ -8,9 +8,9 @@
       <p>The quantity uses the LogMAR value</p>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/StructureDefinition/ophthal-iop-observation" />
+  <url value="http://hl7.org/fhir/StructureDefinition/ophthal-visual-acuity-observation" />
   <name value="VisualAcuityObservation" />
-  <title value="Ophthalmology specific observation" />
+  <title value="Ophthalmology visual acuity observation" />
   <status value="draft" />
   <experimental value="true" />
   <description value="A profile for the visual acuity observation" />
@@ -34,6 +34,9 @@
       <path value="Observation.category.coding.code" />
       <fixedCode value="exam" />
     </element>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+    </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <slicing>
@@ -41,59 +44,80 @@
           <type value="value" />
           <path value="system" />
         </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.code.coding:snomedVisualAcuityObservables">
+      <path value="Observation.code.coding" />
+      <sliceName value="snomedVisualAcuityObservables" />
+      <short value="Visual Acuity Observables" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/ophthal-va-observable-entities" />
+      </binding>
+    </element>
+    <element id="Observation.method">
+      <path value="Observation.method" />
+    </element>
+    <element id="Observation.method.coding">
+      <path value="Observation.method.coding" />
+      <max value="1"/>
+      <slicing>
         <discriminator>
           <type value="value" />
-          <path value="code" />
+          <path value="system" />
         </discriminator>
-        <rules value="closed" />
+        <rules value="open" />
       </slicing>
-      <type>
-        <code value="Coding" />
-        <profile value="http://snomed.info/sct" />
-        <profile value="http://snomed.info/sct" />
-      </type>
     </element>
-    <element id="Observation.code.coding.system">
-      <path value="Observation.code.coding.system" />
-      <fixedUri value="http://snomed.info/sct" />
+    <element id="Observation.method.coding:snomedVisualAcuityMethods">
+      <path value="Observation.method.coding" />
+      <sliceName value="snomedVisualAcuityMethods" />
+      <short value="Visual Acuity Methods" />
+      <max value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/ophthal-visual-acuity-methods" />
+      </binding>
     </element>
-    <element id="Observation.code.coding:leftEye">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.code.coding" />
+    <element id="Observation.bodySite">
+      <path value="Observation.bodySite" />
+    </element>
+    <element id="Observation.bodySite.coding">
+      <path value="Observation.bodySite.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="coding.code" />
+        </discriminator>
+        <discriminator>
+          <type value="value" />
+          <path value="coding.system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.bodySite.coding:leftEye">
+      <path value="Observation.bodySite.coding" />
       <sliceName value="leftEye" />
-      <fixedCoding>
-        <system value="http://snomed.info/sct" />
-        <code value="413077008" />
-        <display value="LogMAR Visual Acuity Left Eye" />
-      </fixedCoding>
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://snomed.info/sct" />
+          <code value="7771000" />
+          <display value="Left Eye" />
+        </coding>
+      </fixedCodeableConcept>
     </element>
-    <element id="Observation.code.coding:rightEye">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.code.coding" />
+    <element id="Observation.bodySite.coding:rightEye">
+      <path value="Observation.bodySite.coding" />
       <sliceName value="rightEye" />
-      <fixedCoding>
-        <system value="http://snomed.info/sct" />
-        <code value="413078003" />
-        <display value="LogMAR Visual Acuity Right Eye" />
-      </fixedCoding>
-    </element>
-    <element id="Observation.code.coding:rightEye.system">
-      <path value="Observation.code.coding.system" />
-      <fixedUri value="http://snomed.info/sct" />
-    </element>
-    <element id="Observation.code.coding:rightEye.code">
-      <path value="Observation.code.coding.code" />
-      <fixedCode value="413078003" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://snomed.info/sct" />
+          <code value="24028007" />
+          <display value="Right Eye" />
+        </coding>
+      </fixedCodeableConcept>
     </element>
   </differential>
 </StructureDefinition>

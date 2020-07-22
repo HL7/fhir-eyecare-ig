@@ -1,0 +1,49 @@
+
+{
+  "resourceType": "Observation",
+  "id": "01e0df2d-f6fa-4761-8fb7-c22f730ade44",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ophthal-visual-acuity-observation"
+    ]
+  },
+  "code": {
+    "text": "Visual Acuity",
+    "coding": [
+      {
+        "code": "413077008",
+        "system": "http://hl7.org/fhir/ValueSet/ophthal-va-observable-entities",
+        "display": "LogMAR Visual Acuity Left Eye"
+      }
+    ]
+  },
+  "effective": {
+    "dateTime": "2013-06-27T17:04:20+04:00"
+  },
+  "valueQuantity": {
+    "value": "0.1",
+    "unit": "logmar"
+  },
+  "method": {
+    "coding": [
+      {
+        "code": "400913005",
+        "system": "http://hl7.org/fhir/ValueSet/ophthal-visual-acuity-methods",
+        "display": "Snellen Chart"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "patient/38203730274-23473-2730-283",
+    "display": "Mr David Ireland"
+  },
+  "bodySite": {
+    "coding": [
+      {
+        "code": "8966001",
+        "system": "http://snomed.info/sct",
+        "display": "Left eye"
+      }
+    ]
+  }
+}

@@ -2,15 +2,15 @@
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
-  <id value="example.fhir.uv.myig"/>
+  <id value="ophthalmology.fhir.uv.ig"/>
   <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-  <url value="http://hl7.org/fhir/ImplementationGuide/ophthalmoloogy-glaucoma"/>
+  <url value="http://hl7.org/fhir/ImplementationGuide/ophthalmoloogy"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.2.0"/>
   <name value="OphthalmologyImplementationGuide"/>
-  <title value="Connectathon 24 Ophthalmology Glaucoma and Cataract workflows"/>
+  <title value="Ophthalmology Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
   <publisher value="HL7 International - Ophthalmology Work Group"/>
@@ -45,6 +45,7 @@
     <version value="0.9.2"/>
   </dependsOn> -->
   <definition>
+    <!--
     <resource>
       <reference>
         <reference value="CodeSystem/iop-device-references-codesystem"/>
@@ -57,18 +58,33 @@
       </reference>
       <description value="Overriding description because we can"/>
     </resource>
+    -->
     <resource>
       <reference>
         <reference value="StructureDefinition/visual-acuity-observation"/>
       </reference>
-      <description value="Overriding description because we can"/>
     </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/iop-observation"/>
       </reference>
-      <description value="Overriding description because we can"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ophthalmology-observable-entities"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ophthalmology-va-observable-entities"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ophthalmology-va-methods"/>
+      </reference>
+    </resource>
+
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>
