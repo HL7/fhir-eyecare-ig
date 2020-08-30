@@ -102,17 +102,47 @@
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="Ophthalmology Home Page"/>
-        <generation value="html"/>
+        <title value="Home Page"/>
+        <generation value="markdown"/>
       </page>
       <page>
-        <nameUrl value="background.html"/>
-        <title value="Background"/>
-        <generation value="html"/>
+        <nameUrl value="patient_journey.html"/>
+        <title value="Patient Journey Use Case"/>
+        <generation value="markdown"/>
       </page>
       <page>
-        <nameUrl value="spec.html"/>
-        <title value="Detailed Specification"/>
+        <nameUrl value="physician_tools.html"/>
+        <title value="Physician Tools Use Case"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="registry.html"/>
+        <title value="Registry Use Case"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="life_science.html"/>
+        <title value="Life Science Use Case"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="clinic_optimisation.html"/>
+        <title value="Clinic Optimisation Use Case"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="profiles.html"/>
+        <title value="Profiles"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="extensions.html"/>
+        <title value="Extensions"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="terminology.html"/>
+        <title value="Terminology"/>
         <generation value="markdown"/>
       </page>
       <page>
