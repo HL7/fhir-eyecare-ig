@@ -8,7 +8,7 @@
       <p>The quantity uses the LogMAR value</p>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/StructureDefinition/ophthal-visual-acuity-observation" />
+  <url value="http://hl7.org/fhir/ig/ophthalmoloogy/StructureDefinition/observation-visual-actuity" />
   <name value="VisualAcuityObservation" />
   <title value="Ophthalmology visual acuity observation" />
   <status value="draft" />
@@ -18,7 +18,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Observation" />
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
+  <baseDefinition value="http://hl7.org/fhir/ig/ophthalmoloogy/StructureDefinition/observation-base" />
   <derivation value="constraint" />
   <differential>
     <element id="Observation.category.coding">

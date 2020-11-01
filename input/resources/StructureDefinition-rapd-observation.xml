@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="rapd-observation" />
+  <text>
+    <status value="extensions" />
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>A specific observation for rapd</p>
+    </div>
+  </text>
+  <url value="http://hl7.org/fhir/ig/ophthalmoloogy/StructureDefinition/rapd-observation" />
+  <name value="RAPDObservation" />
+  <title value="Ophthalmology RAPD observation" />
+  <status value="draft" />
+  <experimental value="true" />
+  <description value="A profile for the RAPD observation" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="http://hl7.org/fhir/ig/ophthalmoloogy/StructureDefinition/observation-base" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+    </element>
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.code.coding:snomed">
+      <path value="Observation.code.coding"/>
+      <sliceName value="snomed" />
+      <comment value="This is a snomed finding.  There is also a snmed disorder which is specific to each eye. Disorder 232122003 (with children for laterality)"/>
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://snomed.info/sct" />
+          <code value="247015002" />
+          <display value="RAPD" />
+        </coding>
+      </fixedCodeableConcept>
+    </element>
+    <element id="Observation.value[x]">
+      <path value="Observation.valueBoolean"/>
+      <type>
+        <code value="boolean"/>
+      </type>
+      <min value="1"/>
+      <max value="1"/>
+      <mustSupport value="true"/>
+    </element>
+  </differential>
+</StructureDefinition>

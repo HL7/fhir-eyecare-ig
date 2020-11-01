@@ -1,35 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="iop-observation" />
+  <id value="cataract-observation" />
   <text>
     <status value="extensions" />
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <div>A specific observation profile for intraocular pressure.</div>
+      <p>A specific observation for cataract</p>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/ig/ophthalmoloogy/StructureDefinition/observation-iop" />
-  <name value="IOPObservation" />
-  <title value="Intraocular pressure of Eye Profile" />
+  <url value="http://hl7.org/fhir/ig/ophthalmoloogy/StructureDefinition/cataract-observation" />
+  <name value="cataractObservation" />
+  <title value="Ophthalmology cataract observation" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="A profile describing the observation for intraocular pressure of Eye" />
+  <description value="A profile for the cataract observation" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
   <type value="Observation" />
-  <baseDefinition value="http://hl7.org/fhir/ig/ophthalmoloogy/StructureDefinition/observation-base" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.extension">
-      <path value="Observation.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
     <element id="Observation.category.coding">
       <path value="Observation.category.coding" />
       <min value="1" />
@@ -45,17 +35,37 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <patternCodeableConcept>
+    </element>
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.code.coding:snomed">
+      <path value="Observation.code.coding"/>
+      <sliceName value="snomed" />
+      <comment value="All descendants of This code was chosen because this is for observations and its a finding in snomed"/>
+      <fixedCodeableConcept>
         <coding>
           <system value="http://snomed.info/sct" />
-          <code value="41633001" />
-          <display value="Intraocular pressure of Eye" />
+          <code value="247052002" />
+          <display value="cataract" />
         </coding>
-      </patternCodeableConcept>
+      </fixedCodeableConcept>
     </element>
-    <!--
+    <element id="Observation.valueBoolean">
+      <path value="Observation.valueBoolean"/>
+    </element>
     <element id="Observation.bodySite">
       <path value="Observation.bodySite" />
+    </element>
+    <element id="Observation.bodySite.coding">
+      <path value="Observation.bodySite.coding" />
       <slicing>
         <discriminator>
           <type value="value" />
@@ -68,8 +78,8 @@
         <rules value="open" />
       </slicing>
     </element>
-    <element id="Observation.bodySite:leftEye">
-      <path value="Observation.bodySite" />
+    <element id="Observation.bodySite.coding:leftEye">
+      <path value="Observation.bodySite.coding" />
       <sliceName value="leftEye" />
       <fixedCodeableConcept>
         <coding>
@@ -79,8 +89,8 @@
         </coding>
       </fixedCodeableConcept>
     </element>
-    <element id="Observation.bodySite:rightEye">
-      <path value="Observation.bodySite" />
+    <element id="Observation.bodySite.coding:rightEye">
+      <path value="Observation.bodySite.coding" />
       <sliceName value="rightEye" />
       <fixedCodeableConcept>
         <coding>
@@ -90,6 +100,5 @@
         </coding>
       </fixedCodeableConcept>
     </element>
-    -->
   </differential>
 </StructureDefinition>

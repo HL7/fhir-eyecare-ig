@@ -6,7 +6,7 @@
   <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-  <url value="http://hl7.org/fhir/ImplementationGuide/ophthalmoloogy"/>
+  <url value="http://hl7.org/fhir/ig/ophthalmoloogy"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.2.0"/>
   <name value="OphthalmologyImplementationGuide"/>
@@ -61,12 +61,27 @@
     -->
     <resource>
       <reference>
+        <reference value="StructureDefinition/observation-base"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/visual-acuity-observation"/>
       </reference>
     </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/iop-observation"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/rapd-observation"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/cataract-observation"/>
       </reference>
     </resource>
     <resource>
@@ -86,12 +101,12 @@
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/iop-rebound-tonometry-codesystem"/>
+        <reference value="ValueSet/ophthalmology-iop-methods"/>
       </reference>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/ophthalmology-iop-methods"/>
+        <reference value="CodeSystem/iop-rebound-tonometry-codesystem"/>
       </reference>
     </resource>
 
