@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="observation-nva" />
+  <text>
+    <status value="extensions" />
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>A specific observation for NVA</p>
+    </div>
+  </text>
+  <url value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-nva" />
+  <name value="ObservationNVA" />
+  <title value="Ophthalmology NVA observation" />
+  <status value="draft" />
+  <experimental value="true" />
+  <description value="A profile for the NVA observation" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-base" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/observation-nva"/>
+      </binding>
+    </element>
+    <element id="Observation.value[x]">
+      <path value="Observation.valueBoolean"/>
+      <type>
+        <code value="boolean"/>
+      </type>
+      <min value="1"/>
+      <max value="1"/>
+      <mustSupport value="true"/>
+    </element>
+  </differential>
+</StructureDefinition>

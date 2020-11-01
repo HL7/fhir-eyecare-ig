@@ -1,13 +1,13 @@
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
-	<id value="ophthalmology-iop-methods"/>
-	<url value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/ophthal-iop-methods"/>
+	<id value="ophthalmology-observation-nva"/>
+	<url value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/observation-nva"/>
 	<identifier>
 	   <system value="urn:ietf:rfc:3986"/>
        <value value="urn:oid:2.16.840.1.113883.2.3.4.2.2.8"/>
     </identifier>
 	<version value="2.1.0"/>
-	<name value="OphthalmologyIOPMethods"/>
-	<title value="Ophthalmology IOP Methods ValueSet"/>
+	<name value="OphthalmologyObservationNVA"/>
+	<title value="Ophthalmology Observation NVA ValueSet"/>
 	<status value="active"/>
 	<experimental value="true"/>
 	<date value="2019-05-01"/>
@@ -19,7 +19,7 @@
 		  <use value="work" />
 		</telecom>
 	</contact>
-	<description value="IOP Methods"/>
+	<description value="NVA SNOMED Observation codes"/>
 	<copyright value=""/>
 	<compose>
 		<include>
@@ -27,11 +27,8 @@
 			<filter>
 				<property value="concept"/>
 				<op value="descendent-of"/>
-				<value value="391932009"/>
+				<value value="251732007"/>
 			</filter>
-		</include>
-		<include>
-			<system value="http://hl7.org/fhir/CodeSystem/iop-rebound-tonometry-method"/>
 		</include>
 	</compose>
 </ValueSet>

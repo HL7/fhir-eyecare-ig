@@ -7,7 +7,7 @@
       <div>The base Observation for Ophthalmology.</div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/ig/ophthalmoloogy/StructureDefinition/observation-base" />
+  <url value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-base" />
   <name value="ObservationBase" />
   <title value="Base Observation for Ophthalmology" />
   <status value="draft" />
@@ -27,7 +27,7 @@
     </element>
     <element id="Observation.category.coding.system">
       <path value="Observation.category.coding.system" />
-      <fixedUri value="http://hl7.org/fhir/observation-category" />
+      <fixedUri value="http://hl7.org/fhir/ValueSet/observation-category" />
     </element>
     <element id="Observation.category.coding.code">
       <path value="Observation.category.coding.code" />
@@ -35,42 +35,13 @@
     </element>
     <element id="Observation.bodySite">
       <path value="Observation.bodySite" />
-    </element>
-    <element id="Observation.bodySite.coding">
-      <path value="Observation.bodySite.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="coding.code" />
-        </discriminator>
-        <discriminator>
-          <type value="value" />
-          <path value="coding.system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Observation.bodySite.coding:leftEye">
-      <path value="Observation.bodySite.coding" />
-      <sliceName value="leftEye" />
-      <fixedCodeableConcept>
-        <coding>
-          <system value="http://snomed.info/sct" />
-          <code value="7771000" />
-          <display value="Left Eye" />
-        </coding>
-      </fixedCodeableConcept>
-    </element>
-    <element id="Observation.bodySite.coding:rightEye">
-      <path value="Observation.bodySite.coding" />
-      <sliceName value="rightEye" />
-      <fixedCodeableConcept>
-        <coding>
-          <system value="http://snomed.info/sct" />
-          <code value="24028007" />
-          <display value="Right Eye" />
-        </coding>
-      </fixedCodeableConcept>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/ophthalmology-bodySite"/>
+      </binding>
     </element>
   </differential>
 </StructureDefinition>

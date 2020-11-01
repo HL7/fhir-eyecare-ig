@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="iop-observation" />
+  <id value="observation-iop" />
   <text>
     <status value="extensions" />
     <div xmlns="http://www.w3.org/1999/xhtml">
       <div>A specific observation profile for intraocular pressure.</div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/ig/ophthalmoloogy/StructureDefinition/observation-iop" />
-  <name value="IOPObservation" />
+  <url value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-iop" />
+  <name value="ObservationIOP" />
   <title value="Intraocular pressure of Eye Profile" />
   <status value="draft" />
   <experimental value="true" />
@@ -17,7 +17,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Observation" />
-  <baseDefinition value="http://hl7.org/fhir/ig/ophthalmoloogy/StructureDefinition/observation-base" />
+  <baseDefinition value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-base" />
   <derivation value="constraint" />
   <differential>
     <element id="Observation.extension">
@@ -53,43 +53,5 @@
         </coding>
       </patternCodeableConcept>
     </element>
-    <!--
-    <element id="Observation.bodySite">
-      <path value="Observation.bodySite" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="coding.code" />
-        </discriminator>
-        <discriminator>
-          <type value="value" />
-          <path value="coding.system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Observation.bodySite:leftEye">
-      <path value="Observation.bodySite" />
-      <sliceName value="leftEye" />
-      <fixedCodeableConcept>
-        <coding>
-          <system value="http://snomed.info/sct" />
-          <code value="7771000" />
-          <display value="Left Eye" />
-        </coding>
-      </fixedCodeableConcept>
-    </element>
-    <element id="Observation.bodySite:rightEye">
-      <path value="Observation.bodySite" />
-      <sliceName value="rightEye" />
-      <fixedCodeableConcept>
-        <coding>
-          <system value="http://snomed.info/sct" />
-          <code value="24028007" />
-          <display value="Right Eye" />
-        </coding>
-      </fixedCodeableConcept>
-    </element>
-    -->
   </differential>
 </StructureDefinition>

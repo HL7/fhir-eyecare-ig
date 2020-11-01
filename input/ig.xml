@@ -6,7 +6,7 @@
   <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-  <url value="http://hl7.org/fhir/ig/ophthalmoloogy"/>
+  <url value="http://hl7.org/fhir/ig/ophthalmology"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.2.0"/>
   <name value="OphthalmologyImplementationGuide"/>
@@ -45,50 +45,16 @@
     <version value="0.9.2"/>
   </dependsOn> -->
   <definition>
-    <!--
-    <resource>
-      <reference>
-        <reference value="CodeSystem/iop-device-references-codesystem"/>
-      </reference>
-      <description value="Overriding description because we can"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/iop-device-references-valueset"/>
-      </reference>
-      <description value="Overriding description because we can"/>
-    </resource>
-    -->
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/observation-base"/>
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/visual-acuity-observation"/>
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/iop-observation"/>
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/rapd-observation"/>
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/cataract-observation"/>
-      </reference>
-    </resource>
     <resource>
       <reference>
         <reference value="ValueSet/ophthalmology-observable-entities"/>
       </reference>
     </resource>
+    <!-- <resource>
+      <reference>
+        <reference value="ValueSet/ophthalmology-bodySite"/>
+      </reference>
+    </resource> -->
     <resource>
       <reference>
         <reference value="ValueSet/ophthalmology-va-observable-entities"/>
@@ -109,7 +75,31 @@
         <reference value="CodeSystem/iop-rebound-tonometry-codesystem"/>
       </reference>
     </resource>
-
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/observation-base"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/observation-visual-acuity"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/observation-iop"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/observation-rapd"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/observation-cataract"/>
+      </reference>
+    </resource>
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>
