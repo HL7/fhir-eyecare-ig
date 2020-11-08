@@ -8,7 +8,7 @@
       <p>The quantity uses the LogMAR value</p>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-visual-actuity" />
+  <url value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-visual-acuity" />
   <name value="ObservationVisualAcuity" />
   <title value="Ophthalmology visual acuity observation" />
   <status value="draft" />
@@ -21,39 +21,15 @@
   <baseDefinition value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-base" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.category.coding">
-      <path value="Observation.category.coding" />
-      <min value="1" />
-      <max value="1" />
-    </element>
-    <element id="Observation.category.coding.system">
-      <path value="Observation.category.coding.system" />
-      <fixedUri value="http://hl7.org/fhir/observation-category" />
-    </element>
-    <element id="Observation.category.coding.code">
-      <path value="Observation.category.coding.code" />
-      <fixedCode value="exam" />
-    </element>
     <element id="Observation.code">
       <path value="Observation.code" />
     </element>
-    <element id="Observation.code.coding">
-      <path value="Observation.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
     <element id="Observation.code.coding:snomedVisualAcuityObservables">
       <path value="Observation.code.coding" />
-      <sliceName value="snomedVisualAcuityObservables" />
       <short value="Visual Acuity Observables" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/ValueSet/ophthal-va-observable-entities" />
+        <valueSet value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/ophthalmology-observation-va" />
       </binding>
     </element>
     <element id="Observation.method">
@@ -77,47 +53,8 @@
       <max value="1" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/ValueSet/ophthal-visual-acuity-methods" />
+        <valueSet value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/ophthal-visual-acuity-methods" />
       </binding>
-    </element>
-    <element id="Observation.bodySite">
-      <path value="Observation.bodySite" />
-    </element>
-    <element id="Observation.bodySite.coding">
-      <path value="Observation.bodySite.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="coding.code" />
-        </discriminator>
-        <discriminator>
-          <type value="value" />
-          <path value="coding.system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Observation.bodySite.coding:leftEye">
-      <path value="Observation.bodySite.coding" />
-      <sliceName value="leftEye" />
-      <fixedCodeableConcept>
-        <coding>
-          <system value="http://snomed.info/sct" />
-          <code value="7771000" />
-          <display value="Left Eye" />
-        </coding>
-      </fixedCodeableConcept>
-    </element>
-    <element id="Observation.bodySite.coding:rightEye">
-      <path value="Observation.bodySite.coding" />
-      <sliceName value="rightEye" />
-      <fixedCodeableConcept>
-        <coding>
-          <system value="http://snomed.info/sct" />
-          <code value="24028007" />
-          <display value="Right Eye" />
-        </coding>
-      </fixedCodeableConcept>
     </element>
   </differential>
 </StructureDefinition>

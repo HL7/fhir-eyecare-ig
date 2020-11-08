@@ -1,7 +1,7 @@
 <!-- UPDATE TO VA test methods -->
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
-	<id value="ophthalmology-va-observable-entities"/>
-	<url value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/ophthal-va-observable-entities"/>
+	<id value="ophthalmology-observation-va"/>
+	<url value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/ophthalmology-observation-va"/>
 	<identifier>
 	   <system value="urn:ietf:rfc:3986"/>
        <value value="urn:oid:2.16.840.1.113883.2.3.4.2.2.8"/>
@@ -33,13 +33,3 @@
 		</include>
 	</compose>
 </ValueSet>
-		<!-- IOP
-		<include>
-			<system value="http://snomed.info/sct"/>
-			<filter>
-				<property value="concept"/>
-				<op value="descendent-of"/>
-				<value value="41633001"/>
-			</filter>
-		</include> -->
-

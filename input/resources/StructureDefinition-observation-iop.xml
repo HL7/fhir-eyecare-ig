@@ -20,38 +20,31 @@
   <baseDefinition value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-base" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.extension">
-      <path value="Observation.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Observation.category.coding">
-      <path value="Observation.category.coding" />
-      <min value="1" />
-      <max value="1" />
-    </element>
-    <element id="Observation.category.coding.system">
-      <path value="Observation.category.coding.system" />
-      <fixedUri value="http://hl7.org/fhir/observation-category" />
-    </element>
-    <element id="Observation.category.coding.code">
-      <path value="Observation.category.coding.code" />
-      <fixedCode value="exam" />
-    </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <patternCodeableConcept>
+      <fixedCodeableConcept>
         <coding>
           <system value="http://snomed.info/sct" />
           <code value="41633001" />
           <display value="Intraocular pressure of Eye" />
         </coding>
-      </patternCodeableConcept>
+      </fixedCodeableConcept>
+    </element>
+    <element id="Observation.value[x]">
+      <path value="Observation.valueQuantity"/>
+      <type>
+        <code value="Quantity"/>
+      </type>
+      <min value="1"/>
+      <max value="1"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Observation.method">
+      <path value="Observation.method"/>
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/ophthalmology-iop-methods" />
+      </binding>
     </element>
   </differential>
 </StructureDefinition>

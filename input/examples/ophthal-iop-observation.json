@@ -3,11 +3,10 @@
   "id": "01e0df2d-f6fa-4761-8fb7-c22f730ade55",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/ophthal-iop-observation"
+      "http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-iop"
     ]
   },
   "code": {
-    "text": "Intraocular Pressure",
     "coding": [
       {
         "code": "41633001",
@@ -16,22 +15,16 @@
       }
     ]
   },
-  "effective": {
-    "dateTime": "2013-06-27T17:04:20+04:00"
-  },
-  "value": {
-    "Quantity": {
-      "code": "mm[Hg]",
-      "unit": "mm[Hg]",
-      "value": "25.4",
-      "system": "http://unitsofmeasure.org"
-    }
+  "effectiveDateTime": "2013-06-27T17:04:20+04:00",
+  "valueQuantity": {
+    "code": "mm[Hg]",
+    "unit": "mm[Hg]",
+    "value": 25.4,
+    "system": "http://unitsofmeasure.org"
   },
   "issued": "2013-06-27T17:04:20.643+04:00",
   "status": "final",
   "subject": {
-    "identifier": "5812adb4-ef6d-4166-b8e1-0591525fb673",
-    "resourceType": "Patient",
     "reference": "Patient/5812adb4-ef6d-4166-b8e1-0591525fb673"
   },
   "category": [
@@ -39,28 +32,19 @@
       "coding": [
         {
           "code": "exam",
-          "system": "http://hl7.org/fhir/observation-category",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
           "display": "Exam"
         }
       ]
     }
   ],
-  "deviceReference": {
-
-  },
-  "device": {
+  "bodySite": {
     "coding": [
       {
-        "system": "URL",
-        "code": "IC100"
+        "code": "24028007",
+        "system": "http://snomed.info/sct",
+        "display": "Right"
       }
     ]
-  },
-  "bodySite": [
-    {
-      "code": "24028007",
-      "system": "http://snomed.info/sct",
-      "display": "Right Eye"
-    }
-  ]
+  }
 }

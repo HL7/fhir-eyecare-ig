@@ -50,21 +50,21 @@
         <reference value="ValueSet/ophthalmology-observable-entities"/>
       </reference>
     </resource>
-    <!-- <resource>
+    <!--<resource>
       <reference>
         <reference value="ValueSet/ophthalmology-bodySite"/>
       </reference>
-    </resource> -->
+    </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/ophthalmology-va-observable-entities"/>
+        <reference value="ValueSet/ophthalmology-observation-visual-acuity"/>
       </reference>
-    </resource>
+    </resource>≈
     <resource>
       <reference>
         <reference value="ValueSet/ophthalmology-va-methods"/>
       </reference>
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="ValueSet/ophthalmology-iop-methods"/>
@@ -72,9 +72,15 @@
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/iop-rebound-tonometry-codesystem"/>
+        <reference value="CodeSystem/codesystem-iop-rebound-tonometry"/>
       </reference>
     </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ophthalmology-bodySite"/>
+      </reference>
+    </resource>
+
     <resource>
       <reference>
         <reference value="StructureDefinition/observation-base"/>
@@ -90,7 +96,7 @@
         <reference value="StructureDefinition/observation-iop"/>
       </reference>
     </resource>
-    <resource>
+    <!-- <resource>
       <reference>
         <reference value="StructureDefinition/observation-rapd"/>
       </reference>
@@ -99,7 +105,7 @@
       <reference>
         <reference value="StructureDefinition/observation-cataract"/>
       </reference>
-    </resource>
+    </resource> -->
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>

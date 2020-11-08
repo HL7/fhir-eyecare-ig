@@ -27,7 +27,7 @@
     </element>
     <element id="Observation.category.coding.system">
       <path value="Observation.category.coding.system" />
-      <fixedUri value="http://hl7.org/fhir/ValueSet/observation-category" />
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category" />
     </element>
     <element id="Observation.category.coding.code">
       <path value="Observation.category.coding.code" />
