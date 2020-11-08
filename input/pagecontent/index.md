@@ -1,7 +1,7 @@
 ### Introduction
 This project aims to increase maturation and adoption of HL7-FHIR data exchanges.
 
-This overarching goal is to develop a suite of projects and comprehensive implementation guides to serve the interoperability requirements of the ophthalmic community. The 2 scenarios described below.
+This overarching goal is to develop a suite of projects and comprehensive implementation guides to serve the interoperability requirements of the ophthalmic community. The 2 scenarios from the connectathon are described below.
 
 The overarching goal is to define and standardize the means through which all types of eye care and general medical providers can communicate between themselves for the betterment of the patient, as well as to and from the patients themselves. Decentralisation and remote monitoring of healthcare (and eye-care in particular) service provision is increasingly becoming necessary and feasible due to increasing disease burden, unsustainable demand, the chronic nature of diseases of eye diseases and our ageing population. Many common eye conditions can be effectively managed with low acuity monitoring. However, even scenarios requiring discrete episodes (eg cataract surgery) or urgent care still require standardized means of communications.
 
