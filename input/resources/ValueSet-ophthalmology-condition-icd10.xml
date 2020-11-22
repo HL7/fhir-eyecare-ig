@@ -1,17 +1,18 @@
+<!-- UPDATE TO VA test methods -->
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
-	<id value="ophthalmology-bodySite"/>
-	<url value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/ophthalmology-bodySite"/>
+	<id value="ophthalmology-conditions-icd10"/>
+	<url value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/ophthalmology-conditions-icd10"/>
 	<identifier>
 	   <system value="urn:ietf:rfc:3986"/>
        <value value="urn:oid:2.16.840.1.113883.2.3.4.2.2.8"/>
     </identifier>
 	<version value="2.1.0"/>
-	<name value="OphthalmologyBodySite"/>
-	<title value="Ophthalmology Body Site ValueSet"/>
+	<name value="OphthalmologyConditionICD10ValueSet"/>
+	<title value="Ophthalmology Condition ICD10 ValueSet"/>
 	<status value="active"/>
 	<experimental value="true"/>
 	<date value="2019-05-01"/>
-	<publisher value="Ophthalmology Working Group"/>
+	<publisher value="Ophthalmology working group"/>
 	<contact>
 		<telecom>
 		  <system value="url" />
@@ -19,20 +20,15 @@
 		  <use value="work" />
 		</telecom>
 	</contact>
-	<description value=""/>
+	<description value="This ValueSet represents condition codes for clinical purposes."/>
 	<copyright value=""/>
 	<compose>
 		<include>
-			<system value="http://snomed.info/sct"/>
-			<concept>
-				<code value="8966001"/>
-			</concept>
-		</include>
-		<include>
-			<system value="http://snomed.info/sct"/>
-			<concept>
-				<code value="18944008"/>
-			</concept>
+			<system value="http://hl7.org/fhir/sid/icd-10-cm"/>
 		</include>
 	</compose>
 </ValueSet>
+
+
+
+

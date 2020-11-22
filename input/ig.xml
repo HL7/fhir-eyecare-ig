@@ -3,12 +3,9 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
   <id value="ophthalmology.fhir.uv.ig"/>
-  <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
-    <valueString value="resources-spreadsheet.xml"/>
-  </extension>-->
-  <url value="http://hl7.org/fhir/ig/ophthalmology"/>
+  <url value="http://hl7.org/fhir/uv/ophthalmology"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
-  <version value="0.2.0"/>
+  <version value="0.3.0"/>
   <name value="OphthalmologyImplementationGuide"/>
   <title value="Ophthalmology Implementation Guide"/>
   <status value="draft"/>
@@ -96,6 +93,16 @@
         <reference value="StructureDefinition/observation-iop"/>
       </reference>
     </resource>
+    <!-- <resource>
+      <reference>
+        <reference value="ValueSet/ophthalmology-condition-icd10"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ophthalmology-condition-snomed"/>
+      </reference>
+    </resource> -->
     <!-- <resource>
       <reference>
         <reference value="StructureDefinition/observation-rapd"/>
