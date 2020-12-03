@@ -37,7 +37,6 @@
     </element>
     <element id="Observation.method.coding">
       <path value="Observation.method.coding" />
-      <max value="1"/>
       <slicing>
         <discriminator>
           <type value="value" />

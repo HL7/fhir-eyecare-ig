@@ -17,6 +17,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Observation" />
+  <!-- <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" /> -->
   <baseDefinition value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base" />
   <derivation value="constraint" />
   <differential>
