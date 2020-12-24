@@ -72,12 +72,11 @@
         <reference value="CodeSystem/codesystem-iop-rebound-tonometry"/>
       </reference>
     </resource>
-    <resource>
+    <!-- <resource>
       <reference>
-        <reference value="ValueSet/ophthalmology-bodySite"/>
+        <reference value="ValueSet/ophthalmology-laterality"/>
       </reference>
-    </resource>
-
+    </resource> -->
     <resource>
       <reference>
         <reference value="StructureDefinition/observation-base"/>
@@ -93,6 +92,11 @@
         <reference value="StructureDefinition/observation-iop"/>
       </reference>
     </resource>
+    <!-- <resource>
+      <reference>
+        <reference value="StructureDefinition/laterality"/>
+      </reference>
+    </resource> -->
     <!-- <resource>
       <reference>
         <reference value="ValueSet/ophthalmology-condition-icd10"/>

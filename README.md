@@ -14,4 +14,5 @@ The status of the build can be found here [https://fhir.github.io/auto-ig-builde
 
 # Knowledge base
 * [US Core example](https://github.com/HL7/US-Core/tree/master)
+* [AU Base IG](https://github.com/hl7au/au-fhir-base/tree/master  )
 * [Example AU IG for child health](https://confluence.hl7australia.com/display/AFR/Conversation+on+IG+building)

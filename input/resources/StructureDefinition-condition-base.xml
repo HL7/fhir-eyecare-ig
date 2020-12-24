@@ -7,7 +7,7 @@
       <div>The base Condition for Ophthalmology.</div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/condition-base" />
+  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/condition-base" />
   <name value="ConditionBase" />
   <title value="Base Condition for Ophthalmology" />
   <status value="draft" />
@@ -71,7 +71,7 @@
       <max value="1"/>
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/ophthalmology-condition-icd10"/>
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/ophthalmology-condition-icd10"/>
       </binding>
       <min value="0"/>
       <max value="1"/>
@@ -85,10 +85,22 @@
       </type>
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/ophthalmology-condition-snomed"/>
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/ophthalmology-condition-snomed"/>
       </binding>
       <min value="0"/>
       <max value="1"/>
+    </element>
+    <element id="Observation.laterality">
+      <path value="Observation.laterality"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <min value="0"/>
+      <max value="1"/>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/bodysite-laterality"/>
+      </binding>
     </element>
   </differential>
 </StructureDefinition>

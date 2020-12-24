@@ -7,7 +7,7 @@
       <p>A specific observation for rapd</p>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-rapd" />
+  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-rapd" />
   <name value="ObservationRAPD" />
   <title value="Ophthalmology RAPD observation" />
   <status value="draft" />
@@ -17,7 +17,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Observation" />
-  <baseDefinition value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-base" />
+  <baseDefinition value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base" />
   <derivation value="constraint" />
   <differential>
     <element id="Observation.code">

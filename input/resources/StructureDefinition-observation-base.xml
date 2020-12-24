@@ -7,7 +7,7 @@
       <div>The base Observation for Ophthalmology.</div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-base" />
+  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base" />
   <name value="ObservationBase" />
   <title value="Base Observation for Ophthalmology" />
   <status value="draft" />
@@ -53,14 +53,16 @@
       <path value="Observation.category.coding.code" />
       <fixedCode value="exam" />
     </element>
-    <element id="Observation.bodySite">
-      <path value="Observation.bodySite" />
+    <element id="Observation.extension:laterality">
+      <path value="Observation.laterality"/>
       <type>
         <code value="CodeableConcept"/>
       </type>
+      <min value="0"/>
+      <max value="1"/>
       <binding>
         <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/ophthalmology-bodySite"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/bodysite-laterality"/>
       </binding>
     </element>
   </differential>

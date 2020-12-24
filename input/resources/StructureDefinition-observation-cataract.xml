@@ -7,7 +7,7 @@
       <p>A specific observation for cataract</p>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/ig/ophthalmology/StructureDefinition/observation-cataract" />
+  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-cataract" />
   <name value="ObservationCataract" />
   <title value="Ophthalmology cataract observation" />
   <status value="draft" />
@@ -27,7 +27,7 @@
       </type>
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/ig/ophthalmology/ValueSet/ophthalmology-observation-cataract"/>
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/ophthalmology-observation-cataract"/>
       </binding>
     </element>
     <element id="Observation.value[x]">
