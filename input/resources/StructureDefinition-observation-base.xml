@@ -20,6 +20,26 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
   <derivation value="constraint" />
   <differential>
+    <element id="Observation.extension">
+      <path value="Observation.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.extension:laterality">
+      <path value="Observation.extension"/>
+      <sliceName value="laterality"/>
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality" />
+      </type>
+      <min value="0"/>
+      <max value="1"/>
+    </element>
     <element id="Observation.category.coding">
       <path value="Observation.category.coding" />
       <min value="1" />

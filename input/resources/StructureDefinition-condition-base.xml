@@ -20,6 +20,26 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Condition" />
   <derivation value="constraint" />
   <differential>
+    <element id="Condition.extension">
+      <path value="Condition.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Condition.extension:laterality">
+      <path value="Condition.extension"/>
+      <sliceName value="laterality"/>
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality" />
+      </type>
+      <min value="0"/>
+      <max value="1"/>
+    </element>
     <element id="Condition.code">
       <path value="Condition.code" />
       <slicing>
