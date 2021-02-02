@@ -7,6 +7,20 @@
       "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-visual-acuity"
     ]
   },
+  "extension": [
+    {
+      "url" : "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality",
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://snomed.info/sct",
+            "code" : "419161000",
+            "display" : "Unilateral left"
+          }
+        ]
+      }
+    }
+  ],
   "code": {
     "coding": [
       {
@@ -42,14 +56,5 @@
         }
       ]
     }
-  ],
-  "bodySite": {
-    "coding": [
-      {
-        "code": "24028007",
-        "system": "http://snomed.info/sct",
-        "display": "Right eye"
-      }
-    ]
-  }
+  ]
 }

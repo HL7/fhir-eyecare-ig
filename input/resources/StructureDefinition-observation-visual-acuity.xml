@@ -37,21 +37,8 @@
     </element>
     <element id="Observation.method.coding">
       <path value="Observation.method.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Observation.method.coding:snomedVisualAcuityMethods">
-      <path value="Observation.method.coding" />
-      <sliceName value="snomedVisualAcuityMethods" />
-      <short value="Visual Acuity Methods" />
-      <max value="1" />
       <binding>
-        <strength value="required" />
+        <strength value="preferred" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/ophthal-visual-acuity-methods" />
       </binding>
     </element>

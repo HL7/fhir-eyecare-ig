@@ -208,10 +208,6 @@
       <min value="0"/>
       <max value="1"/>
     </element>
-    <!-- <element id="Extension.extension">
-      <path value="Extension.extension"/>
-      <max value="0"/>
-    </element> -->
     <element id="Extension.url">
       <path value="Extension.url"/>
       <fixedUri value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality"/>
@@ -219,12 +215,13 @@
     <element id="Extension.value[x]">
       <path value="Extension.value[x]"/>
       <min value="1"/>
+      <max value="1"/>
       <type>
-        <code value="code"/>
+        <code value="CodeableConcept"/>
       </type>
       <binding>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="laterality"/>
+          <valueString value="Laterality"/>
         </extension>
         <strength value="required"/>
         <description value="Laterality"/>

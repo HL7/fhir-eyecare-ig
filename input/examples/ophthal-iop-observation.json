@@ -6,6 +6,20 @@
       "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-iop"
     ]
   },
+  "extension": [
+    {
+      "url" : "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality",
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://snomed.info/sct",
+            "code" : "419465000",
+            "display" : "Unilateral right"
+          }
+        ]
+      }
+    }
+  ],
   "code": {
     "coding": [
       {
@@ -37,14 +51,5 @@
         }
       ]
     }
-  ],
-  "bodySite": {
-    "coding": [
-      {
-        "code": "24028007",
-        "system": "http://snomed.info/sct",
-        "display": "Right"
-      }
-    ]
-  }
+  ]
 }
