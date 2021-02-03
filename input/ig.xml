@@ -168,6 +168,11 @@
         <generation value="markdown"/>
       </page>
       <page>
+        <nameUrl value="contributors.html"/>
+        <title value="Contributors"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
         <nameUrl value="downloads.html"/>
         <title value="Useful Downloads"/>
         <generation value="html"/>
