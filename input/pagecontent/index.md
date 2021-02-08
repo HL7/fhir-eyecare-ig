@@ -7,6 +7,8 @@ The overarching goal is to define and standardize the means through which all ty
 
 To handle the supply/demand mismatch, we are seeing increasing popularity of shared care models between ophthalmologists and optometrists (the 2 scenarios described below), as well as the emergence of high quality validated remote monitoring devices, that can either be utilized at home by the patient or in a primary care / pharmacy care setting. As ophthalmology as become a near imaging-dependent specialty, artificial intelligence automation has served to accelerate patient and provider acceptance of technology-driven management paradigm shifts. For example, the first FDA-approved autonomously diagnostic medical device was an algorithmic screening tool that automates the detection of referable diabetic retinopathy. In the aforementioned collaborative care models, both provider types often use the same few devices, and track the same clinical variables, yet lack a means of communicating them. Therefore, as the provider care system and management increasingly fragments, there is a greater need than ever to standardize and define data exchanges for the betterment of patient care continuity, data capture to fuel ongoing research and outcome monitoring.
 
+![alt text](images/IG_image__homepage.jpg "Logo Title Text 1")
+
 ### How to read this guide
 
 ### Technical overview
@@ -23,3 +25,4 @@ To handle the supply/demand mismatch, we are seeing increasing popularity of sha
 
 - Warren Oliver
 - Ashley Kras
+
