@@ -1,0 +1,39 @@
+{
+  "resourceType": "Procedure",
+  "id": "humphrey-24-2-perimetry-test",
+  "meta": {
+     "profile": [
+        "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/procedure-base"
+     ]
+  },
+  "status": "completed",
+  "code": {
+     "coding": [
+        {
+           "system": "",
+           "code": ""
+        }
+     ]
+  },
+  "subject": {
+     "reference": "Patient/patient-example-0"
+  },
+  "performedPeriod": {
+     "start": "2019-03-26T12:55:26-07:00",
+     "end": "2019-03-26T13:25:26-07:00"
+  },
+  "performer": [
+     {
+        "actor": {
+           "reference": "Practitioner/practitioner-1"
+        }
+     }
+  ],
+  "focalDevice": [
+     {
+        "manipulated": {
+           "reference": "Device/udi-2"
+        }
+     }
+  ]
+}

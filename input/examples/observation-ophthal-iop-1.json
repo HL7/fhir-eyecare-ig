@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "01e0df2d-f6fa-4761-8fb7-c22f730ade55",
+  "id": "01e0df2d-f6fa-4761-8fb7-c22f730ade56",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-iop"
@@ -25,7 +25,7 @@
       {
         "code": "41633001",
         "system": "http://snomed.info/sct",
-        "display": "Intraocular pressure of Eye"
+        "display": "Intraocular pressure"
       }
     ]
   },
@@ -39,7 +39,7 @@
   "issued": "2013-06-27T17:04:20.643+04:00",
   "status": "final",
   "subject": {
-    "reference": "Patient/5812adb4-ef6d-4166-b8e1-0591525fb673"
+    "reference": "Patient/patient-example-0"
   },
   "category": [
     {

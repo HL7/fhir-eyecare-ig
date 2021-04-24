@@ -1,0 +1,95 @@
+
+{
+  "resourceType": "Observation",
+  "id": "observation-refraction-0",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base"
+    ]
+  },
+  "extension": [
+    {
+      "url" : "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality",
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://snomed.info/sct",
+            "code" : "419161000",
+            "display" : "Unilateral left"
+          }
+        ]
+      }
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "251794006",
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "status": "final",
+  "effectiveDateTime": "2013-06-27T17:04:20+04:00",
+  "subject": {
+    "reference": "Patient/patient-example-0"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "exam",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Exam"
+        }
+      ]
+    }
+  ],
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "251795007",
+            "system": "http://snomed.info/sct",
+            "display": "Power of sphere"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": -2.5,
+        "unit": "diopter"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "251799001",
+            "system": "http://snomed.info/sct",
+            "display": "Axis of cylinder"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 60,
+        "unit": "degree"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "251797004",
+            "system": "http://snomed.info/sct",
+            "display": "Power of cylinder"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": -2.5,
+        "unit": "diopter"
+      }
+    }
+  ]
+}

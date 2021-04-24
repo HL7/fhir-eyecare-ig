@@ -2,8 +2,8 @@
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
-  <id value="ophthalmology.fhir.uv.ig"/>
-  <url value="http://hl7.org/fhir/uv/ophthalmology"/>
+  <id value="ophthalmology"/>
+  <url value="http://hl7.org/fhir/uv/ophthalmology/ImplementationGuide/ophthalmology"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.4.0"/>
   <name value="OphthalmologyImplementationGuide"/>
@@ -61,15 +61,20 @@
       <reference>
         <reference value="ValueSet/ophthalmology-va-methods"/>
       </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/iop-methods"/>
+      </reference>
     </resource>-->
     <resource>
       <reference>
-        <reference value="ValueSet/ophthalmology-iop-methods"/>
+        <reference value="CodeSystem/codesystem-iop-rebound-tonometry"/>
       </reference>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/codesystem-iop-rebound-tonometry"/>
+        <reference value="CodeSystem/ophthalmology-diagnostic-test"/>
       </reference>
     </resource>
     <!-- <resource>

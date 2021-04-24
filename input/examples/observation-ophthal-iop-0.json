@@ -1,10 +1,9 @@
-
 {
   "resourceType": "Observation",
-  "id": "01e0df2d-f6fa-4761-8fb7-c22f730ade44",
+  "id": "01e0df2d-f6fa-4761-8fb7-c22f730ade55",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-visual-acuity"
+      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-iop"
     ]
   },
   "extension": [
@@ -14,8 +13,8 @@
         "coding" : [
           {
             "system" : "http://snomed.info/sct",
-            "code" : "419161000",
-            "display" : "Unilateral left"
+            "code" : "419465000",
+            "display" : "Unilateral right"
           }
         ]
       }
@@ -24,27 +23,31 @@
   "code": {
     "coding": [
       {
-        "code": "413078003",
-        "system": "http://snomed.info/sct"
+        "code": "41633001",
+        "system": "http://snomed.info/sct",
+        "display": "Intraocular pressure"
       }
     ]
   },
-  "status": "final",
   "effectiveDateTime": "2013-06-27T17:04:20+04:00",
   "valueQuantity": {
-    "value": 0.1,
-    "unit": "logmar"
+    "code": "mm[Hg]",
+    "unit": "mm[Hg]",
+    "value": 25.4,
+    "system": "http://unitsofmeasure.org"
+  },
+  "issued": "2013-06-27T17:04:20.643+04:00",
+  "status": "final",
+  "subject": {
+    "reference": "Patient/patient-example-0"
   },
   "method": {
     "coding": [
       {
-        "code": "400913005",
-        "system": "http://snomed.info/sct"
+        "code": "icare-home",
+        "system": "http://hl7.org/fhir/uv/ophthalmology/CodeSystem/codesystem-iop-rebound-tonometry"
       }
     ]
-  },
-  "subject": {
-    "reference": "patient/38203730274-23473-2730-283"
   },
   "category": [
     {

@@ -30,13 +30,13 @@
   <versionNeeded value="true" />
   <content value="complete" />
   <concept>
-    <code value="icare" />
+    <code value="icare-100" />
     <display value="Icare 100 or Icare 200 devices" />
     <definition value="Rebound tonometry ........" />
   </concept>
   <concept>
     <code value="icare-home" />
-    <display value="" />
-    <definition value="" />
+    <display value="icare Home tonometer" />
+    <definition value="Hand held rebound tonometer" />
   </concept>
 </CodeSystem>
