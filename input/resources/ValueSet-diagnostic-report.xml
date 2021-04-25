@@ -1,6 +1,6 @@
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
-	<id value="ophthalmology-diagnostic-test"/>
-	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/ophthalmology-diagnostic-test"/>
+	<id value="diagnostic-test"/>
+	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/diagnostic-test"/>
 	<identifier>
 	   <system value="urn:ietf:rfc:3986"/>
        <value value="urn:oid:2.16.840.1.113883.2.3.4.2.2.8"/>
@@ -31,7 +31,7 @@
 			</filter>
 		</include>
 		<include>
-			<system value="http://hl7.org/fhir/uv/ophthalmology/CodeSystem/ophthalmology-diagnostic-test"/>
+			<system value="http://hl7.org/fhir/uv/ophthalmology/CodeSystem/diagnostic-test"/>
 		</include>
 	</compose>
 </ValueSet>

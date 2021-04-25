@@ -44,7 +44,7 @@
   <definition>
     <resource>
       <reference>
-        <reference value="ValueSet/ophthalmology-observable-entities"/>
+        <reference value="ValueSet/observable-entities"/>
       </reference>
     </resource>
     <!--<resource>
@@ -69,12 +69,12 @@
     </resource>-->
     <resource>
       <reference>
-        <reference value="CodeSystem/codesystem-iop-rebound-tonometry"/>
+        <reference value="CodeSystem/iop-rebound-tonometry"/>
       </reference>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/ophthalmology-diagnostic-test"/>
+        <reference value="CodeSystem/diagnostic-test"/>
       </reference>
     </resource>
     <!-- <resource>

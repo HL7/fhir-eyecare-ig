@@ -1,9 +1,10 @@
+
 {
   "resourceType": "Observation",
-  "id": "01e0df2d-f6fa-4761-8fb7-c22f730ade55",
+  "id": "va-snellen-best-corrected-re-0",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-iop"
+      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-visual-acuity"
     ]
   },
   "extension": [
@@ -23,31 +24,29 @@
   "code": {
     "coding": [
       {
-        "code": "41633001",
+        "code": "419775003",
         "system": "http://snomed.info/sct",
-        "display": "Intraocular pressure"
+        "display": "Best corrected visual acuity"
       }
     ]
   },
+  "status": "final",
   "effectiveDateTime": "2013-06-27T17:04:20+04:00",
   "valueQuantity": {
-    "code": "mm[Hg]",
-    "unit": "mm[Hg]",
-    "value": 25.4,
-    "system": "http://unitsofmeasure.org"
-  },
-  "issued": "2013-06-27T17:04:20.643+04:00",
-  "status": "final",
-  "subject": {
-    "reference": "Patient/patient-example-0"
+    "value": 0.18,
+    "unit": "logmar"
   },
   "method": {
     "coding": [
       {
-        "code": "icare-home",
-        "system": "http://hl7.org/fhir/uv/ophthalmology/CodeSystem/codesystem-iop-rebound-tonometry"
+        "code": "400913005",
+        "system": "http://snomed.info/sct",
+        "display": "Snellen chart"
       }
     ]
+  },
+  "subject": {
+    "reference": "Patient/patient-example-0"
   },
   "category": [
     {
@@ -58,6 +57,11 @@
           "display": "Exam"
         }
       ]
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "Observation/observation-refraction-re-0"
     }
   ]
 }

@@ -29,7 +29,7 @@
       <short value="Visual Acuity Observables" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/ophthalmology-observation-va" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-va" />
       </binding>
     </element>
     <element id="Observation.method">
@@ -39,7 +39,7 @@
       <path value="Observation.method.coding" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/ophthal-visual-acuity-methods" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-va-methods" />
       </binding>
     </element>
   </differential>

@@ -71,7 +71,7 @@
       <max value="1"/>
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/ophthalmology-conditions-icd10"/>
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/conditions-icd10"/>
       </binding>
       <min value="0"/>
       <max value="1"/>
@@ -85,7 +85,7 @@
       </type>
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/ophthalmology-conditions-snomed"/>
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/conditions-snomed"/>
       </binding>
       <min value="0"/>
       <max value="1"/>

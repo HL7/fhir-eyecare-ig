@@ -43,7 +43,7 @@
       <path value="Observation.method"/>
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/ophthalmology-iop-methods" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/iop-methods" />
       </binding>
     </element>
   </differential>

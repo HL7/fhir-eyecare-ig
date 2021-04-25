@@ -27,7 +27,7 @@
       </type>
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/ophthalmology-observation-nva"/>
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-nva"/>
       </binding>
     </element>
     <element id="Observation.value[x]">

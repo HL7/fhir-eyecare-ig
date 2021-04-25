@@ -1,7 +1,7 @@
 
 {
   "resourceType": "Observation",
-  "id": "observation-refraction-0",
+  "id": "observation-refraction-le-0",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base"
@@ -72,7 +72,7 @@
         ]
       },
       "valueQuantity": {
-        "value": 60,
+        "value": 75,
         "unit": "degree"
       }
     },
@@ -87,7 +87,7 @@
         ]
       },
       "valueQuantity": {
-        "value": -2.5,
+        "value": 0.5,
         "unit": "diopter"
       }
     }
