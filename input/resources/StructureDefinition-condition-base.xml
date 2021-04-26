@@ -58,7 +58,7 @@
         <code value="CodeableConcept"/>
       </type>
       <min value="1"/>
-      <max value="1"/>
+      <max value="2"/>
     </element>
     <element id="Condition.code:icd10">
       <path value="Condition.code" />
@@ -73,8 +73,6 @@
         <strength value="preferred" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/conditions-icd10"/>
       </binding>
-      <min value="0"/>
-      <max value="1"/>
     </element>
     <element id="Condition.code:snomed">
       <path value="Condition.code" />

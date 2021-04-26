@@ -10,8 +10,8 @@
   "code": {
      "coding": [
         {
-           "system": "",
-           "code": ""
+           "system": "http://snomed.info/sct",
+           "code": "252806005"
         }
      ]
   },
@@ -26,13 +26,6 @@
      {
         "actor": {
            "reference": "Practitioner/practitioner-1"
-        }
-     }
-  ],
-  "focalDevice": [
-     {
-        "manipulated": {
-           "reference": "Device/udi-2"
         }
      }
   ]

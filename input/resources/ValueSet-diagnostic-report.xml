@@ -30,8 +30,8 @@
 				<value value="373366005"/>
 			</filter>
 		</include>
-		<include>
+		<!-- <include>
 			<system value="http://hl7.org/fhir/uv/ophthalmology/CodeSystem/diagnostic-test"/>
-		</include>
+		</include> -->
 	</compose>
 </ValueSet>

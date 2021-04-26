@@ -1,0 +1,36 @@
+{
+  "resourceType": "Practitioner",
+  "id": "practitioner-1",
+  "identifier": [
+     {
+        "system": "http://hl7.org.fhir/sid/us-npi",
+        "value": "9941339108"
+     },
+     {
+        "system": "http://www.acme.org/practitioners",
+        "value": "25456"
+     }
+  ],
+  "name": [
+     {
+        "family": "Bone",
+        "given": [
+           "Ronald"
+        ],
+        "prefix": [
+           "Dr"
+        ]
+     }
+  ],
+  "address": [
+     {
+        "use": "home",
+        "line": [
+           "1003 Healthcare Drive"
+        ],
+        "city": "Amherst",
+        "state": "MA",
+        "postalCode": "01002"
+     }
+  ]
+}

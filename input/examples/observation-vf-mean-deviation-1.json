@@ -1,9 +1,10 @@
+
 {
   "resourceType": "Observation",
-  "id": "01e0df2d-f6fa-4761-8fb7-c22f730ade55",
+  "id": "vf-mean-deviation-le-0",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-iop"
+      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base"
     ]
   },
   "extension": [
@@ -13,8 +14,8 @@
         "coding" : [
           {
             "system" : "http://snomed.info/sct",
-            "code" : "419465000",
-            "display" : "Unilateral right"
+            "code" : "419161000",
+            "display" : "Unilateral left"
           }
         ]
       }
@@ -23,31 +24,19 @@
   "code": {
     "coding": [
       {
-        "code": "41633001",
+        "code": "422859007",
         "system": "http://snomed.info/sct",
-        "display": "Intraocular pressure"
+        "display": "Mean deviation"
       }
     ]
   },
+  "status": "final",
   "effectiveDateTime": "2013-06-27T17:04:20+04:00",
   "valueQuantity": {
-    "code": "mm[Hg]",
-    "unit": "mm[Hg]",
-    "value": 25.4,
-    "system": "http://unitsofmeasure.org"
+    "value": 5.78
   },
-  "issued": "2013-06-27T17:04:20.643+04:00",
-  "status": "final",
   "subject": {
     "reference": "Patient/patient-example-0"
-  },
-  "method": {
-    "coding": [
-      {
-        "code": "icare-home",
-        "system": "http://hl7.org/fhir/uv/ophthalmology/CodeSystem/iop-rebound-tonometry"
-      }
-    ]
   },
   "category": [
     {
@@ -58,6 +47,11 @@
           "display": "Exam"
         }
       ]
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "Media/visual-field-0"
     }
   ]
 }
