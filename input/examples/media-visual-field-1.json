@@ -1,0 +1,8 @@
+{
+  "resourceType": "Media",
+  "id": "visual-field-1",
+  "status": "completed",
+  "content": {
+    "url": "http://localhost/media.pdf"
+  }
+}

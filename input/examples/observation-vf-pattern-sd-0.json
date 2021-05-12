@@ -1,7 +1,7 @@
 
 {
   "resourceType": "Observation",
-  "id": "vf-mean-deviation-le-0",
+  "id": "vf-pattern-standard-deviation-re-0",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base"
@@ -14,8 +14,8 @@
         "coding" : [
           {
             "system" : "http://snomed.info/sct",
-            "code" : "419161000",
-            "display" : "Unilateral left"
+            "code" : "419465000",
+            "display" : "Unilateral right"
           }
         ]
       }
@@ -24,16 +24,17 @@
   "code": {
     "coding": [
       {
-        "code": "422859007",
+        "code": "421362004",
         "system": "http://snomed.info/sct",
-        "display": "Mean deviation"
+        "display": "Pattern standard deviation"
       }
     ]
   },
   "status": "final",
   "effectiveDateTime": "2013-06-27T17:04:20+04:00",
   "valueQuantity": {
-    "value": 5.78
+    "value": 4.5,
+    "unit": "decibels"
   },
   "subject": {
     "reference": "Patient/patient-example-0"
@@ -51,7 +52,7 @@
   ],
   "derivedFrom": [
     {
-      "reference": "Media/visual-field-1"
+      "reference": "Media/visual-field-0"
     }
   ]
 }

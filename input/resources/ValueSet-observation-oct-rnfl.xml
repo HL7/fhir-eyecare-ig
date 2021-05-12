@@ -1,14 +1,14 @@
 <!-- UPDATE TO VA test methods -->
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
-	<id value="conditions-icd10"/>
-	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/conditions-icd10"/>
+	<id value="observation-oct-rnfl"/>
+	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-oct-rnfl"/>
 	<identifier>
 	   <system value="urn:ietf:rfc:3986"/>
        <value value="urn:oid:2.16.840.1.113883.2.3.4.2.2.8"/>
     </identifier>
 	<version value="2.1.0"/>
-	<name value="OphthalmologyConditionICD10ValueSet"/>
-	<title value="Ophthalmology Condition ICD10 codes ValueSet"/>
+	<name value="OphthalmologyOCTRNFLObservableEntitiesValueSet"/>
+	<title value="OCT RNFL Observable Entities ValueSet"/>
 	<status value="active"/>
 	<experimental value="true"/>
 	<date value="2019-05-01"/>
@@ -20,15 +20,16 @@
 		  <use value="work" />
 		</telecom>
 	</contact>
-	<description value="This ValueSet represents condition codes for clinical purposes."/>
+	<description value=""/>
 	<copyright value=""/>
 	<compose>
 		<include>
-			<system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+			<system value="http://loinc.org"/>
+			<concept>
+        <code value="86287-0"/>
+				<display value="Right retina Retinal nerve fiber layer.inferior temporal thickness by OCT"/>
+      </concept>
 		</include>
 	</compose>
 </ValueSet>
-
-
-
 

@@ -8,7 +8,7 @@
       }
   ],
   "code": {
-     "text": "Ophthalmic 24-10 visual field diagnostic report"
+     "text": "Ophthalmic 24-2 visual field diagnostic report"
   },
   "subject": {
      "reference": "Patient/patient-example-0"
@@ -27,5 +27,4 @@
          "reference": "Observation/vf-mean-deviation-le-0"
       }
    ]
-
 }

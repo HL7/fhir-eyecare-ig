@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="observation-oct-rnfl" />
+  <text>
+    <status value="extensions" />
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>A specific observation from an OCT RNFL test</p>
+      <p></p>
+    </div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-oct-rnfl" />
+  <name value="ObservationVisualAcuity" />
+  <title value="Observation profile for OCT RNFL based observations" />
+  <status value="draft" />
+  <experimental value="true" />
+  <description value="An OCT RNFL test will produce a number of observations ......" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+    </element>
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <short value="OCT RNFL Observables" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-oct-rnfl" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

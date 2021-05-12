@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="visual-field" />
+  <text>
+    <status value="extensions" />
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>A specific observation from a visual field test</p>
+      <p></p>
+    </div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/visual-field" />
+  <name value="ObservationVisualField" />
+  <title value="Ophthalmology visual field observations" />
+  <status value="draft" />
+  <experimental value="true" />
+  <description value="A profile for the visual field observations" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+    </element>
+    <element id="Observation.code.coding:visualFieldObservables">
+      <path value="Observation.code.coding" />
+      <short value="Visual Field Observables" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-visual-field" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>
