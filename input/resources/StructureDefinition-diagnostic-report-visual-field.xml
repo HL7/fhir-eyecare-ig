@@ -37,7 +37,7 @@
       <path value="DiagnosticReport.result"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-visual-field"/>
+        <targetProfile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-visual-field"/>
       </type>
     </element>
   </differential>

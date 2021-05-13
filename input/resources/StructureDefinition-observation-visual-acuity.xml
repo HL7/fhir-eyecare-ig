@@ -24,7 +24,7 @@
     <element id="Observation.code">
       <path value="Observation.code" />
     </element>
-    <element id="Observation.code.coding:snomedVisualAcuityObservables">
+    <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <short value="Visual Acuity Observables" />
       <binding>

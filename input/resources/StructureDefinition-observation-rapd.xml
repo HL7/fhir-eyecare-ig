@@ -37,10 +37,10 @@
       <path value="Observation.code.coding"/>
       <sliceName value="snomed" />
       <comment value="This is a snomed finding.  There is also a snmed disorder which is specific to each eye. Disorder 232122003 (with children for laterality)"/>
-      <fixedCoding>
+      <patternCoding>
         <system value="http://snomed.info/sct" />
         <code value="247015002" />
-      </fixedCoding>
+      </patternCoding>
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.valueBoolean"/>

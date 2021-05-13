@@ -21,5 +21,5 @@ These profiles have been defined by this implementation guide
 
 ### Diagnostic Report profiles
 * [Visual Field Diagnostic Report](StructureDefinition-diagnostic-report-visual-field.html) - diagnostic report for visual field test
-* [OCT Macular Diagnostic Report](StructureDefinition-diagnostic-report-oculo-macula.html) - diagnostic report for OCT Macula test
+* [OCT Macular Diagnostic Report](StructureDefinition-diagnostic-report-oct-macula.html) - diagnostic report for OCT Macula test
 * [OCT RNFL Diagnostic Report](StructureDefinition-diagnostic-report-oct-rnfl.html) - diagnostic report for OCT RFNL test

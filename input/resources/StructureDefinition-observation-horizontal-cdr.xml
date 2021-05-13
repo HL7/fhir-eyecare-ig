@@ -37,10 +37,10 @@
       <path value="Observation.code.coding"/>
       <sliceName value="snomed" />
       <comment value=""/>
-      <fixedCoding>
+      <patternCoding>
         <system value="http://snomed.info/sct" />
         <code value="370938008" />
-      </fixedCoding>
+      </patternCoding>
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.valueQuantity"/>

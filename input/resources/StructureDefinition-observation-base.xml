@@ -53,5 +53,13 @@
       <path value="Observation.category.coding.code" />
       <fixedCode value="exam" />
     </element>
+    <!-- <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <short value="Eye/Vision Observables" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observable-entities" />
+      </binding>
+    </element> -->
   </differential>
 </StructureDefinition>

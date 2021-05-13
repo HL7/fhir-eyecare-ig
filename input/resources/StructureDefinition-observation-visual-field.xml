@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="visual-field" />
+  <id value="observation-visual-field" />
   <text>
     <status value="extensions" />
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -8,7 +8,7 @@
       <p></p>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/visual-field" />
+  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-visual-field" />
   <name value="ObservationVisualField" />
   <title value="Ophthalmology visual field observations" />
   <status value="draft" />
@@ -24,7 +24,7 @@
     <element id="Observation.code">
       <path value="Observation.code" />
     </element>
-    <element id="Observation.code.coding:visualFieldObservables">
+    <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <short value="Visual Field Observables" />
       <binding>
