@@ -1,6 +1,6 @@
 {
   "resourceType": "Practitioner",
-  "id": "practitioner-1",
+  "id": "practitioner-example-0",
   "identifier": [
      {
         "system": "http://hl7.org.fhir/sid/us-npi",

@@ -1,6 +1,6 @@
 {
   "resourceType": "Procedure",
-  "id": "humphrey-24-2-perimetry-test",
+  "id": "perimetry-24-2-perimetry-test",
   "meta": {
      "profile": [
         "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/procedure-base"
@@ -25,7 +25,7 @@
   "performer": [
      {
         "actor": {
-           "reference": "Practitioner/practitioner-1"
+           "reference": "Practitioner/practitioner-example-0"
         }
      }
   ]
