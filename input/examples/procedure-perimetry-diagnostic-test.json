@@ -16,7 +16,7 @@
      ]
   },
   "subject": {
-     "reference": "Patient/patient-example-0"
+     "reference": "Patient/ophthal-patient-example-0"
   },
   "performedPeriod": {
      "start": "2019-03-26T12:55:26-07:00",
@@ -25,7 +25,7 @@
   "performer": [
      {
         "actor": {
-           "reference": "Practitioner/practitioner-example-0"
+           "reference": "Practitioner/ophthal-practitioner-example-0"
         }
      }
   ]

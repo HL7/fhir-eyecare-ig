@@ -46,6 +46,6 @@
      ]
   },
   "subject": {
-     "reference": "Patient/patient-example-0"
+     "reference": "Patient/ophthal-patient-example-0"
   }
 }

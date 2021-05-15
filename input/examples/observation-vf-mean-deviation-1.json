@@ -36,7 +36,7 @@
     "value": 5.78
   },
   "subject": {
-    "reference": "Patient/patient-example-0"
+    "reference": "Patient/ophthal-patient-example-0"
   },
   "category": [
     {

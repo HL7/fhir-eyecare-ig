@@ -11,7 +11,7 @@
      "text": "Ophthalmic 24-2 visual field diagnostic report"
   },
   "subject": {
-     "reference": "Patient/patient-example-0"
+     "reference": "Patient/ophthal-patient-example-0"
   },
   "effectiveDateTime": "2019-02-03T19:43:30.000Z",
   "media": [{

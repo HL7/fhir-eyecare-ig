@@ -39,7 +39,7 @@
   "issued": "2013-06-27T17:04:20.643+04:00",
   "status": "final",
   "subject": {
-    "reference": "Patient/patient-example-0"
+    "reference": "Patient/ophthal-patient-example-0"
   },
   "method": {
     "coding": [
