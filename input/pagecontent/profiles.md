@@ -6,7 +6,7 @@ These profiles have been defined by this implementation guide
 * [Intraocular Pressure Observation](StructureDefinition-observation-iop.html) - IOP observation
 * [Visual Field Observations](StructureDefinition-observation-visual-field.html) - Visual field observations
 * [OCT Macula Observations](StructureDefinition-observation-oct-macula.html) - OCT macula observations
-* [OCT RNFL Observations](StructureDefinition-observation-oct-macula.html) - OCT RNFL observations
+* [OCT RNFL Observations](StructureDefinition-observation-oct-rnfl.html) - OCT RNFL observations
 
 ##### Anterior chamber profiles
 * [Cataract Observation](StructureDefinition-observation-cataract.html) - Cataract observation
