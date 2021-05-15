@@ -27,12 +27,12 @@
   <versionNeeded value="true" />
   <content value="complete" />
   <concept>
-    <code value="humphrey.24-2" />
+    <code value="sita.24-2" />
     <display value="Humphrey 24-2" />
     <definition value="blah" />
   </concept>
   <concept>
-    <code value="humphrey.10-2" />
+    <code value="sita.10-2" />
     <display value="" />
     <definition value="" />
   </concept>

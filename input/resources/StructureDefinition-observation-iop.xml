@@ -22,13 +22,13 @@
   <differential>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <fixedCodeableConcept>
+      <patternCodeableConcept>
         <coding>
           <system value="http://snomed.info/sct" />
           <code value="41633001" />
           <display value="Intraocular pressure" />
         </coding>
-      </fixedCodeableConcept>
+      </patternCodeableConcept>
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.valueQuantity"/>
