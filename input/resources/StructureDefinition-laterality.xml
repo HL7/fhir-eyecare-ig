@@ -37,6 +37,10 @@
     <type value="element"/>
     <expression value="Procedure"/>
   </context>
+  <context>
+    <type value="element"/>
+    <expression value="DiagnosticReport"/>
+  </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
   <derivation value="constraint"/>
@@ -225,7 +229,7 @@
         </extension>
         <strength value="required"/>
         <description value="Laterality"/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/bodysite-laterality"/>
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/location-qualifier"/>
       </binding>
     </element>
   </differential>

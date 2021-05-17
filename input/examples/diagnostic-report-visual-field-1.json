@@ -1,0 +1,41 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "diagnostic-report-visual-field-test-1",
+  "status": "final",
+  "category": [
+    {
+      "text": "Ophthalmic diagnostic report"
+    }
+  ],
+  "code": {
+    "text": "Ophthalmic 24-2 visual field diagnostic report"
+  },
+  "subject": {
+    "reference": "Patient/ophthal-patient-example-0"
+  },
+  "effectiveDateTime": "2019-02-03T19:43:30.000Z",
+  "media": [
+    {
+      "link": {
+        "reference": "Media/visual-field-le-0"
+      }
+    }
+  ],
+  "result": [
+    {
+      "reference": "Observation/vf-mean-deviation-le-0"
+    },
+    {
+      "reference": "Observation/vf-pattern-standard-deviation-le-0"
+    },
+    {
+      "reference": "Observation/vf-test-duration-le-0"
+    },
+    {
+      "reference": "Observation/vf-fixation-loss-le-0"
+    },
+    {
+      "reference": "Observation/vf-false-positives-le-0"
+    }
+  ]
+}
