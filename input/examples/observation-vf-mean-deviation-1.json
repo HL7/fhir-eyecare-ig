@@ -4,7 +4,7 @@
   "id": "vf-mean-deviation-le-0",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base"
+      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-visual-field"
     ]
   },
   "extension": [
@@ -33,7 +33,8 @@
   "status": "final",
   "effectiveDateTime": "2013-06-27T17:04:20+04:00",
   "valueQuantity": {
-    "value": 5.78
+    "value": 5.78,
+    "unit": "decibels"
   },
   "subject": {
     "reference": "Patient/ophthal-patient-example-0"

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="diagnostic-report" />
+  <id value="diagnostic-report-base" />
   <text>
     <status value="extensions" />
     <div xmlns="http://www.w3.org/1999/xhtml">
       <div>Diagnostic test report for ophthalmology</div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/diagnostic-report" />
+  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/diagnostic-report-base" />
   <name value="OphthalDiagnosticReport" />
   <title value="Ophthalmic diagnostic test report" />
   <status value="draft" />
@@ -20,9 +20,29 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DiagnosticReport" />
   <derivation value="constraint" />
   <differential>
+    <element id="DiagnosticReport.extension">
+      <path value="DiagnosticReport.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="DiagnosticReport.extension:laterality">
+      <path value="DiagnosticReport.extension"/>
+      <sliceName value="laterality"/>
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality" />
+      </type>
+      <min value="0"/>
+      <max value="1"/>
+    </element>
     <element id="DiagnosticReport.category.coding">
       <path value="DiagnosticReport.category.coding" />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
     </element>
     <element id="DiagnosticReport.category.coding.system">

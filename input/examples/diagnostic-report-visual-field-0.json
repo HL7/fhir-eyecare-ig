@@ -1,6 +1,25 @@
 {
    "resourceType": "DiagnosticReport",
-   "id": "diagnostic-report-visual-field-test-0",
+   "id": "diagnostic-report-visual-field-test-re-0",
+   "meta": {
+      "profile": [
+         "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/diagnostic-report-base"
+      ]
+   },
+   "extension": [
+      {
+         "url": "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality",
+         "valueCodeableConcept": {
+            "coding": [
+               {
+                  "system": "http://snomed.info/sct",
+                  "code": "419465000",
+                  "display": "Unilateral right"
+               }
+            ]
+         }
+      }
+   ],
    "status": "final",
    "category": [
       {

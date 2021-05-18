@@ -47,5 +47,6 @@
   },
   "subject": {
      "reference": "Patient/ophthal-patient-example-0"
-  }
+  },
+  "onsetDateTime": "2020-04-27T17:04:20.643+04:00"
 }

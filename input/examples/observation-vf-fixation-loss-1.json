@@ -4,7 +4,7 @@
   "id": "vf-fixation-loss-le-0",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base"
+      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-visual-field"
     ]
   },
   "extension": [
