@@ -3,10 +3,10 @@
    "id": "diagnostic-report-visual-field-test-re-0",
    "meta": {
       "profile": [
-         "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/diagnostic-report-base"
+        "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/diagnostic-report-visual-field"
       ]
-   },
-   "extension": [
+    },
+     "extension": [
       {
          "url": "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality",
          "valueCodeableConcept": {
@@ -21,11 +21,6 @@
       }
    ],
    "status": "final",
-   "category": [
-      {
-         "text": "Ophthalmic diagnostic report"
-      }
-   ],
    "code": {
       "text": "Ophthalmic 24-2 visual field diagnostic report"
    },
