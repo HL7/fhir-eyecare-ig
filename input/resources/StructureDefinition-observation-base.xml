@@ -31,33 +31,53 @@
       </slicing>
     </element>
     <element id="Observation.extension:laterality">
-      <path value="Observation.extension"/>
-      <sliceName value="laterality"/>
+      <path value="Observation.extension" />
+      <sliceName value="laterality" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality" />
       </type>
-      <min value="0"/>
-      <max value="1"/>
     </element>
-    <element id="Observation.category.coding">
+    <element id="Observation.category">
+      <path value="Observation.category" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="coding.code" />
+        </discriminator>
+        <discriminator>
+          <type value="value" />
+          <path value="coding.system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.category:ophthalCategory">
+      <path value="Observation.category" />
+      <sliceName value="ophthalCategory" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Observation.category:ophthalCategory.coding">
       <path value="Observation.category.coding" />
       <min value="1" />
       <max value="1" />
     </element>
-    <element id="Observation.category.coding.system">
+    <element id="Observation.category:ophthalCategory.coding.system">
       <path value="Observation.category.coding.system" />
+      <min value="1" />
       <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category" />
     </element>
-    <element id="Observation.category.coding.code">
+    <element id="Observation.category:ophthalCategory.coding.code">
       <path value="Observation.category.coding.code" />
+      <min value="1" />
       <fixedCode value="exam" />
     </element>
-    <element id="Observation.code.coding">
-      <path value="Observation.code.coding" />
-      <short value="Eye/Vision Observables" />
+    <element id="Observation.code">
+      <path value="Observation.code" />
       <binding>
-        <strength value="preferred" />
+        <strength value="extensible" />
+        <description value="Eye/Vision Observables" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observable-entities" />
       </binding>
     </element>
