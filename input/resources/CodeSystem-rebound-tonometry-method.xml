@@ -30,13 +30,18 @@
   <versionNeeded value="true" />
   <content value="complete" />
   <concept>
-    <code value="icare-100" />
-    <display value="Icare 100 or Icare 200 devices" />
-    <definition value="Rebound tonometry ........" />
+    <code value="rebound-tonometry" />
+    <display value="Rebound tonometry" />
+    <definition value="Rebound tonometry" />
   </concept>
   <concept>
-    <code value="icare-home" />
-    <display value="icare Home tonometer" />
-    <definition value="Hand held rebound tonometer" />
+    <code value="rebound-tonometry-remote" />
+     <display value="Rebound tonometry remote" />
+    <definition value="Rebound tonometry remote" />
+  </concept>
+   <concept>
+    <code value="contact-lens-tonometry" />
+     <display value="Contour lens tonometry" />
+    <definition value="Contour lens tonometry" />
   </concept>
 </CodeSystem>
