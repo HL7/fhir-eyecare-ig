@@ -30,7 +30,12 @@
       {
         "code": "363939003",
         "system": "http://snomed.info/sct",
-        "display": "363939003"
+        "display": "Measure of globe"
+      },
+      {
+        "code": "1",
+        "system": "http://acme.com/terms",
+        "display": "Measure of globe"
       }
     ]
   },
