@@ -41,7 +41,7 @@
   </concept>
    <concept>
     <code value="contact-lens-tonometry" />
-     <display value="Contour lens tonometry" />
-    <definition value="Contour lens tonometry" />
+     <display value="Contact lens tonometry" />
+    <definition value="Contact lens tonometry" />
   </concept>
 </CodeSystem>
