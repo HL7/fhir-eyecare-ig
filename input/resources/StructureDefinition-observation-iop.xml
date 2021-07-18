@@ -50,7 +50,7 @@
     </element>
     <element id="Observation.method">
       <path value="Observation.method" />
-      <mustSupport value="true" />
+      <mustSupport value="false" />
       <binding>
         <strength value="preferred" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/iop-methods" />
