@@ -61,6 +61,10 @@
     <element id="Observation.method">
       <path value="Observation.method" />
       <mustSupport value="false" />
+    </element>
+    <element id="Observation.method.coding">
+      <path value="Observation.method.coding" />
+      <min value="1" />
       <binding>
         <strength value="preferred" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/iop-methods" />

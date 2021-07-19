@@ -60,13 +60,6 @@
       <type>
         <code value="CodeableConcept" />
       </type>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="Laterality" />
-        </extension>
-        <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/location-qualifier" />
-      </binding>
     </element>
     <element id="Extension.value[x].coding">
       <path value="Extension.value[x].coding" />
