@@ -35,12 +35,18 @@
       </slicing>
       <min value="1" />
     </element>
-    <element id="Observation.code.coding.system">
+    <element id="Observation.code.coding:IOPCode">
+      <path value="Observation.code.coding" />
+      <sliceName value="IOPCode" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Observation.code.coding:IOPCode.system">
       <path value="Observation.code.coding.system" />
       <min value="1" />
       <fixedUri value="http://snomed.info/sct" />
     </element>
-    <element id="Observation.code.coding.code">
+    <element id="Observation.code.coding:IOPCode.code">
       <path value="Observation.code.coding.code" />
       <min value="1" />
       <fixedCode value="41633001" />
