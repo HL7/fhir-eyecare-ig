@@ -65,7 +65,14 @@
           <valueString value="Laterality" />
         </extension>
         <strength value="required" />
-        <description value="Laterality" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/location-qualifier" />
+      </binding>
+    </element>
+    <element id="Extension.value[x].coding">
+      <path value="Extension.value[x].coding" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/location-qualifier" />
       </binding>
     </element>
