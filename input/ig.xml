@@ -68,6 +68,11 @@
         <reference value="ValueSet/iop-methods"/>
       </reference>
     </resource>
+        <resource>
+      <reference>
+        <reference value="ValueSet/location-qualifier"/>
+      </reference>
+    </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/iop-rebound-tonometry"/>
