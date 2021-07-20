@@ -1,1 +1,0 @@
-The following organizations and individuals have assisted in the compilation of this Implementation Guide

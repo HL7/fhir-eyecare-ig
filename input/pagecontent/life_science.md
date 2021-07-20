@@ -1,1 +1,0 @@
-## Life science use case
