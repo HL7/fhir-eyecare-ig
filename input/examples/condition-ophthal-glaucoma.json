@@ -1,0 +1,52 @@
+{
+  "resourceType": "Condition",
+  "id": "condition-ophthal-glaucoma",
+  "meta": {
+     "profile": [
+        "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/condition-base"
+     ]
+  },
+  "clinicalStatus": {
+     "coding": [
+        {
+           "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+           "code": "active",
+           "display": "Active"
+        }
+     ],
+     "text": "Active"
+  },
+  "verificationStatus": {
+     "coding": [
+        {
+           "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+           "code": "unconfirmed",
+           "display": "Uconfirmed"
+        }
+     ]
+  },
+  "category": [
+     {
+        "coding": [
+           {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+              "code": "encounter-diagnosis",
+              "display": "Encounter Diagnosis"
+           }
+        ]
+     }
+  ],
+  "code": {
+     "coding": [
+        {
+           "system": "http://snomed.info/sct",
+           "code": "23986001",
+           "display": "Glaucoma"
+        }
+     ]
+  },
+  "subject": {
+     "reference": "Patient/ophthal-patient-example-0"
+  },
+  "onsetDateTime": "2020-04-27T17:04:20.643+04:00"
+}

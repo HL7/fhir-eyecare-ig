@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="diagnostic-report-visual-field" />
+  <text>
+    <status value="extensions" />
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div>Diagnostic test report for a visual field</div>
+    </div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/diagnostic-report-visual-field" />
+  <name value="OphthalDiagnosticReportForVisualField" />
+  <title value="Ophthalmic diagnostic visual field test report" />
+  <status value="draft" />
+  <experimental value="true" />
+  <description value="" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="DiagnosticReport" />
+  <baseDefinition value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/diagnostic-report-base" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="DiagnosticReport.category.coding">
+      <path value="DiagnosticReport.category.coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="DiagnosticReport.category.coding.system">
+      <path value="DiagnosticReport.category.coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="DiagnosticReport.category.coding.code">
+      <path value="DiagnosticReport.category.coding.code" />
+      <fixedCode value="103752008" />
+    </element>
+    <element id="DiagnosticReport.result">
+      <path value="DiagnosticReport.result"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-visual-field"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

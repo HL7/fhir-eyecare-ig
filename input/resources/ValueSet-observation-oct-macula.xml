@@ -1,0 +1,76 @@
+<!-- UPDATE TO VA test methods -->
+<ValueSet xmlns="http://hl7.org/fhir"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
+	<id value="observation-oct-macula"/>
+	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-oct-macula"/>
+	<identifier>
+		<system value="urn:ietf:rfc:3986"/>
+		<value value="urn:oid:2.16.840.1.113883.2.3.4.2.2.8"/>
+	</identifier>
+	<version value="2.1.0"/>
+	<name value="OphthalmologyOCTMaculaObservableEntitiesValueSet"/>
+	<title value="OCT Macula Observable Entities ValueSet"/>
+	<status value="active"/>
+	<experimental value="true"/>
+	<date value="2019-05-01"/>
+	<publisher value="Ophthalmology working group"/>
+	<contact>
+		<telecom>
+			<system value="url" />
+			<value value="http://hl7.com.au" />
+			<use value="work" />
+		</telecom>
+	</contact>
+	<description value=""/>
+	<copyright value=""/>
+	<compose>
+		<include>
+			<system value="http://loinc.org"/>
+			<concept>
+				<code value="57108-3"/>
+				<display value="Macular grid.center point thickness by OCT"/>
+			</concept>
+			<concept>
+				<code value="57109-1"/>
+				<display value="Macular grid.center subfield thickness by OCT"/>
+			</concept>
+			<concept>
+				<code value="57110-9"/>
+				<display value="Macular grid.inner superior subfield thickness by OCT"/>
+			</concept>
+			<concept>
+				<code value="57111-7"/>
+				<display value="Macular grid.inner nasal subfield thickness by OCT"/>
+			</concept>
+			<concept>
+				<code value="57112-5"/>
+				<display value="Macular grid.inner inferior subfield thickness by OCT"/>
+			</concept>
+			<concept>
+				<code value="57113-3"/>
+				<display value="Macular grid.inner temporal subfield thickness by OCT"/>
+			</concept>
+			<concept>
+				<code value="57114-1"/>
+				<display value="Macular grid.outer superior subfield thickness by OCT"/>
+			</concept>
+			<concept>
+				<code value="57115-8"/>
+				<display value="Macular grid.outer nasal subfield thickness by OCT"/>
+			</concept>
+			<concept>
+				<code value="57116-6"/>
+				<display value="Macular grid.outer inferior subfield thickness by OCT"/>
+			</concept>
+			<concept>
+				<code value="57117-4"/>
+				<display value="Macular grid.outer temporal subfield thickness by OCT"/>
+			</concept>
+			<concept>
+				<code value="57118-2"/>
+				<display value="Macular grid.total volume by OCT"/>
+			</concept>
+		</include>
+	</compose>
+</ValueSet>
+

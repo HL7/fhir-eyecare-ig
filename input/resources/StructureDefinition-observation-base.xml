@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="observation-base" />
+  <text>
+    <status value="extensions" />
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div>The base Observation for Ophthalmology.</div>
+    </div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base" />
+  <name value="ObservationBase" />
+  <title value="Base Observation for Ophthalmology" />
+  <status value="draft" />
+  <experimental value="true" />
+  <description value="A profile describing an Observation for ophthalmology" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation.extension">
+      <path value="Observation.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.extension:laterality">
+      <path value="Observation.extension" />
+      <sliceName value="laterality" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality" />
+      </type>
+    </element>
+    <element id="Observation.category">
+      <path value="Observation.category" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="coding.code" />
+        </discriminator>
+        <discriminator>
+          <type value="value" />
+          <path value="coding.system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.category:ophthalCategory">
+      <path value="Observation.category" />
+      <sliceName value="ophthalCategory" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Observation.category:ophthalCategory.coding">
+      <path value="Observation.category.coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Observation.category:ophthalCategory.coding.system">
+      <path value="Observation.category.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category" />
+    </element>
+    <element id="Observation.category:ophthalCategory.coding.code">
+      <path value="Observation.category.coding.code" />
+      <min value="1" />
+      <fixedCode value="exam" />
+    </element>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <binding>
+        <strength value="extensible" />
+        <description value="Eye/Vision Observables" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observable-entities" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>
