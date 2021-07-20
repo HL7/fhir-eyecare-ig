@@ -1,0 +1,43 @@
+<!-- UPDATE TO VA test methods -->
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
+	<id value="conditions"/>
+	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/conditions"/>
+	<identifier>
+	   <system value="urn:ietf:rfc:3986"/>
+       <value value="urn:oid:2.16.840.1.113883.2.3.4.2.2.8"/>
+    </identifier>
+	<version value="2.1.0"/>
+	<name value="OphthalmologyConditionCodesValueSet"/>
+	<title value="Ophthalmology Condition ICD10 and SNOMED codes ValueSet"/>
+	<status value="active"/>
+	<experimental value="true"/>
+	<date value="2019-05-01"/>
+	<publisher value="Ophthalmology working group"/>
+	<contact>
+		<telecom>
+		  <system value="url" />
+		  <value value="http://hl7.com.au" />
+		  <use value="work" />
+		</telecom>
+	</contact>
+	<description value="This ValueSet represents condition codes for clinical purposes."/>
+	<copyright value=""/>
+	<compose>
+		<include>
+			<system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+		</include>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<filter>
+				<property value="concept"/>
+				<op value="descendent-of"/>
+				<value value="371405004"/>
+			</filter>
+		</include>
+	</compose>
+
+</ValueSet>
+
+
+
+
