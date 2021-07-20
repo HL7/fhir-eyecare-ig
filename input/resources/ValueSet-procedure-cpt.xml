@@ -1,0 +1,54 @@
+<!-- UPDATE TO VA test methods -->
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
+	<id value="procedures-cpt"/>
+	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/procedures-cpt"/>
+	<identifier>
+	  <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.2.3.4.2.2.8"/>
+  </identifier>
+	<version value="2.1.0"/>
+	<name value="OphthalmologyCPTProceduresValueSet"/>
+	<title value="Ophthalmology CPT Procedures ValueSet"/>
+	<status value="active"/>
+	<experimental value="true"/>
+	<date value="2019-05-01"/>
+	<publisher value="Ophthalmology working group"/>
+	<contact>
+		<telecom>
+		  <system value="url" />
+		  <value value="http://hl7.com.au" />
+		  <use value="work" />
+		</telecom>
+	</contact>
+	<description value="This ValueSet represents procedure codes for billing purposes."/>
+	<copyright value=""/>
+	<compose>
+		<include>
+			<system value="http://www.ama-assn.org/go/cpt"/>
+			<concept>
+				<code value="92081"/>
+				<display value="Scanning computerized ophthalmic diagnostic imaging, posterior segment, with interpretation and report, unilateral or bilateral; optic nerve"/>
+			</concept>
+			<concept>
+				<code value="92082"/>
+				<display value="Visual field examination, unilateral or bilateral, with interpretation and report; intermediate examination (e.g., at least 2 isopters on Goldmann perimeter, or semiquantitative, automated suprathreshold screening program, Humphrey suprathreshold automatic diagnostic test, Octopus program 33)"/>
+			</concept>
+			<concept>
+				<code value="92083"/>
+				<display value="Visual field examination, unilateral or bilateral, with interpretation and report; extended examination (e.g., Goldmann visual fields with at least 3 isopters plotted and static determination within the central 30 degrees, or quantitative, automated threshold perimetry, Octopus program G-1, 32, or 42, Humphrey visual field analyzer full threshold programs 30-2, 24-2, or 30 / 60-2)"/>
+			</concept>
+			<concept>
+				<code value="92133"/>
+				<display value="Scanning computerized ophthalmic diagnostic imaging, posterior segment, with interpretation and report, unilateral or bilateral; optic nerve."/>
+			</concept>
+			<concept>
+				<code value="92134"/>
+				<display value="Scanning computerized ophthalmic diagnostic imaging, posterior segment, with interpretation and report, unilateral or bilateral; retina"/>
+			</concept>
+		</include>
+	</compose>
+</ValueSet>
+
+
+
+

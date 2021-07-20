@@ -1,0 +1,58 @@
+
+{
+  "resourceType": "Observation",
+  "id": "vf-pattern-standard-deviation-re-0",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-visual-field"
+    ]
+  },
+  "extension": [
+    {
+      "url" : "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality",
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://snomed.info/sct",
+            "code" : "419465000",
+            "display" : "Unilateral right"
+          }
+        ]
+      }
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "421362004",
+        "system": "http://snomed.info/sct",
+        "display": "Pattern standard deviation"
+      }
+    ]
+  },
+  "status": "final",
+  "effectiveDateTime": "2013-06-27T17:04:20+04:00",
+  "valueQuantity": {
+    "value": 4.5,
+    "unit": "decibels"
+  },
+  "subject": {
+    "reference": "Patient/ophthal-patient-example-0"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "exam",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Exam"
+        }
+      ]
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "Media/visual-field-re-0"
+    }
+  ]
+}

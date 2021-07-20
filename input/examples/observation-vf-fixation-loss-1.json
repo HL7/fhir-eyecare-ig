@@ -1,0 +1,62 @@
+
+{
+  "resourceType": "Observation",
+  "id": "vf-fixation-loss-le-0",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-visual-field"
+    ]
+  },
+  "extension": [
+    {
+      "url" : "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality",
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "http://snomed.info/sct",
+            "code" : "419161000",
+            "display" : "Unilateral left"
+          }
+        ]
+      }
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "1000001",
+        "system": "http://hl7.org/fhir/uv/ophthalmology/CodeSystem/visual-field-observations",
+        "display": "Fixation loss"
+      }
+    ]
+  },
+  "status": "final",
+  "effectiveDateTime": "2013-06-27T17:04:20+04:00",
+  "valueRatio": {
+    "numerator": {
+      "value": 2
+    },
+    "denominator": {
+      "value": 15
+    }
+  },
+  "subject": {
+    "reference": "Patient/ophthal-patient-example-0"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "exam",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Exam"
+        }
+      ]
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "Media/visual-field-le-0"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="condition-base" />
+  <text>
+    <status value="extensions" />
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div>The base Condition for Ophthalmology.</div>
+    </div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/condition-base" />
+  <name value="ConditionBase" />
+  <title value="Base Condition for Ophthalmology" />
+  <status value="draft" />
+  <experimental value="true" />
+  <description value="A profile describing a Condition for ophthalmology" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Condition" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Condition" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Condition.extension">
+      <path value="Condition.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Condition.extension:laterality">
+      <path value="Condition.extension"/>
+      <sliceName value="laterality"/>
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality" />
+      </type>
+      <min value="0"/>
+      <max value="1"/>
+    </element>
+    <element id="Condition.code">
+      <path value="Condition.code" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/conditions"/>
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>
+
