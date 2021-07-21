@@ -1,7 +1,7 @@
 # Requirements
 
 ## GitHub
-The IG source code is stored in GitHub so you'll need to be a Github user and have GIT installed and available from a terminal or shell.  If you intend to contribute content to the project you'll need write permission so please contact me at woliver@oculo.com.au.
+The IG source code is stored in GitHub so you'll need to be a Github user and have GIT installed and available from a terminal or shell.  If you intend to contribute content to the project you'll need write permission so please contact us at woliver@oculo.com.au or brett.esler@oridashi.com.au
 
 ## IG Publishing Tool
 In order to build the IG you'll need to install the Java publishing tool. Instructions for doing this can be found [here](https://wiki.hl7.org/FHIR_IG_Publishing_tool).  OpenJDK seems to work fine.
