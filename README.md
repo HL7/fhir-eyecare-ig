@@ -8,7 +8,7 @@ In order to build the IG you'll need to install the Java publishing tool. Instru
 
 
 # Making changes
-Every commit to the master branch within Github will trigger a build process.  The resulting IG will be published to [https://build.fhir.org/ig/muzcat007/ophthal-collab-care-ig/].  If you're planning on making changes to the repo please create a branch make your changes and verify that you can build (using the Java tool) locally before merging into master.  The build tool has a QA function which will check for errors in the generation process.  We should be working towards 0 errors.
+Every commit to the master branch within Github will trigger a build process.  The resulting IG will be published to [http://build.fhir.org/ig/HL7/fhir-eyecare-ig/branches/master/index.html].  If you're planning on making changes to the repo please create a branch make your changes and verify that you can build (using the Java tool) locally before merging into master.  The build tool has a QA function which will check for errors in the generation process.  We should be working towards 0 errors.
 
 The status of the build can be found here [https://fhir.github.io/auto-ig-builder/builds.html]. You'll also find references to a number of other projects which can be used as examples.
 
