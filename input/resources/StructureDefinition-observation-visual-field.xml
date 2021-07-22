@@ -23,24 +23,28 @@
   <differential>
     <element id="Observation.code">
       <path value="Observation.code" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
       <slicing>
         <discriminator>
           <type value="value" />
-          <path value="coding.code" />
+          <path value="code" />
         </discriminator>
         <discriminator>
           <type value="value" />
-          <path value="coding.system" />
+          <path value="system" />
         </discriminator>
         <rules value="open" />
       </slicing>
-      <mustSupport value="true" />
+      <min value="1" />
     </element>
-    <element id="Observation.code:VisualFieldCode">
-      <path value="Observation.code" />
+    <element id="Observation.code.coding:VisualFieldCode">
+      <path value="Observation.code.coding" />
       <sliceName value="VisualFieldCode" />
       <min value="1" />
-      <mustSupport value="true" />
+      <max value="1" />
       <binding>
         <strength value="required" />
         <description value="Visual Field Observables" />

@@ -9,11 +9,11 @@
     </div>
   </text>
   <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-oct-rnfl" />
-  <name value="ObservationVisualAcuity" />
+  <name value="ObservationOCTRFNL" />
   <title value="Observation profile for OCT RNFL based observations" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="An OCT RNFL test will produce a number of observations ......" />
+  <description value="An OCT RNFL test will produce a number of observations" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
@@ -23,26 +23,30 @@
   <differential>
     <element id="Observation.code">
       <path value="Observation.code" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
       <slicing>
         <discriminator>
           <type value="value" />
-          <path value="coding.code" />
+          <path value="code" />
         </discriminator>
         <discriminator>
           <type value="value" />
-          <path value="coding.system" />
+          <path value="system" />
         </discriminator>
         <rules value="open" />
       </slicing>
-      <mustSupport value="true" />
+      <min value="1" />
     </element>
-    <element id="Observation.code:OCTRFNLCode">
-      <path value="Observation.code" />
-      <sliceName value="OCTRFNLCode" />
-      <mustSupport value="true" />
+    <element id="Observation.code.coding:OCTRFNLcode">
+      <path value="Observation.code.coding" />
+      <sliceName value="OCTRFNLcode" />
+      <min value="1" />
+      <max value="1" />
       <binding>
         <strength value="required" />
-        <description value="OCT RNFL Observables" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-oct-rnfl" />
       </binding>
     </element>
