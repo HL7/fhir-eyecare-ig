@@ -23,12 +23,26 @@
   <differential>
     <element id="Observation.code">
       <path value="Observation.code" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="coding.code" />
+        </discriminator>
+        <discriminator>
+          <type value="value" />
+          <path value="coding.system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <mustSupport value="true" />
     </element>
-    <element id="Observation.code.coding">
-      <path value="Observation.code.coding" />
-      <short value="OCT RNFL Observables" />
+    <element id="Observation.code:OCTRFNLCode">
+      <path value="Observation.code" />
+      <sliceName value="OCTRFNLCode" />
+      <mustSupport value="true" />
       <binding>
         <strength value="required" />
+        <description value="OCT RNFL Observables" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-oct-rnfl" />
       </binding>
     </element>

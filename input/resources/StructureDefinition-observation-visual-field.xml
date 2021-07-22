@@ -36,10 +36,6 @@
       </slicing>
       <mustSupport value="true" />
     </element>
-    <element id="Observation.code.coding">
-      <path value="Observation.code.coding" />
-      <mustSupport value="false" />
-    </element>
     <element id="Observation.code:VisualFieldCode">
       <path value="Observation.code" />
       <sliceName value="VisualFieldCode" />
