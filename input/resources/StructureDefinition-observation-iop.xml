@@ -20,6 +20,10 @@
   <baseDefinition value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base" />
   <derivation value="constraint" />
   <differential>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <slicing>
@@ -57,10 +61,7 @@
       <type>
         <code value="Quantity" />
       </type>
-    </element>
-    <element id="Observation.method">
-      <path value="Observation.method" />
-      <mustSupport value="false" />
+      <mustSupport value="true" />
     </element>
     <element id="Observation.method.coding">
       <path value="Observation.method.coding" />

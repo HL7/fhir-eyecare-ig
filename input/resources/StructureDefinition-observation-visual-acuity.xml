@@ -23,10 +23,12 @@
   <differential>
     <element id="Observation.code">
       <path value="Observation.code" />
+      <mustSupport value="true" />
     </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <short value="Visual Acuity Observables" />
+      <min value="1" />
       <binding>
         <strength value="required" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-va" />
@@ -34,6 +36,7 @@
     </element>
     <element id="Observation.method">
       <path value="Observation.method" />
+      <mustSupport value="true" />
     </element>
     <element id="Observation.method.coding">
       <path value="Observation.method.coding" />

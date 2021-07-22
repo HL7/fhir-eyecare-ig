@@ -38,6 +38,10 @@
         <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality" />
       </type>
     </element>
+    <element id="Observation.status">
+      <path value="Observation.status" />
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.category">
       <path value="Observation.category" />
       <slicing>
@@ -51,6 +55,7 @@
         </discriminator>
         <rules value="open" />
       </slicing>
+      <mustSupport value="true" />
     </element>
     <element id="Observation.category:ophthalCategory">
       <path value="Observation.category" />
@@ -75,6 +80,7 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
+      <mustSupport value="true" />
       <binding>
         <strength value="extensible" />
         <description value="Eye/Vision Observables" />
