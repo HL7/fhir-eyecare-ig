@@ -23,16 +23,31 @@
   <differential>
     <element id="Observation.code">
       <path value="Observation.code" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="coding.code" />
+        </discriminator>
+        <discriminator>
+          <type value="value" />
+          <path value="coding.system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
       <mustSupport value="true" />
     </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
-      <short value="Visual Field Observables" />
+      <mustSupport value="false" />
+    </element>
+    <element id="Observation.code:VisualFieldCode">
+      <path value="Observation.code" />
+      <sliceName value="VisualFieldCode" />
       <min value="1" />
-      <max value="1" />
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
+        <description value="Visual Field Observables" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-visual-field" />
       </binding>
     </element>
