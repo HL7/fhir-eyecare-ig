@@ -23,7 +23,7 @@ The following industry vendors have been integral to compilation of this impleme
 ## Diagnostic Device Manufacturers
 Carl Zeiss Meditec 
 <div>
-<img src="zeiss.svg" width="150"/>
+<img src="zeiss.svg" width="120"/>
 </div>
 * Regis Deshayes 
 * Marita Bergman
@@ -31,7 +31,7 @@ Carl Zeiss Meditec
 
 Heidelberg Engineering 
 <div>
-<img src="heidelberg.png" width="150"/>
+<img src="heidelberg.png" width="120"/>
 </div>
 * Alexander Gogol
 
@@ -55,7 +55,7 @@ Oculo
 
 Epic 
 <div>
-<img src="epic.png" width="150"/>
+<img src="epic.png" width="120"/>
 </div>
 
 ## Connectathon Participants
