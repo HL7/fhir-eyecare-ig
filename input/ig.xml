@@ -42,27 +42,16 @@
     <version value="0.9.2"/>
   </dependsOn> -->
   <definition>
+      <resource>
+      <reference>
+        <reference value="ValueSet/observation-final-status"/>
+      </reference>
+    </resource>
     <resource>
       <reference>
         <reference value="ValueSet/observable-entities"/>
       </reference>
     </resource>
-    <!--<resource>
-      <reference>
-        <reference value="ValueSet/ophthalmology-bodySite"/>
-      </reference>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/ophthalmology-observation-visual-acuity"/>
-      </reference>
-    </resource>≈
-    <resource>
-      <reference>
-        <reference value="ValueSet/ophthalmology-va-methods"/>
-      </reference>
-    </resource>
-    -->
     <resource>
       <reference>
         <reference value="ValueSet/iop-methods"/>
