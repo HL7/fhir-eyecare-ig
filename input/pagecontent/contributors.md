@@ -45,7 +45,7 @@ Heidelberg Engineering
 </td>
 </tr>
 </table>
-
+<p/><p/>
 **Electronic Medical Record Vendors**
 <table>
 <tr>
