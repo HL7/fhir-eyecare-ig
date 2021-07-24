@@ -2,18 +2,22 @@ To date, this endeavor’s achievements are owing to the commitment of an exclus
 
 ## Research Institutions 
 The following research institutions have provided foundational support and endorsement
-### National Eye Institute (NEI) 
+<table>
+<tr>
+<td>
+National Eye Institute (NEI) 
 <div>
 <img src="NEI-logo-tagline.svg" width="200"/>
 </div>
-<p/>
-
-### Save Sight Registries 
+</td>
+<td>
+Save Sight Registries 
 <div>
 <img src="SSR-USyd-3.png" width="200"/>
 </div>
-<p/>
-
+</td>
+</tr>
+</table>
 
 Additionally, many major peak ophthalmic medical bodies across the globe have informally endorsed this endeavor, but timeliness has prevented official board publication. Deepening engagement here is a priority for the next ballot cycle.
 
