@@ -2,7 +2,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="observation-final-status"/>
   <url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-final-status"/>
-  <version value="4.0.1"/>
+  <version value="0.5.0/>
   <name value="ObservationFinalStatus"/>
   <title value="ObservationFinalStatus"/>
   <status value="active"/>

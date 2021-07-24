@@ -63,6 +63,32 @@
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="Observation.value[x].value">
+      <path value="Observation.value[x].value" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.value[x].unit">
+      <path value="Observation.value[x].unit" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.value[x].system">
+      <path value="Observation.value[x].system" />
+      <min value="1" />
+      <fixedUri value="http://unitsofmeasure.org" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.value[x].code">
+      <path value="Observation.value[x].code" />
+      <min value="1" />
+      <fixedCode value="mm[Hg]" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.method">
+      <path value="Observation.method" />
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.method.coding">
       <path value="Observation.method.coding" />
       <min value="1" />

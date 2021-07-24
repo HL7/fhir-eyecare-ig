@@ -5,7 +5,7 @@
 	   <system value="urn:ietf:rfc:3986"/>
        <value value="urn:oid:2.16.840.1.113883.2.3.4.2.2.8"/>
     </identifier>
-	<version value="2.1.0"/>
+	<version value="0.5.0"/>
 	<name value="OphthalmologyObservationCataract"/>
 	<title value="Ophthalmology Observation Cataract ValueSet"/>
 	<status value="active"/>

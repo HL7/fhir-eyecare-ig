@@ -84,6 +84,10 @@
       <min value="1" />
       <fixedCode value="exam" />
     </element>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
       <min value="1" />
@@ -91,6 +95,7 @@
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
       </type>
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
