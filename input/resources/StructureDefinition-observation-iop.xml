@@ -20,10 +20,6 @@
   <baseDefinition value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.code">
-      <path value="Observation.code" />
-      <mustSupport value="true" />
-    </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <slicing>
@@ -92,6 +88,7 @@
     <element id="Observation.method.coding">
       <path value="Observation.method.coding" />
       <min value="1" />
+      <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/iop-methods" />

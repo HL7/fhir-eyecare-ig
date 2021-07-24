@@ -27,8 +27,28 @@
   <versionNeeded value="true" />
   <content value="complete" />
   <concept>
-    <code value="1000001" />
+    <code value="400204" />
     <display value="Fixation loss" />
     <definition value="Fixation loss occurs when the patient reports seeing a stimulus that is presented in the predicted area of the physiologic blind spot" />
+  </concept>
+  <concept>
+    <code value="400202" />
+    <display value="False positive percent" />
+    <definition value="Percentage of false positive responses" />
+  </concept>
+    <concept>
+    <code value="400203" />
+    <display value="False negative percent" />
+    <definition value="Percentage of false negative reponses" />
+  </concept>
+   <concept>
+    <code value="400205" />
+    <display value="False positive ratio" />
+    <definition value="Ratio of false positive responses to total responses" />
+  </concept>
+    <concept>
+    <code value="400206" />
+    <display value="False negative ratio" />
+    <definition value="Ratio of false negative responses to total responses" />
   </concept>
 </CodeSystem>
