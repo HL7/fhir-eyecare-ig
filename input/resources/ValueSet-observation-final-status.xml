@@ -1,6 +1,4 @@
 
-<?xml version="1.0" encoding="UTF-8"?>
-
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="observation-final-status"/>
   <url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-final-status"/>
@@ -16,14 +14,14 @@
   <compose>
     <include>
 			<system value="http://hl7.org/fhir/observation-status"/>
-			<concept>
+			  <concept>
 		        <code value="final"/> 
-                <display value="Final"/> 
+            <display value="Final"/> 
     		</concept>
-            <concept>
+        <concept>
 			    <code value="amended"/> 
-                <display value="Amended"/> 
-            </concept>
+          <display value="Amended"/> 
+        </concept>
       </include>
   </compose>
 </ValueSet>
