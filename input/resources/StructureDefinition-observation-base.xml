@@ -40,7 +40,13 @@
     </element>
     <element id="Observation.status">
       <path value="Observation.status" />
+      <short value="final | amended" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <description value="Reduced status set" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-final-status" />
+      </binding>
     </element>
     <element id="Observation.category">
       <path value="Observation.category" />
@@ -78,14 +84,13 @@
       <min value="1" />
       <fixedCode value="exam" />
     </element>
-    <element id="Observation.code">
-      <path value="Observation.code" />
-      <mustSupport value="true" />
-      <binding>
-        <strength value="extensible" />
-        <description value="Eye/Vision Observables" />
-        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observable-entities" />
-      </binding>
+    <element id="Observation.subject">
+      <path value="Observation.subject" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
+      </type>
     </element>
   </differential>
 </StructureDefinition>
