@@ -2,12 +2,12 @@ To date, this endeavor’s achievements are owing to the commitment of an exclus
 
 ## Research Institutions 
 The following research institutions have provided foundational support and endorsement
-* National Eye Institute (NEI) 
+### National Eye Institute (NEI) 
 <div>
 <img src="NEI-logo-tagline.svg" width="200"/>
 </div>
 
-* Save Sight Registries 
+### Save Sight Registries 
 <div>
 <img src="SSR-USyd-3.png" width="200"/>
 </div>
@@ -21,7 +21,7 @@ The following industry vendors have been integral to compilation of this impleme
 
 
 ## Diagnostic Device Manufacturers
-Carl Zeiss Meditec 
+### Carl Zeiss Meditec 
 <div>
 <img src="zeiss.svg" width="120"/>
 </div>
@@ -29,7 +29,7 @@ Carl Zeiss Meditec
 * Marita Bergman
 
 
-Heidelberg Engineering 
+### Heidelberg Engineering 
 <div>
 <img src="heidelberg.png" width="120"/>
 </div>
@@ -37,7 +37,7 @@ Heidelberg Engineering
 
 
 ## Electronic Medical Record Vendors
-Medosoft / Medisite 
+###Medosoft / Medisite 
 <div>
 <img src="medisoft.png" width="300"/>
 </div>
@@ -45,7 +45,7 @@ Medosoft / Medisite
 * Adam Child
 
 
-Oculo
+### Oculo
 <div>
 <img src="oculo.png" width="120"/>
 </div>
@@ -53,7 +53,7 @@ Oculo
 * Ashley Ramsay
 
 
-Epic 
+### Epic 
 <div>
 <img src="epic.png" width="120"/>
 </div>
@@ -77,31 +77,28 @@ Individuals
 * Prof. Nigel Morlet, MBBS, FRANZCO, FRACS
 
 ## Institutional affiliations
-* Sydney University, Sydney Eye Hospital (Sydney, Australia)
+### Sydney University, Sydney Eye Hospital (Sydney, Australia)
 <div>
 <img src="unisyd.png" width="200"/>
 </div>
 
 
-* Moorfields Eye Hospital (London, UK)
+### Moorfields Eye Hospital (London, UK)
 <div>
 <img src="moorfields.png" width="200"/>
 </div>
 
-
-* Massachusetts Eye and Ear Infirmary (Boston, USA)
+### Massachusetts Eye and Ear Infirmary (Boston, USA)
 <div>
 <img src="mass.png" width="200"/>
 </div>
 
-
-* Oregon Health and Sciences University (Portland, USA)
+### Oregon Health and Sciences University (Portland, USA)
 <div>
 <img src="oregon.png" width="200"/>
 </div>
 
-
-* University of Western Australia
+### University of Western Australia
 <div>
 <img src="uniwa.png" width="200"/>
 </div>
