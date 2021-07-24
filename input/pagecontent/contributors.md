@@ -29,15 +29,19 @@ Carl Zeiss Meditec
 <div>
 <img src="zeiss.svg" width="120"/>
 </div>
-* Regis Deshayes 
-* Marita Bergman
+<ul>
+<li>Regis Deshayes</li>
+<li>Marita Bergman</li>
+</ul>
 </td>
 <td>
 Heidelberg Engineering 
 <div>
 <img src="heidelberg.png" width="120"/>
 </div>
-* Alexander Gogol
+<ul>
+<li>Alexander Gogol</li>
+</ul>
 </td>
 </tr>
 </table>
@@ -50,16 +54,20 @@ Medosoft / Medisite
 <div>
 <img src="medisoft.png" width="120"/>
 </div>
-* Leah King 
-* Adam Child
+<ul>
+<li>Leah King</li>
+<li>Adam Child</li>
+</ul>
 </td>
 <td>
 Oculo
 <div>
 <img src="oculo.png" width="120"/>
 </div>
-* Warren Oliver
-* Ashley Ramsay
+<ul>
+<li>Warren Oliver</li>
+<li>Ashley Ramsay</li>
+</ul>
 </td>
 <td>
 Epic 
@@ -94,19 +102,20 @@ Individuals
 <table>
 <tr>
 <td>
-Sydney University, Sydney Eye Hospital (Sydney, Australia)
+Sydney University<br/>Sydney Eye Hospital (Sydney, Australia)
 <div>
 <img src="unisyd.png" width="200"/>
 </div>
 </td>
 <td>
-Moorfields Eye Hospital (London, UK)
+Moorfields Eye Hospital<br/>(London, UK)
 <div>
 <img src="moorfields.png" width="200"/>
 </div>
 </td>
 <td>
-Massachusetts Eye and Ear Infirmary (Boston, USA)
+Massachusetts Eye and Ear <br/>
+Infirmary (Boston, USA)
 <div>
 <img src="mass.png" width="200"/>
 </div>
@@ -114,7 +123,8 @@ Massachusetts Eye and Ear Infirmary (Boston, USA)
 </tr>
 <tr>
 <td>
-Oregon Health and Sciences University (Portland, USA)
+Oregon Health and Sciences <br/>
+University (Portland, USA)
 <div>
 <img src="oregon.png" width="200"/>
 </div>
