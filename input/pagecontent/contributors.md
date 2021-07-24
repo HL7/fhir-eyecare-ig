@@ -7,6 +7,7 @@ The following research institutions have provided foundational support and endor
 <img src="NEI-logo-tagline.svg" width="200"/>
 </div>
 
+
 ### Save Sight Registries 
 <div>
 <img src="SSR-USyd-3.png" width="200"/>
@@ -37,12 +38,13 @@ The following industry vendors have been integral to compilation of this impleme
 
 
 ## Electronic Medical Record Vendors
-###Medosoft / Medisite 
+### Medosoft / Medisite 
 <div>
 <img src="medisoft.png" width="300"/>
 </div>
 * Leah King 
 * Adam Child
+
 
 
 ### Oculo
@@ -53,10 +55,13 @@ The following industry vendors have been integral to compilation of this impleme
 * Ashley Ramsay
 
 
+
 ### Epic 
 <div>
 <img src="epic.png" width="120"/>
 </div>
+
+
 
 ## Connectathon Participants
 Additional May 2021 ophthalmology track participants:
@@ -88,20 +93,24 @@ Individuals
 <img src="moorfields.png" width="200"/>
 </div>
 
+
 ### Massachusetts Eye and Ear Infirmary (Boston, USA)
 <div>
 <img src="mass.png" width="200"/>
 </div>
+
 
 ### Oregon Health and Sciences University (Portland, USA)
 <div>
 <img src="oregon.png" width="200"/>
 </div>
 
+
 ### University of Western Australia
 <div>
 <img src="uniwa.png" width="200"/>
 </div>
+
 
 
 ## Implementation Guide Editors
