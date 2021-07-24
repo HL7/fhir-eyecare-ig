@@ -12,7 +12,9 @@ The following research institutions have provided foundational support and endor
 <img src="SSR-USyd-3.png" width="200"/>
 </div>
 
+
 Additionally, many major peak ophthalmic medical bodies across the globe have informally endorsed this endeavor, but timeliness has prevented official board publication. Deepening engagement here is a priority for the next ballot cycle.
+
 
 ## Industry Vendors
 The following industry vendors have been integral to compilation of this implementation guide and its overarching goals through collaborative use case development, testing and validation of IG integrity at May ‘21 HL7 FHIR connectathon and subsequent plans for real world pilot implementation in clinical settings:
@@ -20,32 +22,36 @@ The following industry vendors have been integral to compilation of this impleme
 
 ## Diagnostic Device Manufacturers
 Carl Zeiss Meditec 
-* Regis Deshayes 
-* Marita Bergman
 <div>
 <img src="zeiss.svg" width="150"/>
 </div>
+* Regis Deshayes 
+* Marita Bergman
+
 
 Heidelberg Engineering 
-* Alexander Gogol
 <div>
 <img src="heidelberg.png" width="150"/>
 </div>
+* Alexander Gogol
+
 
 ## Electronic Medical Record Vendors
 Medosoft / Medisite 
-* Leah King 
-* Adam Child
 <div>
 <img src="medisoft.png" width="300"/>
 </div>
+* Leah King 
+* Adam Child
+
 
 Oculo
+<div>
+<img src="oculo.png" width="120"/>
+</div>
 * Warren Oliver
 * Ashley Ramsay
-<div>
-<img src="oculo.png" width="150"/>
-</div>
+
 
 Epic 
 <div>
@@ -75,18 +81,26 @@ Individuals
 <div>
 <img src="unisyd.png" width="200"/>
 </div>
+
+
 * Moorfields Eye Hospital (London, UK)
 <div>
 <img src="moorfields.png" width="200"/>
 </div>
+
+
 * Massachusetts Eye and Ear Infirmary (Boston, USA)
 <div>
 <img src="mass.png" width="200"/>
 </div>
+
+
 * Oregon Health and Sciences University (Portland, USA)
 <div>
 <img src="oregon.png" width="200"/>
 </div>
+
+
 * University of Western Australia
 <div>
 <img src="uniwa.png" width="200"/>
@@ -96,7 +110,7 @@ Individuals
 ## Implementation Guide Editors
 The following technical experts drove and assembled this ophthalmology implementation guide
 * Warren Oliver (Oculo); primary developer May ‘20-May’21
-* Brett Esler (HL7 Australia): primary developer 
+* Brett Esler (HL7 Australia, Oridashi): primary developer 
 * Marco Garcia (Save Sight Registry)
 
 ## Project and Guidance 
