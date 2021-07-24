@@ -4,12 +4,12 @@ To date, this endeavor’s achievements are owing to the commitment of an exclus
 The following research institutions have provided foundational support and endorsement
 * National Eye Institute (NEI) 
 <div>
-<img src="NEI-logo-tagline.svg" width="300"/>
+<img src="NEI-logo-tagline.svg" width="200"/>
 </div>
 
 * Save Sight Registries 
 <div>
-<img src="SSR-USyd-3.png" width="300"/>
+<img src="SSR-USyd-3.png" width="200"/>
 </div>
 
 Additionally, many major peak ophthalmic medical bodies across the globe have informally endorsed this endeavor, but timeliness has prevented official board publication. Deepening engagement here is a priority for the next ballot cycle.
@@ -23,13 +23,13 @@ Carl Zeiss Meditec
 * Regis Deshayes 
 * Marita Bergman
 <div>
-<img src="zeiss.svg" width="300"/>
+<img src="zeiss.svg" width="150"/>
 </div>
 
 Heidelberg Engineering 
 * Alexander Gogol
 <div>
-<img src="heidelberg.png" width="300"/>
+<img src="heidelberg.png" width="150"/>
 </div>
 
 ## Electronic Medical Record Vendors
@@ -44,12 +44,12 @@ Oculo
 * Warren Oliver
 * Ashley Ramsay
 <div>
-<img src="oculo.png" width="300"/>
+<img src="oculo.png" width="150"/>
 </div>
 
 Epic 
 <div>
-<img src="epic.png" width="300"/>
+<img src="epic.png" width="150"/>
 </div>
 
 ## Connectathon Participants
@@ -73,23 +73,23 @@ Individuals
 ## Institutional affiliations
 * Sydney University, Sydney Eye Hospital (Sydney, Australia)
 <div>
-<img src="unisyd.png" width="300"/>
+<img src="unisyd.png" width="200"/>
 </div>
 * Moorfields Eye Hospital (London, UK)
 <div>
-<img src="moorfields.png" width="300"/>
+<img src="moorfields.png" width="200"/>
 </div>
 * Massachusetts Eye and Ear Infirmary (Boston, USA)
 <div>
-<img src="mass.png" width="300"/>
+<img src="mass.png" width="200"/>
 </div>
 * Oregon Health and Sciences University (Portland, USA)
 <div>
-<img src="oregon.png" width="300"/>
+<img src="oregon.png" width="200"/>
 </div>
 * University of Western Australia
 <div>
-<img src="uniwa.png" width="300"/>
+<img src="uniwa.png" width="200"/>
 </div>
 
 
