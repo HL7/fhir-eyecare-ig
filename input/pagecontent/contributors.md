@@ -22,20 +22,35 @@ The following industry vendors have been integral to compilation of this impleme
 Carl Zeiss Meditec 
 * Regis Deshayes 
 * Marita Bergman
+<div>
+<img src="zeiss.svg" width="300"/>
+</div>
 
 Heidelberg Engineering 
 * Alexander Gogol
+<div>
+<img src="heidelberg.png" width="300"/>
+</div>
 
 ## Electronic Medical Record Vendors
 Medosoft / Medisite 
 * Leah King 
 * Adam Child
+<div>
+<img src="medisoft.png" width="300"/>
+</div>
 
 Oculo
 * Warren Oliver
 * Ashley Ramsay
+<div>
+<img src="oculo.png" width="300"/>
+</div>
 
 Epic 
+<div>
+<img src="epic.png" width="300"/>
+</div>
 
 ## Connectathon Participants
 Additional May 2021 ophthalmology track participants:
@@ -57,10 +72,25 @@ Individuals
 
 ## Institutional affiliations
 * Sydney University, Sydney Eye Hospital (Sydney, Australia)
+<div>
+<img src="unisyd.png" width="300"/>
+</div>
 * Moorfields Eye Hospital (London, UK)
+<div>
+<img src="moorfields.png" width="300"/>
+</div>
 * Massachusetts Eye and Ear Infirmary (Boston, USA)
+<div>
+<img src="mass.png" width="300"/>
+</div>
 * Oregon Health and Sciences University (Portland, USA)
+<div>
+<img src="oregon.png" width="300"/>
+</div>
 * University of Western Australia
+<div>
+<img src="uniwa.png" width="300"/>
+</div>
 
 
 ## Implementation Guide Editors
