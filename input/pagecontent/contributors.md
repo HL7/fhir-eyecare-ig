@@ -21,47 +21,54 @@ Additionally, many major peak ophthalmic medical bodies across the globe have in
 ## Industry Vendors
 The following industry vendors have been integral to compilation of this implementation guide and its overarching goals through collaborative use case development, testing and validation of IG integrity at May ‘21 HL7 FHIR connectathon and subsequent plans for real world pilot implementation in clinical settings:
 
-
-## Diagnostic Device Manufacturers
-### Carl Zeiss Meditec 
+**Diagnostic Device Manufacturers**
+<table>
+<tr>
+<td>
+Carl Zeiss Meditec 
 <div>
 <img src="zeiss.svg" width="120"/>
 </div>
 * Regis Deshayes 
 * Marita Bergman
-<p/>
-
-### Heidelberg Engineering 
+</td>
+<td>
+Heidelberg Engineering 
 <div>
 <img src="heidelberg.png" width="120"/>
 </div>
 * Alexander Gogol
-<p/>
+</td>
+</tr>
+</table>
 
-## Electronic Medical Record Vendors
-### Medosoft / Medisite 
+**Electronic Medical Record Vendors**
+<table>
+<tr>
+<td>
+Medosoft / Medisite 
 <div>
 <img src="medisoft.png" width="120"/>
 </div>
 * Leah King 
 * Adam Child
-<p/>
-
-
-### Oculo
+</td>
+<td>
+Oculo
 <div>
 <img src="oculo.png" width="120"/>
 </div>
 * Warren Oliver
 * Ashley Ramsay
-<p/>
-
-
-### Epic 
+</td>
+<td>
+Epic 
 <div>
 <img src="epic.png" width="120"/>
 </div>
-<p/>
+</td>
+</tr>
+</table>
 
 
 ## Connectathon Participants
@@ -83,35 +90,43 @@ Individuals
 * Prof. Nigel Morlet, MBBS, FRANZCO, FRACS
 <p/>
 ## Institutional affiliations
-### Sydney University, Sydney Eye Hospital (Sydney, Australia)
+
+<table>
+<tr>
+<td>
+Sydney University, Sydney Eye Hospital (Sydney, Australia)
 <div>
 <img src="unisyd.png" width="200"/>
 </div>
-<p/>
-
-### Moorfields Eye Hospital (London, UK)
+</td>
+<td>
+Moorfields Eye Hospital (London, UK)
 <div>
 <img src="moorfields.png" width="200"/>
 </div>
-<p/>
-
-### Massachusetts Eye and Ear Infirmary (Boston, USA)
+</td>
+<td>
+Massachusetts Eye and Ear Infirmary (Boston, USA)
 <div>
 <img src="mass.png" width="200"/>
 </div>
-<p/>
-
-### Oregon Health and Sciences University (Portland, USA)
+</td>
+</tr>
+<tr>
+<td>
+Oregon Health and Sciences University (Portland, USA)
 <div>
 <img src="oregon.png" width="200"/>
 </div>
-<p/>
-
-### University of Western Australia
+</td>
+<td>
+University of Western Australia
 <div>
 <img src="uniwa.png" width="200"/>
 </div>
-<p/>
+</td>
+</tr>
+</table>
 
 
 ## Implementation Guide Editors
