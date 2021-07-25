@@ -147,8 +147,8 @@ University of Western Australia
 
 ## Implementation Guide Editors
 The following technical experts drove and assembled this ophthalmology implementation guide
-* Warren Oliver (Oculo); primary developer May ‘20-May’21
-* Brett Esler (HL7 Australia, Oridashi): primary developer 
+* Warren Oliver (Oculo); primary developer
+* Brett Esler (HL7 Australia, Oridashi) 
 * Marco Garcia (Save Sight Registry)
 <p/>
 ## Project and Guidance 
@@ -165,7 +165,7 @@ A sincere thanks to the following members and various working groups of the HL7 
 * Carolyn Hull (Secretariat, DICOM WG 20) 
 * Rob Hausum (Co-Chair, Patient Care Working Working Group, HL7 International)
 <p/>
-## Specific terminology advisory
+## Specific Terminology Advisory
 In addition to HL7 and the extended community, we’d like to acknowledge the input of the following standards and informatics bodies upon whose input and long standing iterative curation of developing medical terminologies was drawn indispensably.
 * DICOM (Digital Imaging and Communications in Medicine) community
 * SNOMED CT - a non-hierarchical codified language that represents groups of clinical terms; it has international applicability and regionally relevant adaptations 
