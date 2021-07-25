@@ -3,11 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
 	<id value="observation-oct-rnfl"/>
 	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-oct-rnfl"/>
-	<identifier>
-		<system value="urn:ietf:rfc:3986"/>
-		<value value="urn:oid:2.16.840.1.113883.2.3.4.2.2.8"/>
-	</identifier>
-	<version value="2.1.0"/>
+	<version value="0.5.0"/>
 	<name value="OphthalmologyOCTRNFLObservableEntitiesValueSet"/>
 	<title value="OCT RNFL Observable Entities ValueSet"/>
 	<status value="active"/>
