@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="observation-base" />
-  <text>
-    <status value="extensions" />
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <div>The base Observation for Ophthalmology.</div>
-    </div>
-  </text>
   <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base" />
   <name value="ObservationBase" />
   <title value="Base Observation for Ophthalmology" />
