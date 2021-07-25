@@ -19,17 +19,27 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DiagnosticReport" />
   <derivation value="constraint" />
   <differential>
+    <element id="DiagnosticReport.category">
+      <path value="DiagnosticReport.category" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
     <element id="DiagnosticReport.category.coding">
       <path value="DiagnosticReport.category.coding" />
       <min value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.category.coding.system">
       <path value="DiagnosticReport.category.coding.system" />
+      <min value="1" />
       <fixedUri value="http://terminology.hl7.org/CodeSystem/v2-0074" />
+      <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.category.coding.code">
       <path value="DiagnosticReport.category.coding.code" />
+      <min value="1" />
       <fixedCode value="OTH" />
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
