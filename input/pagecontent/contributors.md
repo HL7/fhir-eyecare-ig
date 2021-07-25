@@ -26,7 +26,7 @@ Additionally, many major peak ophthalmic medical bodies across the globe have in
 The following industry vendors have been integral to compilation of this implementation guide and its overarching goals through collaborative use case development, testing and validation of IG integrity at May ‘21 HL7 FHIR connectathon and subsequent plans for real world pilot implementation in clinical settings:
 
 **Diagnostic Device Manufacturers**
-<table>
+<table padding=3>
 <tr>
 <td>
 Carl Zeiss Meditec 
@@ -51,7 +51,7 @@ Heidelberg Engineering
 </table>
 <p/><p/>
 **Electronic Medical Record Vendors**
-<table>
+<table padding=3>
 <tr>
 <td>
 Medosoft / Medisite 
