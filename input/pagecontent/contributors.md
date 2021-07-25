@@ -27,7 +27,7 @@ The following industry vendors have been integral to compilation of this impleme
 
 **Diagnostic Device Manufacturers**
 <style>
-td { padding: 5px }
+td { padding: 6px }
 </style>
 <table>
 
