@@ -117,6 +117,8 @@ Moorfields Eye Hospital<br/>(London, UK)
 <img src="moorfields.png" width="200"/>
 </div>
 </td>
+</tr>
+<tr>
 <td>
 Massachusetts Eye and Ear <br/>
 Infirmary (Boston, USA)
@@ -124,8 +126,6 @@ Infirmary (Boston, USA)
 <img src="mass.png" width="200"/>
 </div>
 </td>
-</tr>
-<tr>
 <td>
 Oregon Health and Sciences <br/>
 University (Portland, USA)
@@ -133,6 +133,8 @@ University (Portland, USA)
 <img src="oregon.png" width="200"/>
 </div>
 </td>
+</tr>
+<tr>
 <td>
 University of Western Australia
 <div>
