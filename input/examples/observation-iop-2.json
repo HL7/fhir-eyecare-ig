@@ -13,8 +13,8 @@
         "coding" : [
           {
             "system" : "http://snomed.info/sct",
-            "code" : "419465000",
-            "display" : "Unilateral right"
+            "code" : "24028007",
+            "display" : "Right"
           }
         ]
       }
