@@ -24,7 +24,11 @@
    "category": [
       {
         "coding": [
-        
+         {
+            "code": "394594003",
+            "system": "http://snomed.info/sct",
+            "display": "Ophthalmology"
+          },
           {
             "code": "OTH",
             "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
