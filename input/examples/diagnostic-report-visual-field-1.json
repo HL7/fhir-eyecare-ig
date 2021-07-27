@@ -29,7 +29,8 @@
           "system": "http://snomed.info/sct",
           "display": "Ophthalmology"
         }
-      ]
+      ],    
+      "text": "Ophthalmology"
     }
  ],
   "code": {
