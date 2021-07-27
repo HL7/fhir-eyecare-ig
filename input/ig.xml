@@ -19,18 +19,12 @@
     </telecom>
   </contact>
   <description value="The overarching goal is to define and standardize the means through which all types of eye care and general medical providers can communicate"/>
-  <jurisdiction>
-    <!-- This will drive SNOMED release used -->
-    <coding>
-      <!-- This is the code for universal -->
-      <system value="http://unstats.un.org/unsd/methodology/m49/m49.htm"/>
-      <code value="001"/>
-      <!-- Change to this if the IG is country-specific
-      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-      <code value="001"/>
-      -->
-    </coding>
-  </jurisdiction>
+ <jurisdiction>
+		<coding>
+			<system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+			<code value="001"/>
+		</coding>
+	</jurisdiction>
   <packageId value="hl7.fhir.uv.ophthalmology"/>
   <!-- This should be changed to 'not-open-source' or another license if appropriate for non-HL7-published content -->
   <license value="CC0-1.0"/>
