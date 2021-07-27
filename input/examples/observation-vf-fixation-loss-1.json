@@ -24,7 +24,7 @@
   "code": {
     "coding": [
       {
-        "code": "1000001",
+        "code": "400204",
         "system": "http://hl7.org/fhir/uv/ophthalmology/CodeSystem/visual-field-observations",
         "display": "Fixation loss"
       }

@@ -31,47 +31,12 @@
       </slicing>
     </element>
     <element id="Procedure.extension:laterality">
-      <path value="Procedure.extension"/>
-      <sliceName value="laterality"/>
+      <path value="Procedure.extension" />
+      <sliceName value="laterality" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality" />
       </type>
-      <min value="0"/>
-      <max value="1"/>
-    </element>
-    <element id="Procedure.code.coding">
-      <path value="Procedure.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Procedure.code.coding:cpt">
-      <path value="Procedure.code.coding" />
-      <short value="CPT codes for ophthalmic procedures" />
-      <sliceName value="cpt"/>
-      <max value="1"/>
-      <min value="1"/>
-      <binding>
-        <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/procedures-cpt" />
-      </binding>
-    </element>
-    <element id="Procedure.code.coding:snomed">
-      <path value="Procedure.code.coding" />
-      <short value="SNOMED codes for ophthalmic procedures" />
-      <sliceName value="snomed"/>
-      <max value="1"/>
-      <min value="1"/>
-      <binding>
-        <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/procedures-snomed" />
-      </binding>
     </element>
   </differential>
 </StructureDefinition>
-

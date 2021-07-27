@@ -44,9 +44,9 @@
   "method": {
     "coding": [
       {
-        "code": "391939000",
+        "code": "389152008",
         "system": "http://snomed.info/sct",
-        "display": "Goldmann applanation tonometer"
+        "display": "Goldmann applanation tonometry"
       }
     ]
   },

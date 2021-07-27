@@ -7,7 +7,7 @@ These profiles have been defined by this implementation guide
 * [Visual Acuity Observation](StructureDefinition-observation-visual-acuity.html) - Visual acuity observation
 * [Intraocular Pressure Observation](StructureDefinition-observation-iop.html) - IOP observation
 
-## Diagnostic Reports
+### Diagnostic Reports
 * [Base Ophthalmic Diagnostic Report](StructureDefinition-diagnostic-report-base.html) - base report
 
 #### Anterior Segment

@@ -14,8 +14,8 @@
         "coding" : [
           {
             "system" : "http://snomed.info/sct",
-            "code" : "419161000",
-            "display" : "Unilateral left"
+            "code" : "7771000",
+            "display" : "Left"
           }
         ]
       }
@@ -24,9 +24,9 @@
   "code": {
     "coding": [
       {
-        "code": "90213003",
-        "system": "http://snomed.info/sct",
-        "display": "False positive"
+        "code": "400205",
+        "system": "http://hl7.org/fhir/uv/ophthalmology/CodeSystem/visual-field-observations",
+        "display": "False positive ratio"
       }
     ]
   },

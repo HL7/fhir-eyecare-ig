@@ -21,7 +21,7 @@
         {
            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
            "code": "unconfirmed",
-           "display": "Uconfirmed"
+           "display": "Unconfirmed"
         }
      ]
   },

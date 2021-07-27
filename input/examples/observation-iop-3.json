@@ -44,8 +44,9 @@
   "method": {
     "coding": [
       {
-        "code": "icare-home",
-        "system": "http://hl7.org/fhir/uv/ophthalmology/CodeSystem/iop-rebound-tonometry"
+        "code": "rebound-tonometry",
+        "system": "http://hl7.org/fhir/uv/ophthalmology/CodeSystem/iop-rebound-tonometry",
+        "display" : "Rebound Tonometry"
       }
     ]
   },

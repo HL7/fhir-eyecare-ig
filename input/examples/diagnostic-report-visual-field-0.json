@@ -10,17 +10,28 @@
       {
          "url": "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality",
          "valueCodeableConcept": {
-            "coding": [
+            "coding" : [
                {
-                  "system": "http://snomed.info/sct",
-                  "code": "419465000",
-                  "display": "Unilateral right"
+                 "system" : "http://snomed.info/sct",
+                 "code" : "24028007",
+                 "display" : "Right"
                }
-            ]
+             ]
          }
       }
    ],
    "status": "final",
+   "category": [
+      {
+        "coding": [
+          {
+            "code": "394594003",
+            "system": "http://snomed.info/sct",
+            "display": "Ophthalmology"
+          }
+        ]
+      }
+   ],
    "code": {
       "text": "Ophthalmic 24-2 visual field diagnostic report"
    },

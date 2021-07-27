@@ -32,13 +32,13 @@
     <element id="DiagnosticReport.category.coding.system">
       <path value="DiagnosticReport.category.coding.system" />
       <min value="1" />
-      <fixedUri value="http://terminology.hl7.org/CodeSystem/v2-0074" />
+      <fixedUri value="http://snomed.info/sct" />
       <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.category.coding.code">
       <path value="DiagnosticReport.category.coding.code" />
       <min value="1" />
-      <fixedCode value="OTH" />
+      <fixedCode value="394594003" />
       <mustSupport value="true" />
     </element>
   </differential>
