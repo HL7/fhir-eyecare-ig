@@ -57,7 +57,7 @@
     <element id="Procedure.code.coding:cptCode">
       <path value="Procedure.code.coding" />
       <sliceName value="cptCode" />
-      <min value="1" />
+      <max value="1" />
       <binding>
         <strength value="preferred" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/procedures-cpt" />
@@ -71,7 +71,7 @@
     <element id="Procedure.code.coding:snomedCode">
       <path value="Procedure.code.coding" />
       <sliceName value="snomedCode" />
-      <min value="1" />
+      <max value="1" />
       <binding>
         <strength value="preferred" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/procedures-snomed" />
