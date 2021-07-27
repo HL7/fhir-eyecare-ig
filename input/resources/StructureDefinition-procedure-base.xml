@@ -38,5 +38,39 @@
         <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality" />
       </type>
     </element>
+    <element id="Procedure.code">
+      <path value="Procedure.code" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.code.coding">
+      <path value="Procedure.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.code.coding:cptCode">
+      <path value="Procedure.code.coding" />
+      <sliceName value="cptCode" />
+      <min value="1" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/procedures-cpt" />
+      </binding>
+    </element>
+    <element id="Procedure.code.coding:snomedCode">
+      <path value="Procedure.code.coding" />
+      <sliceName value="snomedCode" />
+      <min value="1" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/procedures-snomed" />
+      </binding>
+    </element>
   </differential>
 </StructureDefinition>
