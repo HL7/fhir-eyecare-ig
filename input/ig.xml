@@ -97,13 +97,27 @@
       <name value="Practitioner Example"/>
       <exampleBoolean value="true"/>
     </resource>
-      <resource>
+    <resource>
       <reference>
         <reference value="Patient/ophthal-patient-example-0"/>
       </reference>
       <name value="Patient Example"/>
       <exampleBoolean value="true"/>
     </resource> 
+    <resource>
+      <reference>
+        <reference value="Media/visual-field-le-0"/>
+      </reference>
+      <name value="Media Example"/>
+      <exampleBoolean value="true"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="Media/visual-field-re-0"/>
+      </reference>
+      <name value="Media Example"/>
+      <exampleBoolean value="true"/>
+    </resource>
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>

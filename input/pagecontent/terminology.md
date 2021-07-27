@@ -10,8 +10,7 @@
 * [OCT RNFL observation codes](ValueSet-observation-oct-rnfl.html) - Codes to be used for OCT RNFL observations
 
 #### Condition ValueSets
-* [Condition ICD10 codes](ValueSet-conditions-icd10.html) - ICD 10 codes for ophthalmic conditions
-* [Condition SNOMED codes](ValueSet-conditions-snomed.html) - Snomed codes for ophthalmic conditions
+* [Condition codes](ValueSet-conditions.html) - ICD 10 and SNOMED codes for ophthalmic conditions
 
 #### Procedure ValueSets
-* [Procedure codes](ValueSet-procedures.html) - Codes for ophthalmic procedures
+* [Procedure codes](ValueSet-procedures.html) - SNOMED codes for ophthalmic procedures
