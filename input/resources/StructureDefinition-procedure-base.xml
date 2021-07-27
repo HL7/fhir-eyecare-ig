@@ -63,6 +63,11 @@
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/procedures-cpt" />
       </binding>
     </element>
+    <element id="Procedure.code.coding:cptCode.system">
+      <path value="Procedure.code.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://www.ama-assn.org/go/cpt" />
+    </element>
     <element id="Procedure.code.coding:snomedCode">
       <path value="Procedure.code.coding" />
       <sliceName value="snomedCode" />
@@ -71,6 +76,11 @@
         <strength value="preferred" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/procedures-snomed" />
       </binding>
+    </element>
+    <element id="Procedure.code.coding:snomedCode.system">
+      <path value="Procedure.code.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://snomed.info/sct" />
     </element>
   </differential>
 </StructureDefinition>
