@@ -25,7 +25,7 @@
       {
         "coding": [
          {
-            "code": "394594003x",
+            "code": "103752008",
             "system": "http://snomed.info/sct",
             "display": "Ophthalmology"
           },
@@ -40,7 +40,7 @@
    "code": {
       "coding": [
          {
-           "code": "103752008x",
+           "code": "394594003",
            "system": "http://snomed.info/sct",
            "display": "Perimetry"
          },
