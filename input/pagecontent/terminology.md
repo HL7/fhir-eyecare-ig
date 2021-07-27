@@ -14,4 +14,4 @@
 
 #### Procedure ValueSets
 * [SNOMED Procedure codes](ValueSet-procedures-snomed.html) - SNOMED codes for ophthalmic procedures
-* [CPT Procedure codes](ValueSet-procedures-cpt.html) - CPT codes for ophth
+* [CPT Procedure codes](ValueSet-procedures-cpt.html) - CPT codes for ophthalmic procedures
