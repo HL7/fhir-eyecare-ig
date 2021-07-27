@@ -13,4 +13,5 @@
 * [Condition codes](ValueSet-conditions.html) - ICD 10 and SNOMED codes for ophthalmic conditions
 
 #### Procedure ValueSets
-* [Procedure codes](ValueSet-procedures.html) - SNOMED codes for ophthalmic procedures
+* [SNOMED Procedure codes](ValueSet-procedures-snomed.html) - SNOMED codes for ophthalmic procedures
+* [CPT Procedure codes](ValueSet-procedures-cpt.html) - CPT codes for ophth
