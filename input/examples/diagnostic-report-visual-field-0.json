@@ -37,10 +37,15 @@
          {
            "code": "103752008",
            "system": "http://snomed.info/sct",
-           "display": "Ophthalmology"
+           "display": "Perimetry"
+         },
+         {
+            "code": "28629-4",
+            "system" : "http://loinc.org",
+            "display" : "Perimetry study"
          }
        ],    
-      "text": "Ophthalmology"
+      "text": "Perimetry"
    },
    "subject": {
       "reference": "Patient/ophthal-patient-example-0"

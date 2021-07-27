@@ -33,9 +33,16 @@
       "text": "Ophthalmology"
     }
  ],
-  "code": {
-    "text": "Ophthalmic 24-2 visual field diagnostic report"
-  },
+ "code": {
+  "coding": [
+     {
+       "code": "103752008",
+       "system": "http://snomed.info/sct",
+       "display": "Perimetry"
+     }
+   ],    
+  "text": "Perimetry"
+},
   "subject": {
     "reference": "Patient/ophthal-patient-example-0"
   },
