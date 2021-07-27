@@ -26,20 +26,35 @@
     </element>
     <element id="DiagnosticReport.category.coding">
       <path value="DiagnosticReport.category.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="code" />
+        </discriminator>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
       <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.category.coding.system">
+    <element id="DiagnosticReport.category.coding:ophthalCode">
+      <path value="DiagnosticReport.category.coding" />
+      <sliceName value="ophthalCode" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="DiagnosticReport.category.coding:ophthalCode.system">
       <path value="DiagnosticReport.category.coding.system" />
       <min value="1" />
       <fixedUri value="http://snomed.info/sct" />
-      <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.category.coding.code">
+    <element id="DiagnosticReport.category.coding:ophthalCode.code">
       <path value="DiagnosticReport.category.coding.code" />
       <min value="1" />
       <fixedCode value="394594003" />
-      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>

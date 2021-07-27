@@ -25,15 +25,33 @@
     </element>
     <element id="DiagnosticReport.code.coding">
       <path value="DiagnosticReport.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="code" />
+        </discriminator>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
       <min value="1" />
     </element>
-    <element id="DiagnosticReport.code.coding.system">
+    <element id="DiagnosticReport.code.coding:vfCode">
+      <path value="DiagnosticReport.code.coding" />
+      <sliceName value="vfCode" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="DiagnosticReport.code.coding:vfCode.system">
       <path value="DiagnosticReport.code.coding.system" />
       <min value="1" />
       <fixedUri value="http://snomed.info/sct" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.code.coding.code">
+    <element id="DiagnosticReport.code.coding:vfCode.code">
       <path value="DiagnosticReport.code.coding.code" />
       <min value="1" />
       <fixedCode value="103752008" />
