@@ -11,9 +11,11 @@
      "coding": [
         {
            "system": "http://snomed.info/sct",
-           "code": "252806005"
+           "code": "252806005",
+           "display" : "Humphrey perimeter plot"
         }
-     ]
+     ],
+     "text" : "Humphrey perimeter plot"
   },
   "subject": {
      "reference": "Patient/ophthal-patient-example-0"
