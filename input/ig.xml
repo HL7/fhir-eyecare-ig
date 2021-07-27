@@ -40,77 +40,70 @@
       <reference>
         <reference value="ValueSet/observation-final-status"/>
       </reference>
+       <name value="Final States Value Set"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/observable-entities"/>
       </reference>
+      <name value="Observable Entities Value Set"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/iop-methods"/>
       </reference>
+       <name value="IOP Methods Value Set"/>
     </resource>
         <resource>
       <reference>
         <reference value="ValueSet/location-qualifier"/>
       </reference>
+       <name value="Location Qualifier Value Set"/>
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/iop-rebound-tonometry"/>
       </reference>
+       <name value="Rebount Tonometry Code System"/>
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/diagnostic-test"/>
       </reference>
+       <name value="Diagnostic Test Code System"/>
     </resource>
-    <!-- <resource>
-      <reference>
-        <reference value="ValueSet/ophthalmology-laterality"/>
-      </reference>
-    </resource> -->
     <resource>
       <reference>
         <reference value="StructureDefinition/observation-base"/>
       </reference>
+       <name value="Observation Base"/>
     </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/observation-visual-acuity"/>
       </reference>
+       <name value="Visual Acuity"/>
     </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/observation-iop"/>
       </reference>
-    </resource>
-    <!-- <resource>
-      <reference>
-        <reference value="StructureDefinition/laterality"/>
-      </reference>
-    </resource> -->
-    <!-- <resource>
-      <reference>
-        <reference value="ValueSet/ophthalmology-condition-icd10"/>
-      </reference>
+       <name value="IOP"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/ophthalmology-condition-snomed"/>
+        <reference value="Practitioner/ophthal-practitioner-example-0"/>
       </reference>
-    </resource> -->
-    <!-- <resource>
-      <reference>
-        <reference value="StructureDefinition/observation-rapd"/>
-      </reference>
+      <name value="Practitioner Example"/>
+      <exampleBoolean value="true"/>
     </resource>
-    <resource>
+      <resource>
       <reference>
-        <reference value="StructureDefinition/observation-cataract"/>
+        <reference value="Patient/ophthal-patient-example-0"/>
       </reference>
-    </resource> -->
+      <name value="Patient Example"/>
+      <exampleBoolean value="true"/>
+    </resource> 
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>
