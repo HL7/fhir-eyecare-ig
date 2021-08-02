@@ -20,24 +20,6 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Procedure" />
   <derivation value="constraint" />
   <differential>
-    <element id="Procedure.extension">
-      <path value="Procedure.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Procedure.extension:laterality">
-      <path value="Procedure.extension" />
-      <sliceName value="laterality" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality" />
-      </type>
-    </element>
     <element id="Procedure.code">
       <path value="Procedure.code" />
       <min value="1" />
@@ -80,6 +62,38 @@
       <path value="Procedure.code.coding.system" />
       <min value="1" />
       <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Procedure.bodySite">
+      <path value="Procedure.bodySite" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.bodySite.extension">
+      <path value="Procedure.bodySite.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Procedure.bodySite.extension:bodySiteEye">
+      <path value="Procedure.bodySite.extension" />
+      <sliceName value="bodySiteEye" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/bodySite" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.bodySite.extension:bodySiteEye.value[x]">
+      <path value="Procedure.bodySite.extension.value[x]" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/BodyStructure" />
+        <targetProfile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/body-structure-eye" />
+      </type>
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>

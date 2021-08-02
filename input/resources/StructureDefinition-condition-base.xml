@@ -20,24 +20,6 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Condition" />
   <derivation value="constraint" />
   <differential>
-    <element id="Condition.extension">
-      <path value="Condition.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Condition.extension:laterality">
-      <path value="Condition.extension" />
-      <sliceName value="laterality" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality" />
-      </type>
-    </element>
     <element id="Condition.code">
       <path value="Condition.code" />
       <min value="1" />
@@ -46,6 +28,38 @@
         <strength value="preferred" />
         <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/conditions" />
       </binding>
+    </element>
+    <element id="Condition.bodySite">
+      <path value="Condition.bodySite" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.bodySite.extension">
+      <path value="Condition.bodySite.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Condition.bodySite.extension:bodySiteEye">
+      <path value="Condition.bodySite.extension" />
+      <sliceName value="bodySiteEye" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/bodySite" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.bodySite.extension:bodySiteEye.value[x]">
+      <path value="Condition.bodySite.extension.value[x]" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/BodyStructure" />
+        <targetProfile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/body-structure-eye" />
+      </type>
+      <mustSupport value="true" />
     </element>
     <element id="Condition.subject">
       <path value="Condition.subject" />

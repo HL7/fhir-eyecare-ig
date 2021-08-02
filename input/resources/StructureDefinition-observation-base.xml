@@ -73,6 +73,10 @@
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="Observation.bodySite">
+      <path value="Observation.bodySite" />
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.bodySite.extension">
       <path value="Observation.bodySite.extension" />
       <slicing>
@@ -90,6 +94,7 @@
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/StructureDefinition/bodySite" />
       </type>
+      <mustSupport value="true" />
     </element>
     <element id="Observation.bodySite.extension:bodySiteEye.value[x]">
       <path value="Observation.bodySite.extension.value[x]" />
@@ -98,6 +103,7 @@
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/BodyStructure" />
         <targetProfile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/body-structure-eye" />
       </type>
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
