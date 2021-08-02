@@ -95,7 +95,8 @@
       <path value="Observation.bodySite.extension.value[x]" />
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/body-structure-eye" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/BodyStructure" />
+        <targetProfile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/body-structure-eye" />
       </type>
     </element>
   </differential>
