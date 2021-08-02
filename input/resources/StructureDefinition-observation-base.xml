@@ -83,12 +83,19 @@
         <rules value="open" />
       </slicing>
     </element>
-    <element id="Observation.bodySite.extension:myExtension">
+    <element id="Observation.bodySite.extension:bodySiteEye">
       <path value="Observation.bodySite.extension" />
-      <sliceName value="myExtension" />
+      <sliceName value="bodySiteEye" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/StructureDefinition/bodySite" />
+      </type>
+    </element>
+    <element id="Observation.bodySite.extension:bodySiteEye.value[x]">
+      <path value="Observation.bodySite.extension.value[x]" />
+      <type>
+        <code value="Reference" />
+        <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/body-structure-eye" />
       </type>
     </element>
   </differential>
