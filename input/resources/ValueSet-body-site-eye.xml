@@ -1,0 +1,31 @@
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
+	<id value="body-site-eye"/>
+	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/body-site-eye"/>
+	<version value="0.5.0"/>
+	<name value="OphthalmologyBodySiteEye"/>
+	<title value="Ophthalmology Body Site Eye"/>
+	<status value="active"/>
+	<experimental value="true"/>
+	<date value="2021-08-03"/>
+	<publisher value="Patient Care Working Group"/>
+	<contact>
+		<telecom>
+		  <system value="url" />
+		  <value value="http://hl7.com.au" />
+		  <use value="work" />
+		</telecom>
+	</contact>
+	<description value="Body sites related to the eye"/>
+	<copyright value=""/>
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<filter>
+				<property value="concept"/>
+				<op value="descendent-of"/>
+				<value value="371398005"/>
+			</filter>
+		</include>
+	</compose>
+</ValueSet>
+

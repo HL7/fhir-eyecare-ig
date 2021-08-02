@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="body-structure-eye" />
+  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/body-structure-eye" />
+  <name value="BodyStructureEye" />
+  <title value="Body Structure Eye" />
+  <status value="draft" />
+  <experimental value="true" />
+  <description value="Profile of body structure appropriate for ophthalmology usage/" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="BodyStructure" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/BodyStructure" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="BodyStructure.location">
+      <path value="BodyStructure.location" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/body-site-eye" />
+      </binding>
+    </element>
+    <element id="BodyStructure.locationQualifier">
+      <path value="BodyStructure.locationQualifier" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="example" />
+        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/location-qualifier" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

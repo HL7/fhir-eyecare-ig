@@ -14,24 +14,6 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.extension">
-      <path value="Observation.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Observation.extension:laterality">
-      <path value="Observation.extension" />
-      <sliceName value="laterality" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality" />
-      </type>
-    </element>
     <element id="Observation.status">
       <path value="Observation.status" />
       <short value="final | amended" />
@@ -90,6 +72,24 @@
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
       </type>
       <mustSupport value="true" />
+    </element>
+    <element id="Observation.bodySite.extension">
+      <path value="Observation.bodySite.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.bodySite.extension:myExtension">
+      <path value="Observation.bodySite.extension" />
+      <sliceName value="myExtension" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/bodySite" />
+      </type>
     </element>
   </differential>
 </StructureDefinition>
