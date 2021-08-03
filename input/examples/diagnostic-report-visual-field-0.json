@@ -6,20 +6,6 @@
         "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/diagnostic-report-visual-field"
       ]
     },
-     "extension": [
-      {
-         "url": "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality",
-         "valueCodeableConcept": {
-            "coding" : [
-               {
-                 "system" : "http://snomed.info/sct",
-                 "code" : "24028007",
-                 "display" : "Right"
-               }
-             ]
-         }
-      }
-   ],
    "status": "final",
    "category": [
       {

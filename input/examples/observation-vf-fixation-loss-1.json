@@ -7,20 +7,6 @@
       "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-visual-field"
     ]
   },
-  "extension": [
-    {
-      "url" : "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/laterality",
-      "valueCodeableConcept" : {
-        "coding" : [
-          {
-            "system" : "http://snomed.info/sct",
-            "code" : "7771000",
-            "display" : "Left"
-          }
-        ]
-      }
-    }
-  ],
   "code": {
     "coding": [
       {
