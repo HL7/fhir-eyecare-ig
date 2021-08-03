@@ -10,10 +10,10 @@
   </text>
   <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-oct-macula" />
   <name value="ObservationOCTMacula" />
-  <title value="Observation profile for OCT macula based observations" />
+  <title value="OCT macular observations" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="An OCT macula test will produce a number of observations ......" />
+  <description value="OCT Macular panel observations" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
@@ -21,9 +21,6 @@
   <baseDefinition value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.code">
-      <path value="Observation.code" />
-    </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <short value="OCT macula Observables" />

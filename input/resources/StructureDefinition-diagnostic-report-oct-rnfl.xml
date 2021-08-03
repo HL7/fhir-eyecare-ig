@@ -9,7 +9,7 @@
   </text>
   <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/diagnostic-report-oct-rnfl" />
   <name value="OphthalDiagnosticReportOCTRFNL" />
-  <title value="Ophthalmic diagnostic test report" />
+  <title value="Ophthalmic OCT RFNL Report" />
   <status value="draft" />
   <experimental value="true" />
   <fhirVersion value="4.0.1" />

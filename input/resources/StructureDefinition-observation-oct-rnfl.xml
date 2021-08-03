@@ -10,7 +10,7 @@
   </text>
   <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-oct-rnfl" />
   <name value="ObservationOCTRFNL" />
-  <title value="Observation profile for OCT RNFL based observations" />
+  <title value="OCT RFNL observations" />
   <status value="draft" />
   <experimental value="true" />
   <description value="An OCT RNFL test will produce a number of observations" />
@@ -21,10 +21,6 @@
   <baseDefinition value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.code">
-      <path value="Observation.code" />
-      <mustSupport value="true" />
-    </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <slicing>

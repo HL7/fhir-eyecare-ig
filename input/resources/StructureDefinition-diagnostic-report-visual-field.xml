@@ -9,7 +9,7 @@
   </text>
   <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/diagnostic-report-visual-field" />
   <name value="OphthalDiagnosticReportForVisualField" />
-  <title value="Ophthalmic diagnostic visual field test report" />
+  <title value="Ophthalmic Visual Field Report" />
   <status value="draft" />
   <experimental value="true" />
   <fhirVersion value="4.0.1" />

@@ -16,7 +16,7 @@
 		  <use value="work" />
 		</telecom>
 	</contact>
-	<description value="This ValueSet represents condition codes for clinical purposes."/>
+	<description value="Clinical findings for the eye region."/>
 	<copyright value=""/>
 	<compose>
 		<include>
@@ -27,7 +27,7 @@
 			<filter>
 				<property value="concept"/>
 				<op value="descendent-of"/>
-				<value value="371405004"/>
+				<value value="371409005"/>
 			</filter>
 		</include>
 	</compose>
