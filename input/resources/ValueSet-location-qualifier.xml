@@ -64,5 +64,13 @@
 				<display value="Nasal"/>
 			</concept>
 		</include>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<filter>
+				<property value="concept"/>
+				<op value="descendent-of"/>
+				<value value="272485000"/>
+			</filter>
+		</include>
 	</compose>
 </ValueSet>
