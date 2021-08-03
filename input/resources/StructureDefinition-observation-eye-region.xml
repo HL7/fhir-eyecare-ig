@@ -10,7 +10,7 @@
   </text>
   <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-eye-region-finding" />
   <name value="ObservationEyeRegionFinding" />
-  <title value="Ophthalmology visual field observations" />
+  <title value="Ophthalmology Eye Region Finding" />
   <status value="draft" />
   <experimental value="true" />
   <description value="Observable finding for eye region" />

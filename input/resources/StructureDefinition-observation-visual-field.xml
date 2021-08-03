@@ -10,7 +10,7 @@
   </text>
   <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-visual-field" />
   <name value="ObservationVisualField" />
-  <title value="Ophthalmology visual field observations" />
+  <title value="Visual field observations" />
   <status value="draft" />
   <experimental value="true" />
   <description value="A profile for the visual field observations" />

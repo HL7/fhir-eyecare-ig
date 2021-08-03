@@ -10,7 +10,7 @@
   </text>
   <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-visual-acuity" />
   <name value="ObservationVisualAcuity" />
-  <title value="Ophthalmology visual acuity observation" />
+  <title value="Visual acuity observation" />
   <status value="draft" />
   <experimental value="true" />
   <description value="A profile for the visual acuity observation" />
