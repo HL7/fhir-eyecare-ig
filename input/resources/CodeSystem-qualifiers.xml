@@ -1,0 +1,49 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="qualifiers"/>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2></h2>
+      <div>
+        <p></p>
+      </div>
+    </div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/ophthalmology/CodeSystem/qualifiers"/>
+  <version value="0.5.0"/>
+  <name value="BodySiteQualifiers"/>
+  <title value="Body Site Qualifiers"/>
+  <status value="draft"/>
+  <date value="2021-08-03"/>
+  <publisher value="Patient Care Working Group"/>
+  <contact>
+    <name value="hl7.org"/>
+  </contact>
+  <description value="Additional body site qualifiers"/>
+  <copyright value="HL7"/>
+  <caseSensitive value="true"/>
+  <compositional value="false" />
+  <versionNeeded value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="superotemporal" />
+    <display value="Superotemporal" />
+    <definition value="Superotemporal" />
+  </concept>
+ <concept>
+    <code value="superonasal" />
+    <display value="Superonasal" />
+    <definition value="Superonasal" />
+  </concept>
+ <concept>
+    <code value="inferotemporal" />
+    <display value="Inferotemporal" />
+    <definition value="Inferotemporal" />
+  </concept>
+ <concept>
+    <code value="inferonasal" />
+    <display value="Inferonasal" />
+    <definition value="Inferonasal" />
+  </concept>
+ 
+</CodeSystem>

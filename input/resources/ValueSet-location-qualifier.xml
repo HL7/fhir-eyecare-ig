@@ -72,5 +72,8 @@
 				<value value="272485000"/>
 			</filter>
 		</include>
+		<include>
+			<system value="http://hl7.org/fhir/uv/ophthalmology/CodeSystem/qualifiers"/>
+		</include>
 	</compose>
 </ValueSet>
