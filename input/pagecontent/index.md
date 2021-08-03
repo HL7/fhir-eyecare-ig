@@ -23,4 +23,5 @@ To handle the supply/demand mismatch, we are seeing increasing popularity of sha
 
 - Warren Oliver
 - Ashley Kras
+- Brett Esler
 
