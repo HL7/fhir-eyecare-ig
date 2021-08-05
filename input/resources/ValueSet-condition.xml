@@ -17,7 +17,7 @@
 		</telecom>
 	</contact>
 	<description value="Clinical findings for the eye region."/>
-	<copyright value=""/>
+	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
 	<compose>
 		<include>
 			<system value="http://hl7.org/fhir/sid/icd-10-cm"/>

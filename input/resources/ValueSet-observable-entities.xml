@@ -16,7 +16,7 @@
 		</telecom>
 	</contact>
 	<description value="This ValueSet represents all of the observations that are descendants of the Eye/Vision observable SNOMED CT concept"/>
-	<copyright value=""/>
+	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
 	<compose>
 		<include>
 			<system value="http://snomed.info/sct"/>
