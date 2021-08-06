@@ -7,7 +7,7 @@
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="1.0.0"/>
   <name value="OphthalmologyImplementationGuide"/>
-  <title value="Ophthalmology Implementation Guide"/>
+  <title value="Ophthalmic Interoperable Information Exchange IG"/>
   <status value="draft"/>
   <experimental value="false"/>
   <publisher value="HL7 International - Patient Care WG"/>
