@@ -9,10 +9,10 @@
       </div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/uv-eyecare/CodeSystem/io-methods"/>
+  <url value="http://hl7.org/fhir/uv/uv-eyecare/CodeSystem/iop-methods"/>
   <version value="1.0.0"/>
-  <name value="IOPMethod/>
-  <title value="IOP Method"/>
+  <name value="IOPMethods"/>
+  <title value="IOP Methods"/>
   <status value="draft"/>
   <date value="2021-08-07"/>
  <publisher value="Patient Care Working Group"/>
