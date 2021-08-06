@@ -51,15 +51,15 @@
     </resource>
         <resource>
       <reference>
-        <reference value="ValueSet/location-qualifier"/>
+        <reference value="ValueSet/qualifier"/>
       </reference>
-       <name value="Location Qualifier Value Set"/>
+       <name value="Qualifier Value Set"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/iop-rebound-tonometry"/>
+        <reference value="CodeSystem/iop-methods"/>
       </reference>
-       <name value="Rebount Tonometry Code System"/>
+       <name value="IOP Methods Code System"/>
     </resource>
     <resource>
       <reference>
