@@ -133,6 +133,11 @@ The following technical experts drove and assembled this ophthalmology implement
 * Brett Esler (HL7 Australia, Oridashi) 
 * Marco Garcia (Save Sight Registry)
 <p/>
+
+## Input and Review
+<img src="mass.png" width="200"/><br/>
+Additional thanks to the volunteer expert input and review of the IG by Vivian Neilley and Jason Klotzerand team from Google as part of their community oriented initiative “R to O” (Research to Operation), which is resource-committed to developing and advancing open-source projects in healthcare, such as standards development.
+
 ## Project and Guidance 
 A sincere thanks to the following members and various working groups of the HL7 / FHIR community for their indispensable and dedicated navigational support, guidance and time
 * Dr. Stephen Chu MBBS, Co-Chair, Patient Care Working Group, HL7 International 
