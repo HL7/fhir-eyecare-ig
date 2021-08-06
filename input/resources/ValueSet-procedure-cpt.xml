@@ -8,7 +8,7 @@
 	<status value="active"/>
 	<experimental value="true"/>
 	<date value="2019-05-01"/>
-	<publisher value="Ophthalmology working group"/>
+	<publisher value="Patient Care Working Group"/>
 	<contact>
 		<telecom>
 		  <system value="url" />
@@ -17,7 +17,7 @@
 		</telecom>
 	</contact>
 	<description value="This ValueSet represents procedure codes for billing purposes."/>
-	<copyright value=""/>
+	<copyright value="Current Procedural Terminology (CPT) is copyright 2020 American Medical Association. All rights reserved"/>
 	<compose>
 		<include>
 			<system value="http://www.ama-assn.org/go/cpt"/>

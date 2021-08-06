@@ -7,7 +7,7 @@
   <status value="active"/>
   <experimental value="true"/>
   <date value="2021-07-24T09:29:23+11:00"/>
-  <publisher value="HL7 Ophthalmology Project"/>
+ <publisher value="Patient Care Working Group"/>
   <description value="Codes providing the status of an observation. Only final states."/>
   <immutable value="true"/>
   <compose>

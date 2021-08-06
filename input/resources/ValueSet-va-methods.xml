@@ -7,8 +7,8 @@
 	<status value="active"/>
 	<experimental value="true"/>
 	<date value="2019-05-01"/>
-	<publisher value="Ophthalmology Working Group"/>
-	<contact>
+	<publisher value="Patient Care Working Group"/>
+		<contact>
 		<telecom>
 		  <system value="url" />
 		  <value value="http://hl7.com.au" />
