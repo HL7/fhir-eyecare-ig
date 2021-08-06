@@ -2,7 +2,7 @@
 <ValueSet xmlns="http://hl7.org/fhir"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
 	<id value="observation-oct-macula"/>
-	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-oct-macula"/>
+	<url value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/observation-oct-macula"/>
 	<version value="0.5.0"/>
 	<name value="OphthalmologyOCTMaculaObservableEntitiesValueSet"/>
 	<title value="OCT Macula Observable Entities ValueSet"/>

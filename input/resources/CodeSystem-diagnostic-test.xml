@@ -6,7 +6,7 @@
       <h2>Diagnostic tests for ophthalmology</h2>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/ophthalmology/CodeSystem/diagnostic-test"/>
+  <url value="http://hl7.org/fhir/uv/uv-eyecare/CodeSystem/diagnostic-test"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.2.3.4.1.2.2"/>

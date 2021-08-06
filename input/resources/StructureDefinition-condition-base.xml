@@ -7,7 +7,7 @@
       <div>The base Condition for Ophthalmology.</div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/condition-base" />
+  <url value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/condition-base" />
   <name value="ConditionBase" />
   <title value="Base Condition for Ophthalmology" />
   <status value="draft" />
@@ -26,7 +26,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/conditions" />
+        <valueSet value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/conditions" />
       </binding>
     </element>
     <element id="Condition.bodySite">
@@ -57,7 +57,7 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/BodyStructure" />
-        <targetProfile value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/body-structure-eye" />
+        <targetProfile value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/body-structure-eye" />
       </type>
       <mustSupport value="true" />
     </element>

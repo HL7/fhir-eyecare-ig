@@ -1,7 +1,7 @@
 <!-- UPDATE TO VA test methods -->
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
 	<id value="conditions"/>
-	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/conditions"/>
+	<url value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/conditions"/>
 	<version value="0.5.0"/>
 	<name value="OphthalmologyConditionCodesValueSet"/>
 	<title value="Ophthalmology Condition ICD10 and SNOMED codes ValueSet"/>

@@ -2,22 +2,22 @@
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
-  <id value="hl7.fhir.uv.ophthalmology"/>
-  <url value="http://hl7.org/fhir/uv/ophthalmology/ImplementationGuide/ophthalmology"/>
+  <id value="uv-eyecare"/>
+  <url value="http://hl7.org/fhir/uv/uv-eyecare/ImplementationGuide/uv-eyecare"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
-  <version value="0.5.0"/>
+  <version value="1.0.0"/>
   <name value="OphthalmologyImplementationGuide"/>
   <title value="Ophthalmology Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <publisher value="HL7 International - Patient Care"/>
+  <publisher value="HL7 International - Patient Care WG"/>
   <contact>
-    <telecom>
-      <!-- Or whatever URL and/or email address(es) are appropriate -->
-      <system value="url"/>
-      <value value="http://hl7.org/Special/committees/ophthalmology"/>
-    </telecom>
-  </contact>
+        <name value="HL7 International - Patient Care"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+        </telecom>
+    </contact>
   <description value="The overarching goal is to define and standardize the means through which all types of eye care and general medical providers can communicate"/>
  <jurisdiction>
 		<coding>
@@ -25,7 +25,7 @@
 			<code value="001"/>
 		</coding>
 	</jurisdiction>
-  <packageId value="hl7.fhir.uv.ophthalmology"/>
+  <packageId value="hl7.fhir.uv.uv-eyecare"/>
   <!-- This should be changed to 'not-open-source' or another license if appropriate for non-HL7-published content -->
   <license value="CC0-1.0"/>
   <!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->

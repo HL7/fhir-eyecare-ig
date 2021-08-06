@@ -1,6 +1,6 @@
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
 	<id value="observation-nvi"/>
-	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-nvi"/>
+	<url value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/observation-nvi"/>
 	<version value="0.5.0"/>
 	<name value="OphthalmologyObservationNVI"/>
 	<title value="Ophthalmology Observation NVI ValueSet"/>

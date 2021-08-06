@@ -7,7 +7,7 @@
       <div>A specific observation profile for intraocular pressure.</div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-iop" />
+  <url value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-iop" />
   <name value="ObservationIOP" />
   <title value="Intraocular pressure of Eye Profile" />
   <status value="draft" />
@@ -17,7 +17,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Observation" />
-  <baseDefinition value="http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-base" />
+  <baseDefinition value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-base" />
   <derivation value="constraint" />
   <differential>
     <element id="Observation.code.coding">
@@ -91,7 +91,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/iop-methods" />
+        <valueSet value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/iop-methods" />
       </binding>
     </element>
   </differential>

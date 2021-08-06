@@ -1,6 +1,6 @@
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
 	<id value="body-site-eye"/>
-	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/body-site-eye"/>
+	<url value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/body-site-eye"/>
 	<version value="0.5.0"/>
 	<name value="OphthalmologyBodySiteEye"/>
 	<title value="Ophthalmology Body Site Eye"/>

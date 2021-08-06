@@ -1,7 +1,7 @@
 <!-- UPDATE TO VA test methods -->
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
 	<id value="observation-visual-field"/>
-	<url value="http://hl7.org/fhir/uv/ophthalmology/ValueSet/observation-visual-field"/>
+	<url value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/observation-visual-field"/>
 	<version value="0.5.0"/>
 	<name value="OphthalmologyVisualFieldObservableEntitiesValueSet"/>
 	<title value="Visual Field Observable Entities ValueSet"/>
@@ -34,7 +34,7 @@
 			</filter>
 		</include>
 		<include>
-			<system value="http://hl7.org/fhir/uv/ophthalmology/CodeSystem/visual-field-observations"/>
+			<system value="http://hl7.org/fhir/uv/uv-eyecare/CodeSystem/visual-field-observations"/>
 		</include>
 	</compose>
 </ValueSet>

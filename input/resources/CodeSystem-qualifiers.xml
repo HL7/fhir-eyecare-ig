@@ -9,7 +9,7 @@
       </div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/ophthalmology/CodeSystem/qualifiers"/>
+  <url value="http://hl7.org/fhir/uv/uv-eyecare/CodeSystem/qualifiers"/>
   <version value="0.5.0"/>
   <name value="BodySiteQualifiers"/>
   <title value="Body Site Qualifiers"/>

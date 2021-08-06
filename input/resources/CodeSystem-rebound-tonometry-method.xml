@@ -9,7 +9,7 @@
       </div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/ophthalmology/CodeSystem/iop-rebound-tonometry"/>
+  <url value="http://hl7.org/fhir/uv/uv-eyecare/CodeSystem/iop-rebound-tonometry"/>
   <version value="0.5.0"/>
   <name value="IOPDeviceReferences"/>
   <title value="IOP Device references"/>

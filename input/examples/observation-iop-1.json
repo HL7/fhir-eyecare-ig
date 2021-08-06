@@ -3,7 +3,7 @@
   "id": "observation-iop-goldman-le-0",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ophthalmology/StructureDefinition/observation-iop"
+      "http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-iop"
     ]
   },
   "code": {
