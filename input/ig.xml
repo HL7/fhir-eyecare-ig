@@ -51,7 +51,7 @@
     </resource>
         <resource>
       <reference>
-        <reference value="ValueSet/qualifier"/>
+        <reference value="ValueSet/qualifiers"/>
       </reference>
        <name value="Qualifier Value Set"/>
     </resource>

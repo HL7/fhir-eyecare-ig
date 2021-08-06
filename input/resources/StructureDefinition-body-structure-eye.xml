@@ -27,7 +27,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="example" />
-        <valueSet value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/location-qualifier" />
+        <valueSet value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/qualifiers" />
       </binding>
     </element>
   </differential>
