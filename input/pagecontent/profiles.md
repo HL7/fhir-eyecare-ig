@@ -12,7 +12,7 @@ The following clinical profiles have been technically validated.
 
 #### Clinical Observations (observed findings)
 
-* [Observed Finding](StructureDefinition-observation-eye-region.html) - observed finding
+* [Observed Finding](StructureDefinition-observation-eye-region-finding.html) - observed finding
 
 ### Ophthalmic Diagnoses / Conditions 
 * [Ophthalmic Diagnosis](StructureDefinition-condition-base.html) - relevant condition
