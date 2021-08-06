@@ -3,16 +3,16 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <h2></h2>
+      <h2>Additional Body Structure Qualifiers</h2>
       <div>
-        <p></p>
+        <p>Additional qualifiers</p>
       </div>
     </div>
   </text>
   <url value="http://hl7.org/fhir/uv/uv-eyecare/CodeSystem/qualifiers"/>
   <version value="1.0.0"/>
-  <name value="BodySiteQualifiers"/>
-  <title value="Body Site Qualifiers"/>
+  <name value="BodyStructureQualifiers"/>
+  <title value="Body Structure Qualifiers"/>
   <status value="draft"/>
   <date value="2021-08-03"/>
   <publisher value="Patient Care Working Group"/>
