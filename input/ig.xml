@@ -53,7 +53,7 @@
       <reference>
         <reference value="ValueSet/qualifiers"/>
       </reference>
-       <name value="Qualifier Value Set"/>
+       <name value="Qualifiers Value Set"/>
     </resource>
     <resource>
       <reference>
