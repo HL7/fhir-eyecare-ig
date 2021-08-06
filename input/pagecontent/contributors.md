@@ -5,13 +5,11 @@ The following research institutions have provided foundational support and endor
 <table>
 <tr>
 <td>
-National Eye Institute (NEI) 
 <div>
 <img src="NEI-logo-tagline.svg" width="200"/>
 </div>
 </td>
 <td>
-Save Sight Registries 
 <div>
 <img src="SSR-USyd-3.png" width="200"/>
 </div>
@@ -33,23 +31,14 @@ td { padding: 6px }
 
 <tr>
 <td>
-Carl Zeiss Meditec 
 <div>
 <img src="zeiss.svg" width="120"/>
 </div>
-<ul>
-<li>Regis Deshayes</li>
-<li>Marita Bergman</li>
-</ul>
 </td>
 <td>
-Heidelberg Engineering 
 <div>
 <img src="heidelberg.png" width="120"/>
 </div>
-<ul>
-<li>Alexander Gogol</li>
-</ul>
 </td>
 </tr>
 </table>
@@ -58,27 +47,16 @@ Heidelberg Engineering
 <table>
 <tr>
 <td>
-Medosoft / Medisite 
 <div>
 <img src="medisoft.png" width="120"/>
 </div>
-<ul>
-<li>Leah King</li>
-<li>Adam Child</li>
-</ul>
 </td>
 <td>
-Oculo
 <div>
-<img src="oculo.png" width="120"/>
+<img src="oculo.png" width="80"/>
 </div>
-<ul>
-<li>Warren Oliver</li>
-<li>Ashley Ramsay</li>
-</ul>
 </td>
 <td>
-Epic 
 <div>
 <img src="epic.png" width="120"/>
 </div>
@@ -88,12 +66,19 @@ Epic
 
 
 ## Connectathon Participants
-Additional May 2021 ophthalmology track participants:
+Ophthalmology track participants:
 * Kerry Goetz (Associate Director, NEI Office of Data Science and Health Informatics at National Eye Institute (NEI) National eye institute, NIH, USA)
 * Dr. Ashley Kras
 * Dr. Nigel Morlet
 * Dr. Hemal Mehta
 * Marco Garcia
+* Regis Deshayes
+* Marita Bergman
+* Alexander Gogol
+* Warren Oliver
+* Ashley Ramsay
+* Leah King
+* Adam Child
 <p/>
 ## Clinical Domain Experts
 The following clinical domain experts have provided major contribution, review and support:
@@ -110,13 +95,11 @@ Individuals
 <table>
 <tr>
 <td>
-Sydney University<br/>Sydney Eye Hospital (Sydney, Australia)
 <div>
 <img src="unisyd.png" width="200"/>
 </div>
 </td>
 <td>
-Moorfields Eye Hospital<br/>(London, UK)
 <div>
 <img src="moorfields.png" width="200"/>
 </div>
@@ -124,15 +107,11 @@ Moorfields Eye Hospital<br/>(London, UK)
 </tr>
 <tr>
 <td>
-Massachusetts Eye and Ear <br/>
-Infirmary (Boston, USA)
 <div>
 <img src="mass.png" width="200"/>
 </div>
 </td>
 <td>
-Oregon Health and Sciences <br/>
-University (Portland, USA)
 <div>
 <img src="oregon.png" width="200"/>
 </div>
@@ -140,7 +119,6 @@ University (Portland, USA)
 </tr>
 <tr>
 <td>
-University of Western Australia
 <div>
 <img src="uniwa.png" width="200"/>
 </div>
