@@ -63,12 +63,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/diagnostic-test"/>
-      </reference>
-       <name value="Diagnostic Test Code System"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="StructureDefinition/observation-base"/>
       </reference>
        <name value="Observation Base"/>
