@@ -158,6 +158,11 @@
         <title value="Profiles"/>
         <generation value="markdown"/>
       </page>
+       <page>
+        <nameUrl value="usecases.html"/>
+        <title value="Use Cases"/>
+        <generation value="markdown"/>
+      </page>
       <page>
         <nameUrl value="guidance.html"/>
         <title value="Guidance"/>
