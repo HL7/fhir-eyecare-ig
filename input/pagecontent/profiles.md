@@ -3,11 +3,13 @@ These profiles have been defined by this implementation guide.
 The following clinical profiles have been technically validated.
 
 ### Opthalmic Observations
+
 * [Base Observation](StructureDefinition-observation-base.html) - common content for many ophthalmic observations 
 
 #### Clinical Observations (measurable findings)
 * [Intraocular Pressure Observation](StructureDefinition-observation-iop.html) - IOP observation; foundational
 * [Visual Acuity Observation](StructureDefinition-observation-visual-acuity.html) - Visual acuity observation; foundational
+
 #### Clinical Observations (observed findings)
 
 * [Observed Finding](StructureDefinition-observation-eye-region.html) - observed finding

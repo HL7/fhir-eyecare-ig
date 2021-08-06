@@ -135,7 +135,7 @@ The following technical experts drove and assembled this ophthalmology implement
 <p/>
 
 ## Input and Review
-<img src="mass.png" width="200"/><br/>
+<img src="google.jpg" width="200"/><br/>
 Additional thanks to the volunteer expert input and review of the IG by Vivian Neilley and Jason Klotzerand team from Google as part of their community oriented initiative “R to O” (Research to Operation), which is resource-committed to developing and advancing open-source projects in healthcare, such as standards development.
 
 ## Project and Guidance 
