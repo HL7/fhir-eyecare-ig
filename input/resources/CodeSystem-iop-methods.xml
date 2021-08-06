@@ -1,25 +1,25 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
-  <id value="iop-rebound-tonometry"/>
+  <id value="iop-methods"/>
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <h2>References to devices that measure Intraocular Pressure</h2>
+      <h2>Methods to measure Intraocular Pressure</h2>
       <div>
-        <p>This is somewhat temporary until a DeviceReference resource becomes available</p>
+        <p>Additional coding for IOP observation method</p>
       </div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/uv-eyecare/CodeSystem/iop-rebound-tonometry"/>
-  <version value="0.5.0"/>
-  <name value="IOPDeviceReferences"/>
-  <title value="IOP Device references"/>
+  <url value="http://hl7.org/fhir/uv/uv-eyecare/CodeSystem/io-methods"/>
+  <version value="1.0.0"/>
+  <name value="IOPMethod/>
+  <title value="IOP Method"/>
   <status value="draft"/>
-  <date value="2018-10-04"/>
+  <date value="2021-08-07"/>
  <publisher value="Patient Care Working Group"/>
   <contact>
     <name value="hl7.org"/>
   </contact>
-  <description value="IOP additional procedure types"/>
+  <description value="IOP additional method types"/>
   <copyright value="HL7"/>
   <caseSensitive value="true"/>
   <compositional value="false" />

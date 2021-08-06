@@ -22,7 +22,9 @@ The following clinical profiles have been technically validated.
 
 
 ### Diagnostic Tests
+
 * [Base Ophthalmic Diagnostic Report](StructureDefinition-diagnostic-report-base.html) - base report
+
 #### Visual Field
 * [Visual Field Observations](StructureDefinition-observation-visual-field.html) - Visual field observations; anterior segment
 * [Visual Field Diagnostic Report](StructureDefinition-diagnostic-report-visual-field.html) - diagnostic report for visual field test; anterior segment
