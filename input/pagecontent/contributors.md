@@ -2,20 +2,9 @@ To date, this endeavor’s achievements are owing to the commitment of an exclus
 
 ### Research Institutions 
 The following research institutions have provided foundational support and endorsement
-<table>
-<tr>
-<td>
-<div>
-<img src="NEI-logo-tagline.svg" width="100"/>
-</div>
-</td>
-<td>
-<div>
-<img src="SSR-USyd-3.png" width="100"/>
-</div>
-</td>
-</tr>
-</table>
+
+<div><img src="NEI-logo-tagline.svg" width="200"/></div>
+<div><img src="SSR-USyd-3.png" width="200"/></div><br/>
 
 Additionally, many major peak ophthalmic medical bodies across the globe have informally endorsed this endeavor, but timeliness has prevented official board publication. Deepening engagement here is a priority for the next ballot cycle.
 
@@ -24,13 +13,15 @@ Additionally, many major peak ophthalmic medical bodies across the globe have in
 The following industry vendors have been integral to compilation of this implementation guide and its overarching goals through collaborative use case development, testing and validation of IG integrity at May ‘21 HL7 FHIR connectathon and subsequent plans for real world pilot implementation in clinical settings:
 
 **Diagnostic Device Manufacturers**
-<img src="zeiss.jpg" width="100"/>
-<img src="heidelberg.png" width="100"/>
+
+<div><img src="zeiss.jpg" width="80"/></div>
+<div><img src="heidelberg.png" width="80"/></div><br/>
 
 **Electronic Medical Record Vendors**
-<img src="medisoft.png" width="100"/>
-<img src="oculo.png" width="100"/>
-<img src="epic.png" width="100"/>
+
+<div><img src="medisoft.png" width="80"/></div>
+<div><img src="oculo.png" width="80"/></div>
+<div><img src="epic.png" width="80"/></div><br/>
 
 
 ### Connectathon Participants
@@ -60,11 +51,11 @@ Individuals
 <p/>
 ### Institutional affiliations
 
-<img src="unisyd.png" width="100"/>
-<img src="moorfields.png" width="100"/>
-<img src="mass.png" width="100"/>
-<img src="oregon.png" width="100"/>
-<img src="uniwa.png" width="100"/>
+<div><img src="unisyd.png" width="100"/></div>
+<div><img src="moorfields.png" width="100"/></div>
+<div><img src="mass.png" width="100"/></div>
+<div><img src="oregon.png" width="100"/></div>
+<div><img src="uniwa.png" width="100"/></div><br/><br/>
 
 ### Implementation Guide Editors
 The following technical experts drove and assembled this ophthalmology implementation guide
@@ -74,7 +65,8 @@ The following technical experts drove and assembled this ophthalmology implement
 <p/>
 
 ### Input and Review
-<img src="google.jpg" width="200"/><br/>
+<div><img src="google.jpg" width="80"/></div><br/><br/>
+
 Additional thanks to the volunteer expert input and review of the IG by Vivian Neilley and Jason Klotzerand team from Google as part of their community oriented initiative “R to O” (Research to Operation), which is resource-committed to developing and advancing open-source projects in healthcare, such as standards development.
 
 ### Project and Guidance 
