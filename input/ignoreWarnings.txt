@@ -6,13 +6,12 @@
 # Externally defined coding system
 WARNING: ValueSet/procedure-cpt: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
 
-
 # Expected non-matching for other terminology use
 INFORMATION: DiagnosticReport/diagnostic-report-visual-field-test-re-0: DiagnosticReport.category[0].coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-visual-field
 INFORMATION: DiagnosticReport/diagnostic-report-visual-field-test-re-0: DiagnosticReport.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-visual-field
 INFORMATION: DiagnosticReport/diagnostic-report-visual-field-test-le-0: DiagnosticReport.code: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/report-codes (http://hl7.org/fhir/ValueSet/report-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#103752008)
 
-# Artifat naming not supplied for these
+# Artifact naming not supplied for these
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/qualifiers.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/ophthal-practitioner-example-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/ophthal-patient-example-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
