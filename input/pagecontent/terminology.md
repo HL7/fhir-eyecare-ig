@@ -8,7 +8,7 @@
 * [Observable Entity Codes](ValueSet-observable-entities.html) - Codes to be used for Observation.code
 * [Visual Acuity Observation Codes](ValueSet-observation-visual-acuity.html) - Codes to be used for visual acuity observations
 * [Intraocular Pressure Observation methods](ValueSet-iop-methods.html) - Codes to be used for IOP method
-* [Visual Acuity Observation Methods](ValueSet-observation-va-methods.html) - Codes to be used for Visual Acuity method
+* [Visual Acuity Observation Methods](ValueSet-observation-visual-acuity-methods.html) - Codes to be used for Visual Acuity method
 * [Visual Field Observation Codes](ValueSet-observation-visual-field.html) - Codes to be used for Visual Field observations
 * [OCT Macula Observation Codes](ValueSet-observation-oct-macula.html) - Codes to be used for OCT macual observations
 * [OCT RNFL Observation Codes](ValueSet-observation-oct-rnfl.html) - Codes to be used for OCT RNFL observations
