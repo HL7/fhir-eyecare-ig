@@ -13,7 +13,7 @@
   "current" : true
  },
  {
-  "version" : "1.0.0",
+  "version" : "0.1.0",
   "date" : "2021-08-08",
   "desc" : "STU1 ballot",
   "path" : "http://hl7.org/fhir/uv/uv-eyecare/2021Sep",

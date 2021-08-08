@@ -2,7 +2,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
 	<id value="qualifiers"/>
 	<url value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/qualifiers"/>
-	<version value="1.0.0"/>
+	<version value="0.1.0"/>
 	<name value="BodyStructureQualifiers"/>
 	<title value="Body Structure Qualifiers"/>
 	<status value="active"/>
