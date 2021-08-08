@@ -3,19 +3,59 @@
 # Add warning and/or information messages here after you've confirmed that they aren't really a problem
 # (And include comments like this justifying why)
 
-# This is inherited from the base resource
-WARNING: StructureDefinition/myObservation: StructureDefinition.snapshot.element[15].mapping[3].map: value should not start or finish with whitespace
+# Externally defined coding system
+WARNING: ValueSet/procedure-cpt: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
 
-# We're expecting these to not match the slice - we're showing how you can use slicing to define the one repetition you want even when many repetitions might be present
-INFORMATION: Patient/example: Patient.name[0]: This element does not match any known slice defined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient
-INFORMATION: Patient/example: Patient.name[1]: This element does not match any known slice defined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient
 
-# If this was a real IG, there should be examples for these profiles too.  But it's not, and I'm lazy...
-WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-base: The Implementation Guide contains no examples for this profile
-WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-oct-macula: The Implementation Guide contains no examples for this profile
-WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-oct-rnfl: The Implementation Guide contains no examples for this profile
-WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/body-structure-eye: The Implementation Guide contains no examples for this profile
-WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-eye-region-finding: The Implementation Guide contains no examples for this profile
-WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-horizontal-cdr: The Implementation Guide contains no examples for this profile
-WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-oct-macula: The Implementation Guide contains no examples for this profile
-WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-oct-rnfl: The Implementation Guide contains no examples for this profile
+# Expected non-matching for other terminology use
+INFORMATION: DiagnosticReport/diagnostic-report-visual-field-test-re-0: DiagnosticReport.category[0].coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-visual-field
+INFORMATION: DiagnosticReport/diagnostic-report-visual-field-test-re-0: DiagnosticReport.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-visual-field
+INFORMATION: DiagnosticReport/diagnostic-report-visual-field-test-le-0: DiagnosticReport.code: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/report-codes (http://hl7.org/fhir/ValueSet/report-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#103752008)
+
+# Artifat naming not supplied for these
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/qualifiers.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/ophthal-practitioner-example-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/ophthal-patient-example-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Media/visual-field-le-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Media/visual-field-re-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/observation-iop-icare-home-re-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vf-fixation-loss-le-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vf-fixation-loss-re-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/observation-refraction-le-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/observation-iop-goldman-re-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vf-false-positives-re-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/perimetry-24-2-perimetry-test.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DiagnosticReport/diagnostic-report-visual-field-test-le-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/va-snellen-distance-re-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/va-snellen-corrected-le-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vf-false-positives-le-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/va-snellen-corrected-re-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vf-mean-deviation-le-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/observation-iop-goldman-le-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vf-pattern-standard-deviation-le-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vf-test-duration-re-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/condition-ophthal-glaucoma.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vf-pattern-standard-deviation-re-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/va-snellen-best-corrected-le-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vf-mean-deviation-re-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/va-snellen-best-corrected-re-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/va-snellen-distance-le-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DiagnosticReport/diagnostic-report-visual-field-test-re-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/observation-refraction-re-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vf-test-duration-le-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/observation-iop-icare-home-le-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/diagnostic-report-oct-rnfl.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/diagnostic-report-oct-macula.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/observation-oct-rnfl.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/diagnostic-report-visual-field.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/diagnostic-report-base.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+
+# Examples are not supplied for these
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/body-structure-eye'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-base'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-oct-macula'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-oct-rnfl'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-eye-region-finding'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-horizontal-cdr'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-oct-macula'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-oct-rnfl'): The Implementation Guide contains no examples for this profile
