@@ -3,7 +3,7 @@ To date, this endeavor’s achievements are owing to the commitment of an exclus
 ### Research Institutions 
 The following research institutions have provided foundational support and endorsement
 
-<div><img src="NEI-logo-tagline.svg" width="200"/><img src="SSR-USyd-3.png" width="200"/></div><br/>
+<div><img src="NEI-logo-tagline.svg" width="200"/>&nbsp;&nbsp;<img src="SSR-USyd-3.png" width="200"/></div><br/>
 
 Additionally, many major peak ophthalmic medical bodies across the globe have informally endorsed this endeavor, but timeliness has prevented official board publication. Deepening engagement here is a priority for the next ballot cycle.
 
@@ -13,11 +13,11 @@ The following industry vendors have been integral to compilation of this impleme
 
 **Diagnostic Device Manufacturers**
 
-<div><img src="zeiss.jpg" width="80"/><img src="heidelberg.png" width="80"/></div><br/>
+<div><img src="zeiss.jpg" width="80"/>&nbsp;&nbsp;<img src="heidelberg.png" width="80"/></div><br/>
 
 **Electronic Medical Record Vendors**
 
-<div><img src="medisoft.png" width="80"/><img src="oculo.png" width="80"/><img src="epic.png" width="80"/></div><br/>
+<div><img src="medisoft.png" width="80"/>&nbsp;&nbsp;<img src="oculo.png" width="60"/>&nbsp;&nbsp;<img src="epic.png" width="80"/></div><br/>
 
 
 ### Connectathon Participants
@@ -47,9 +47,9 @@ Individuals
 <p/>
 ### Institutional affiliations
 
-<div><img src="unisyd.png" width="100"/><img src="moorfields.png" width="100"/>
-<img src="mass.png" width="100"/><img src="oregon.png" width="100"/>
-<img src="uniwa.png" width="100"/></div><br/>
+<div><img src="unisyd.png" width="100"/>&nbsp;&nbsp;<img src="moorfields.png" width="100"/>
+&nbsp;&nbsp;<img src="mass.png" width="100"/>&nbsp;&nbsp;<img src="oregon.png" width="100"/>
+&nbsp;&nbsp;<img src="uniwa.png" width="100"/></div><br/>
 
 ### Implementation Guide Editors
 The following technical experts drove and assembled this ophthalmology implementation guide
