@@ -11,5 +11,11 @@ INFORMATION: Patient/example: Patient.name[0]: This element does not match any k
 INFORMATION: Patient/example: Patient.name[1]: This element does not match any known slice defined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient
 
 # If this was a real IG, there should be examples for these profiles too.  But it's not, and I'm lazy...
-WARNING: http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation: The Implementation Guide contains no examples for this profile
-WARNING: http://somewhere.org/fhir/uv/myig/StructureDefinition/mypractitioner: The Implementation Guide contains no examples for this profile
+WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-base: The Implementation Guide contains no examples for this profile
+WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-oct-macula: The Implementation Guide contains no examples for this profile
+WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-oct-rnfl: The Implementation Guide contains no examples for this profile
+WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/body-structure-eye: The Implementation Guide contains no examples for this profile
+WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-eye-region-finding: The Implementation Guide contains no examples for this profile
+WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-horizontal-cdr: The Implementation Guide contains no examples for this profile
+WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-oct-macula: The Implementation Guide contains no examples for this profile
+WARNING: http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-oct-rnfl: The Implementation Guide contains no examples for this profile
