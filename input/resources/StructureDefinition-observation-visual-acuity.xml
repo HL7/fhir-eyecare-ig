@@ -27,7 +27,7 @@
       <min value="1" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/observation-va" />
+        <valueSet value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/observation-visual-acuity" />
       </binding>
     </element>
     <element id="Observation.method">
@@ -40,7 +40,7 @@
       <min value="1" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/observation-va-methods" />
+        <valueSet value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/observation-visual-acuity-methods" />
       </binding>
     </element>
   </differential>
