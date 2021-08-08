@@ -1,20 +1,24 @@
 {
- "package-id" : "hl7.fhir.uv.ophthalmology",
- "title" : "Ophthalmology Implementation Guide",
+ "package-id" : "hl7.fhir.uv.uv-eyecare",
+ "title" : "HL7 FHIR® Implementation Guide: Ophthalmology Retinal, Release 1",
  "canonical" : "http://hl7.org/fhir/uv/uv-eyecare",
+ "category" : "Diagnostics",
  "introduction" : "This overarching goal is to develop a suite of projects and comprehensive implementation guides to serve the interoperability requirements of the ophthalmic community.",
  "list" : [{
   "version" : "current",
   "desc" : "Continuous Integration Build (latest in version control)",
   "path" : "http://build.fhir.org/ig/HL7/fhir-eyecare-ig",
   "status" : "ci-build",
+  "fhirversion" : "4.0.1",
   "current" : true
- },{
+ },
+ {
   "version" : "1.0.0",
-  "date" : "2021-08-01",
-  "desc" : "Initial STU ballot (Sep 2021 Ballot)",
+  "date" : "2021-08-08",
+  "desc" : "STU1 ballot",
   "path" : "http://hl7.org/fhir/uv/uv-eyecare/2021Sep",
   "status" : "ballot",
-  "sequence" : "STU1"
+  "sequence" : "STU1",
+  "fhirversion" : "4.0.1"
  }]
 }
