@@ -1,6 +1,3 @@
-
-## General Guidance
-
 This section outlines guidance on the interpetation and meaning of specified profiles in this implemementation guide.
 The conformance verbs - SHALL, SHOULD, MAY - used in this guide are defined in [FHIR Conformance Rules](http://hl7.org/fhir/R4/conformance-rules.html).
 

@@ -8,8 +8,9 @@ This is due to a core problem – there is no universal implementation guidance 
 Hence, "Eyes on FHIR" initiative was formed with the overarching mission to develop the  international standards that can enable FHIR ® to enhance the quality and outcomes of ophthalmic healthcare delivery. 
 
 To do this, "Eyes on FHIR" aims to represent the comprehensive ophthalmic clinical lexicon in FHIR ® format and through a series of compiled real world use cases, develop this IG to address the data exchange problems through semantically interoperable .
-
+<p>
 <img width=250 src="eye.jpg"/>
+</p>
 
 Please see the HL7 confluence page for more details and context [here](https://confluence.hl7.org/pages/viewpage.action?pageId=82914199).
  

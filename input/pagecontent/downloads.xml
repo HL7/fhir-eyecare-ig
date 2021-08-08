@@ -3,6 +3,9 @@
 {% assign excludejson = site.data.info.excludejson | downcase | slice: 0 %}
 {% assign excludettl = site.data.info.excludettl | downcase | slice: 0 %}
 	<p>
+	Useful downloads for technical implementation of this guide.
+	</p>
+	<p>
     Download the entire implementation guide <a href="full-ig.zip">here</a>
 	</p>
 	<table>
