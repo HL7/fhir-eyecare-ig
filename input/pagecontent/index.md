@@ -3,11 +3,13 @@
 
 #### Purpose 
 Despite FHIR's® popularity and maturity accelerating as a community driven and implementer-focused modern flagship of healthcare standards to support interoperable healthcare data exchange, its application to medical specialties such as ophthalmology remains limited. 
+
 This is due to a core problem – there is no universal implementation guidance (IG), which is required to enable truly systemic interoperability that holds promise to advance clinical care and catalyze biomedical research.
 Hence, "Eyes on FHIR" initiative was formed with the overarching mission to develop the  international standards that can enable FHIR ® to enhance the quality and outcomes of ophthalmic healthcare delivery. 
+
 To do this, "Eyes on FHIR" aims to represent the comprehensive ophthalmic clinical lexicon in FHIR ® format and through a series of compiled real world use cases, develop this IG to address the data exchange problems through semantically interoperable .
 
-<img width=350 src="eye.jpg"/>
+<img width=250 src="eye.jpg"/>
 
 Please see the HL7 confluence page for more details and context [here](https://confluence.hl7.org/pages/viewpage.action?pageId=82914199).
  

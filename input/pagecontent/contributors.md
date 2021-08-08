@@ -1,17 +1,17 @@
 To date, this endeavor’s achievements are owing to the commitment of an exclusively community-based, volunteer-driven collaboration of key ophthalmic and technical stakeholders. A large thanks to:
 
-## Research Institutions 
+### Research Institutions 
 The following research institutions have provided foundational support and endorsement
 <table>
 <tr>
 <td>
 <div>
-<img src="NEI-logo-tagline.svg" width="200"/>
+<img src="NEI-logo-tagline.svg" width="100"/>
 </div>
 </td>
 <td>
 <div>
-<img src="SSR-USyd-3.png" width="200"/>
+<img src="SSR-USyd-3.png" width="100"/>
 </div>
 </td>
 </tr>
@@ -20,52 +20,20 @@ The following research institutions have provided foundational support and endor
 Additionally, many major peak ophthalmic medical bodies across the globe have informally endorsed this endeavor, but timeliness has prevented official board publication. Deepening engagement here is a priority for the next ballot cycle.
 
 
-## Industry Vendors
+### Industry Vendors
 The following industry vendors have been integral to compilation of this implementation guide and its overarching goals through collaborative use case development, testing and validation of IG integrity at May ‘21 HL7 FHIR connectathon and subsequent plans for real world pilot implementation in clinical settings:
 
 **Diagnostic Device Manufacturers**
-<style>
-td { padding: 6px }
-</style>
-<table>
+<img src="zeiss.jpg" width="100"/>
+<img src="heidelberg.png" width="100"/>
 
-<tr>
-<td>
-<div>
-<img src="zeiss.svg" width="120"/>
-</div>
-</td>
-<td>
-<div>
-<img src="heidelberg.png" width="120"/>
-</div>
-</td>
-</tr>
-</table>
-<p/><p/>
 **Electronic Medical Record Vendors**
-<table>
-<tr>
-<td>
-<div>
-<img src="medisoft.png" width="120"/>
-</div>
-</td>
-<td>
-<div>
-<img src="oculo.png" width="80"/>
-</div>
-</td>
-<td>
-<div>
-<img src="epic.png" width="120"/>
-</div>
-</td>
-</tr>
-</table>
+<img src="medisoft.png" width="100"/>
+<img src="oculo.png" width="100"/>
+<img src="epic.png" width="100"/>
 
 
-## Connectathon Participants
+### Connectathon Participants
 Ophthalmology track participants:
 * Kerry Goetz (Associate Director, NEI Office of Data Science and Health Informatics at National Eye Institute (NEI) National eye institute, NIH, USA)
 * Dr. Ashley Kras
@@ -80,7 +48,7 @@ Ophthalmology track participants:
 * Leah King
 * Adam Child
 <p/>
-## Clinical Domain Experts
+### Clinical Domain Experts
 The following clinical domain experts have provided major contribution, review and support:
 Individuals
 * Dr. Ashley Kras MBBS MBI (Project Lead) FRANCZO
@@ -90,55 +58,26 @@ Individuals
 * Dr. Hemal Mehta, MBBS MD (Cantab.), FRCOphth, FRANZCO 
 * Prof. Nigel Morlet, MBBS, FRANZCO, FRACS
 <p/>
-## Institutional affiliations
+### Institutional affiliations
 
-<table>
-<tr>
-<td>
-<div>
-<img src="unisyd.png" width="200"/>
-</div>
-</td>
-<td>
-<div>
-<img src="moorfields.png" width="200"/>
-</div>
-</td>
-</tr>
-<tr>
-<td>
-<div>
-<img src="mass.png" width="200"/>
-</div>
-</td>
-<td>
-<div>
-<img src="oregon.png" width="200"/>
-</div>
-</td>
-</tr>
-<tr>
-<td>
-<div>
-<img src="uniwa.png" width="200"/>
-</div>
-</td>
-</tr>
-</table>
+<img src="unisyd.png" width="100"/>
+<img src="moorfields.png" width="100"/>
+<img src="mass.png" width="100"/>
+<img src="oregon.png" width="100"/>
+<img src="uniwa.png" width="100"/>
 
-
-## Implementation Guide Editors
+### Implementation Guide Editors
 The following technical experts drove and assembled this ophthalmology implementation guide
-* Warren Oliver (Oculo); primary developer
 * Brett Esler (HL7 Australia, Oridashi) 
+* Warren Oliver (Oculo)
 * Marco Garcia (Save Sight Registry)
 <p/>
 
-## Input and Review
+### Input and Review
 <img src="google.jpg" width="200"/><br/>
 Additional thanks to the volunteer expert input and review of the IG by Vivian Neilley and Jason Klotzerand team from Google as part of their community oriented initiative “R to O” (Research to Operation), which is resource-committed to developing and advancing open-source projects in healthcare, such as standards development.
 
-## Project and Guidance 
+### Project and Guidance 
 A sincere thanks to the following members and various working groups of the HL7 / FHIR community for their indispensable and dedicated navigational support, guidance and time
 * Dr. Stephen Chu MBBS, Co-Chair, Patient Care Working Group, HL7 International 
 * Grahame Grieve, PhD, Product Director, FHIR, HL7 International
@@ -152,7 +91,7 @@ A sincere thanks to the following members and various working groups of the HL7 
 * Carolyn Hull (Secretariat, DICOM WG 20) 
 * Rob Hausum (Co-Chair, Patient Care Working Working Group, HL7 International)
 <p/>
-## Specific Terminology Advisory
+### Specific Terminology Advisory
 In addition to HL7 and the extended community, we’d like to acknowledge the input of the following standards and informatics bodies upon whose input and long standing iterative curation of developing medical terminologies was drawn indispensably.
 * DICOM (Digital Imaging and Communications in Medicine) community
 * SNOMED CT - a non-hierarchical codified language that represents groups of clinical terms; it has international applicability and regionally relevant adaptations 
