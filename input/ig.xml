@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
   <id value="uv-eyecare"/>
-  <url value="http://hl7.org/fhir/uv/uv-eyecare/ImplementationGuide/uv-eyecare"/>
+  <url value="http://hl7.org/fhir/uv/eyecare/ImplementationGuide/uv-eyecare"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.1.0"/>
   <name value="OphthalmologyImplementationGuide"/>
@@ -25,7 +25,7 @@
 			<code value="001"/>
 		</coding>
 	</jurisdiction>
-  <packageId value="hl7.fhir.uv.uv-eyecare"/>
+  <packageId value="hl7.fhir.uv.eyecare"/>
   <!-- This should be changed to 'not-open-source' or another license if appropriate for non-HL7-published content -->
   <license value="CC0-1.0"/>
   <!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
@@ -186,7 +186,7 @@
     <!-- releaselabel should be the ballot status for HL7-published IGs. -->
     <parameter>
       <code value="releaselabel"/>
-      <value value="CI Build"/>
+      <value value="STU 1 Ballot"/>
     </parameter>
     <parameter>
       <code value="find-other-resources"/>

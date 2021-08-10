@@ -4,7 +4,7 @@
   "id": "vf-test-duration-re-0",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-visual-field"
+      "http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-visual-field"
     ]
   },
   "code": {

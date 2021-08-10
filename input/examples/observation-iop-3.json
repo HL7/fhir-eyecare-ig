@@ -3,7 +3,7 @@
   "id": "observation-iop-icare-home-le-0",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-iop"
+      "http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-iop"
     ]
   },
   "code": {
@@ -31,7 +31,7 @@
     "coding": [
       {
         "code": "rebound-tonometry",
-        "system": "http://hl7.org/fhir/uv/uv-eyecare/CodeSystem/iop-methods",
+        "system": "http://hl7.org/fhir/uv/eyecare/CodeSystem/iop-methods",
         "display" : "Rebound Tonometry"
       }
     ]

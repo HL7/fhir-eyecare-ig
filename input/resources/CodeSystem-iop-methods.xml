@@ -9,7 +9,7 @@
       </div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/uv-eyecare/CodeSystem/iop-methods"/>
+  <url value="http://hl7.org/fhir/uv/eyecare/CodeSystem/iop-methods"/>
   <version value="0.1.0"/>
   <name value="IOPMethods"/>
   <title value="IOP Methods"/>

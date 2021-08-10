@@ -7,8 +7,8 @@
 WARNING: ValueSet/procedure-cpt: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
 
 # Expected non-matching for other terminology use
-INFORMATION: DiagnosticReport/diagnostic-report-visual-field-test-re-0: DiagnosticReport.category[0].coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-visual-field
-INFORMATION: DiagnosticReport/diagnostic-report-visual-field-test-re-0: DiagnosticReport.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-visual-field
+INFORMATION: DiagnosticReport/diagnostic-report-visual-field-test-re-0: DiagnosticReport.category[0].coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-visual-field
+INFORMATION: DiagnosticReport/diagnostic-report-visual-field-test-re-0: DiagnosticReport.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-visual-field
 INFORMATION: DiagnosticReport/diagnostic-report-visual-field-test-le-0: DiagnosticReport.code: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/report-codes (http://hl7.org/fhir/ValueSet/report-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#103752008)
 
 # Artifact naming not supplied for these
@@ -50,11 +50,11 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/diagnostic-report-base.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 
 # Examples are not supplied for these
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/body-structure-eye'): The Implementation Guide contains no examples for this profile
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-base'): The Implementation Guide contains no examples for this profile
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-oct-macula'): The Implementation Guide contains no examples for this profile
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-oct-rnfl'): The Implementation Guide contains no examples for this profile
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-eye-region-finding'): The Implementation Guide contains no examples for this profile
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-horizontal-cdr'): The Implementation Guide contains no examples for this profile
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-oct-macula'): The Implementation Guide contains no examples for this profile
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-oct-rnfl'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/eyecare/StructureDefinition/body-structure-eye'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-base'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-oct-macula'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-oct-rnfl'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-eye-region-finding'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-horizontal-cdr'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-oct-macula'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-oct-rnfl'): The Implementation Guide contains no examples for this profile

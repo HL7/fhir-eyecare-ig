@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="body-structure-eye" />
-  <url value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/body-structure-eye" />
+  <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/body-structure-eye" />
   <name value="BodyStructureEye" />
   <title value="Body Structure Eye" />
   <status value="draft" />
@@ -19,7 +19,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/body-site-eye" />
+        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/body-site-eye" />
       </binding>
     </element>
     <element id="BodyStructure.locationQualifier">
@@ -27,7 +27,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="example" />
-        <valueSet value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/qualifiers" />
+        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/qualifiers" />
       </binding>
     </element>
   </differential>

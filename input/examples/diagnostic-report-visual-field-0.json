@@ -3,7 +3,7 @@
    "id": "diagnostic-report-visual-field-test-re-0",
    "meta": {
       "profile": [
-        "http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-visual-field"
+        "http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-visual-field"
       ]
     },
    "status": "final",

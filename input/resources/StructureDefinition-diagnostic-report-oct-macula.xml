@@ -7,7 +7,7 @@
       <div>Diagnostic test report for an macula OCT</div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-oct-macula" />
+  <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-oct-macula" />
   <name value="OphthalDiagnosticReportOCTMacula" />
   <title value="Ophthalmic OCT Report" />
   <status value="draft" />
@@ -16,7 +16,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="DiagnosticReport" />
-  <baseDefinition value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-base" />
+  <baseDefinition value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-base" />
   <derivation value="constraint" />
   <differential>
     <element id="DiagnosticReport.code">
@@ -45,7 +45,7 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation" />
-        <targetProfile value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-oct-macula" />
+        <targetProfile value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-oct-macula" />
       </type>
       <mustSupport value="true" />
     </element>

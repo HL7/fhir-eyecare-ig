@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="observation-base" />
-  <url value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-base" />
+  <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-base" />
   <name value="ObservationBase" />
   <title value="Base Observation for Ophthalmology" />
   <status value="draft" />
@@ -21,7 +21,7 @@
       <binding>
         <strength value="required" />
         <description value="Reduced status set" />
-        <valueSet value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/observation-final-status" />
+        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/observation-final-status" />
       </binding>
     </element>
     <element id="Observation.category">
@@ -101,7 +101,7 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/BodyStructure" />
-        <targetProfile value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/body-structure-eye" />
+        <targetProfile value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/body-structure-eye" />
       </type>
       <mustSupport value="true" />
     </element>

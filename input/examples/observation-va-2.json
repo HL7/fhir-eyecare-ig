@@ -4,7 +4,7 @@
   "id": "va-snellen-corrected-re-0",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-visual-acuity"
+      "http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-visual-acuity"
     ]
   },
   "code": {

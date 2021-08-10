@@ -7,7 +7,7 @@
       <div>Diagnostic test report for ophthalmology</div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-base" />
+  <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-base" />
   <name value="OphthalDiagnosticReport" />
   <title value="Ophthalmic diagnostic test report" />
   <status value="draft" />

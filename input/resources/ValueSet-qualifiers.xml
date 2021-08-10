@@ -1,7 +1,7 @@
 <ValueSet xmlns="http://hl7.org/fhir"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
 	<id value="qualifiers"/>
-	<url value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/qualifiers"/>
+	<url value="http://hl7.org/fhir/uv/eyecare/ValueSet/qualifiers"/>
 	<version value="0.1.0"/>
 	<name value="BodyStructureQualifiers"/>
 	<title value="Body Structure Qualifiers"/>
@@ -74,7 +74,7 @@
 			</filter>
 		</include>
 		<include>
-			<system value="http://hl7.org/fhir/uv/uv-eyecare/CodeSystem/qualifiers"/>
+			<system value="http://hl7.org/fhir/uv/eyecare/CodeSystem/qualifiers"/>
 		</include>
 	</compose>
 </ValueSet>

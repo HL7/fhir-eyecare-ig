@@ -3,7 +3,7 @@
   "id": "condition-ophthal-glaucoma",
   "meta": {
      "profile": [
-        "http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/condition-base"
+        "http://hl7.org/fhir/uv/eyecare/StructureDefinition/condition-base"
      ]
   },
   "clinicalStatus": {

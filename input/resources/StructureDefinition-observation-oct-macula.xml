@@ -8,7 +8,7 @@
       <p></p>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-oct-macula" />
+  <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-oct-macula" />
   <name value="ObservationOCTMacula" />
   <title value="OCT macular observations" />
   <status value="draft" />
@@ -18,7 +18,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Observation" />
-  <baseDefinition value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-base" />
+  <baseDefinition value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-base" />
   <derivation value="constraint" />
   <differential>
     <element id="Observation.code.coding">
@@ -26,7 +26,7 @@
       <short value="OCT macula Observables" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/uv/uv-eyecare/ValueSet/observation-oct-macula" />
+        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/observation-oct-macula" />
       </binding>
     </element>
   </differential>

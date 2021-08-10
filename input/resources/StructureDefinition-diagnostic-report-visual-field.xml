@@ -7,7 +7,7 @@
       <div>Diagnostic test report for a visual field</div>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-visual-field" />
+  <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-visual-field" />
   <name value="OphthalDiagnosticReportForVisualField" />
   <title value="Ophthalmic Visual Field Report" />
   <status value="draft" />
@@ -16,7 +16,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="DiagnosticReport" />
-  <baseDefinition value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/diagnostic-report-base" />
+  <baseDefinition value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-base" />
   <derivation value="constraint" />
   <differential>
     <element id="DiagnosticReport.code">
@@ -62,7 +62,7 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation" />
-        <targetProfile value="http://hl7.org/fhir/uv/uv-eyecare/StructureDefinition/observation-visual-field" />
+        <targetProfile value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-visual-field" />
       </type>
       <mustSupport value="true" />
     </element>

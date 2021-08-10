@@ -6,7 +6,7 @@
       <h2>Visual field test parameter obsevations</h2>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/uv/uv-eyecare/CodeSystem/visual-field-observations"/>
+  <url value="http://hl7.org/fhir/uv/eyecare/CodeSystem/visual-field-observations"/>
   <version value="0.1.0"/>
   <name value="OphthalmologyVisualFieldObservations"/>
   <title value="Visual field test parameter observations"/>
