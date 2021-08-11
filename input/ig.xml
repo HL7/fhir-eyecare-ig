@@ -192,6 +192,11 @@
       <code value="find-other-resources"/>
       <value value="true"/>
     </parameter>
+    <parameter>
+      <code value="jira-code"/>
+      <value value="uv-eyecare"/>
+    </parameter>
+
     <!-- <parameter>
       <code value="path-resource"/>
       <value value="input\history"/>
