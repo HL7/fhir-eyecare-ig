@@ -65,7 +65,7 @@ The following technical experts drove and assembled this ophthalmology implement
 
 Additional thanks to the volunteer expert input and review of the IG by Vivian Neilley and Jason Klotzerand team from Google as part of their community oriented initiative “R to O” (Research to Operation), which is resource-committed to developing and advancing open-source projects in healthcare, such as standards development.
 <p/>
-<div><img src="microsoft.png" width="80"/></div>
+<div><img src="microsoft.png" width="120"/></div>
 The support and advice from both Dr. Simon Kos and Microsoft is much appreciated.
 
 ### Project and Guidance 

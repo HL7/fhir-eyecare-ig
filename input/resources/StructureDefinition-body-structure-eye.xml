@@ -26,7 +26,7 @@
       <path value="BodyStructure.locationQualifier" />
       <mustSupport value="true" />
       <binding>
-        <strength value="example" />
+        <strength value="preferred" />
         <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/qualifiers" />
       </binding>
     </element>

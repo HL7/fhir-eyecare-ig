@@ -1,0 +1,25 @@
+{
+    "resourceType": "BodyStructure",
+    "id": "bodystructure-right-eye",
+    "location": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "244486005",
+          "display": "Entire eye"
+        }
+      ]
+    },
+    "locationQualifier": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "24028007",
+            "display": "Right"
+          }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/ophthal-patient-example-0"
+    }
+  }
