@@ -5,6 +5,7 @@
 
 # Externally defined coding system
 WARNING: ValueSet/procedure-cpt: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet.where(id = 'procedure-cpt'): Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt
 
 # Expected non-matching for other terminology use
 INFORMATION: DiagnosticReport/diagnostic-report-visual-field-test-re-0: DiagnosticReport.category[0].coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-visual-field
