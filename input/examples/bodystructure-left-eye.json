@@ -3,15 +3,15 @@
     "id": "bodystructure-left-eye",
     "location": {
       "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "244486005",
-          "display": "Entire eye"
-        }
-      ],
-      "text": ""
+          {
+            "system": "http://snomed.info/sct",
+            "code": "244486005",
+            "display": "Entire eye"
+          }
+      ]
     },
-    "locationQualifier": {
+    "locationQualifier": [
+      {
         "coding": [
           {
             "system": "http://snomed.info/sct",
@@ -19,8 +19,9 @@
             "display": "Left"
           }
         ]
-    },
-    "subject": {
+      }
+    ],
+    "patient": {
         "reference": "Patient/ophthal-patient-example-0"
     }
   }

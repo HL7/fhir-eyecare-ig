@@ -5,7 +5,7 @@ The following clinical profiles have been technically validated.
 ### Opthalmic Observations
 
 * [Base Observation](StructureDefinition-observation-base.html) - common content for many ophthalmic observations 
-* [Body Structure Eye](StructureDefinition-body-structure-eye) - profile for eye related body structure
+* [Body Structure Eye](StructureDefinition-body-structure-eye.html) - profile for eye related body structure
 
 #### Clinical Observations (measurable findings)
 * [Intraocular Pressure Observation](StructureDefinition-observation-iop.html) - IOP observation; foundational

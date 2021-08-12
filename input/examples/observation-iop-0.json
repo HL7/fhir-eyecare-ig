@@ -6,6 +6,17 @@
       "http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-iop"
     ]
   },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "exam",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Exam"
+        }
+      ]
+    }
+  ],
   "code": {
     "coding": [
       {
@@ -27,6 +38,17 @@
   "subject": {
     "reference": "Patient/ophthal-patient-example-0"
   },
+  "bodySite": {
+    "extension": [
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/bodySite",
+        "valueReference" : { 
+          "reference" : "BodyStructure/bodystructure-left-eye"
+        }
+
+      }
+    ]
+  }
   "method": {
     "coding": [
       {
@@ -35,16 +57,5 @@
         "display": "Goldmann applanation tonometry"
       }
     ]
-  },
-  "category": [
-    {
-      "coding": [
-        {
-          "code": "exam",
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "display": "Exam"
-        }
-      ]
-    }
-  ]
+  }
 }

@@ -48,6 +48,9 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/observation-oct-rnfl.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/diagnostic-report-visual-field.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/diagnostic-report-base.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource BodyStructure/bodystructure-right-eye.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource BodyStructure/bodystructure-left-eye.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+
 
 # Examples are not supplied for these
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/eyecare/StructureDefinition/body-structure-eye'): The Implementation Guide contains no examples for this profile
