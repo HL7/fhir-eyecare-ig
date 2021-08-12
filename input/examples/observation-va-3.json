@@ -22,6 +22,17 @@
     "value": 0.18,
     "unit": "logmar"
   },
+  "bodySite": {
+    "extension": [
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/bodySite",
+        "valueReference" : { 
+          "reference" : "BodyStructure/bodystructure-left-eye"
+        }
+
+      }
+    ]
+  },
   "method": {
     "coding": [
       {

@@ -25,6 +25,17 @@
   "subject": {
     "reference": "Patient/ophthal-patient-example-0"
   },
+  "bodySite": {
+    "extension": [
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/bodySite",
+        "valueReference" : { 
+          "reference" : "BodyStructure/bodystructure-left-eye"
+        }
+
+      }
+    ]
+  },
   "category": [
     {
       "coding": [

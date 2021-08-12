@@ -81,14 +81,14 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Body Structure/bodystructure-right-eye"/>
+        <reference value="BodyStructure/bodystructure-right-eye"/>
       </reference>
       <name value="Right Eye Body Structure"/>
       <exampleBoolean value="true"/>
     </resource>
         <resource>
       <reference>
-        <reference value="Body Structure/bodystructure-left-eye"/>
+        <reference value="BodyStructure/bodystructure-left-eye"/>
       </reference>
       <name value="Left Eye Body Structure"/>
       <exampleBoolean value="true"/>
