@@ -81,6 +81,20 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Body Structure/bodystructure-right-eye"/>
+      </reference>
+      <name value="Right Eye Body Structure"/>
+      <exampleBoolean value="true"/>
+    </resource>
+        <resource>
+      <reference>
+        <reference value="Body Structure/bodystructure-left-eye"/>
+      </reference>
+      <name value="Left Eye Body Structure"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Practitioner/ophthal-practitioner-example-0"/>
       </reference>
       <name value="Practitioner Example"/>
