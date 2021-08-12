@@ -41,7 +41,7 @@ Individuals
 * Dr. Ashley Kras MBBS MBI (Project Lead) FRANCZO
 * Prof. Mark Gillies, MBBS, MD., Ph.D, FRANZCO
 * Prof. Thomas Hwang, MD
-* A/ Prof. John Miller, MD
+* A/Prof. John Miller, MD
 * Dr. Hemal Mehta, MBBS MD (Cantab.), FRCOphth, FRANZCO 
 * Prof. Nigel Morlet, MBBS, FRANZCO, FRACS
 <p/>
@@ -64,6 +64,9 @@ The following technical experts drove and assembled this ophthalmology implement
 <div><img src="google.jpg" width="80"/></div>
 
 Additional thanks to the volunteer expert input and review of the IG by Vivian Neilley and Jason Klotzerand team from Google as part of their community oriented initiative “R to O” (Research to Operation), which is resource-committed to developing and advancing open-source projects in healthcare, such as standards development.
+<p/>
+<div><img src="microsoft.png" width="80"/></div>
+The support and advice from both Dr. Simon Kos and Microsoft is much appreciated.
 
 ### Project and Guidance 
 A sincere thanks to the following members and various working groups of the HL7 / FHIR community for their indispensable and dedicated navigational support, guidance and time
@@ -71,13 +74,14 @@ A sincere thanks to the following members and various working groups of the HL7 
 * Grahame Grieve, PhD, Product Director, FHIR, HL7 International
 * HL7 international Patient Care Work Group co-chairs and members - September ballot sponsor
 * HL7 international EHR Work Group co-chairs and members - September ballot co-sponsor
+* Rob Hausum (Co-Chair, Patient Care Working Working Group, HL7 International)
 <p/>
-* Imaging Integration (HL7 international) / DICOM (WG 20) collaboration:
+
+Imaging Integration (HL7 international) / DICOM (WG 20) collaboration:
 * Jonathan Whitbey (Co-Chair, Imaging Integration Working Group, HL7 International
 * Chris Lindop (Co-Chair, Imaging Integration Working Group, HL7 International)
 * Elliot Silver (Facilitator - vocabulary, Imaging Integration Working Group, HL7 International)
 * Carolyn Hull (Secretariat, DICOM WG 20) 
-* Rob Hausum (Co-Chair, Patient Care Working Working Group, HL7 International)
 <p/>
 ### Specific Terminology Advisory
 In addition to HL7 and the extended community, we’d like to acknowledge the input of the following standards and informatics bodies upon whose input and long standing iterative curation of developing medical terminologies was drawn indispensably.
