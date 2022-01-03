@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/uv/eyecare/2021Sep" ciUrl="http://build.fhir.org/ig/HL7/fhir-eyecare-ig" defaultVersion="0.1.0" defaultWorkgroup="pc" gitUrl="https://github.com/HL7/fhir-eyecare-ig" url="http://hl7.org/fhir/uv/eyecare">
+<version code="current" url="http://build.fhir.org/ig/HL7/fhir-eyecare-ig"/>
+<version code="0.1.0" url="http://hl7.org/fhir/uv/eyecare/2021Sep"/>
+<artifactPageExtension value="-definitions"/>
+<artifactPageExtension value="-examples"/>
+<artifactPageExtension value="-mappings"/>
+<artifact deprecated="true" id="CodeSystem/qualifiers" key="CodesSystem-qualifiers" name="Additional Body Structure Qualifiers Code System"/>
+<artifact id="StructureDefinition/condition-base" key="StructureDefinition-condition-base" name="Base Condition for Ophthalmology"/>
+<artifact id="StructureDefinition/procedure-base" key="StructureDefinition-procedure-base" name="Base Procedure for Ophthalmology"/>
+<artifact id="StructureDefinition/body-structure-eye" key="StructureDefinition-body-structure-eye" name="Body Structure Eye"/>
+<artifact id="CodeSystem/qualifiers" key="CodeSystem-qualifiers" name="Body Structure Qualifiers"/>
+<artifact id="Condition/condition-ophthal-glaucoma" key="Condition-condition-ophthal-glaucoma" name="Example Condition - condition-ophthal-glaucoma"/>
+<artifact id="DiagnosticReport/diagnostic-report-visual-field-test-le-0" key="DiagnosticReport-diagnostic-report-visual-field-test-le-0" name="Example DiagnosticReport - diagnostic-report-visual-field-test-le-0"/>
+<artifact id="DiagnosticReport/diagnostic-report-visual-field-test-re-0" key="DiagnosticReport-diagnostic-report-visual-field-test-re-0" name="Example DiagnosticReport - diagnostic-report-visual-field-test-re-0"/>
+<artifact id="Observation/observation-iop-goldman-le-0" key="Observation-observation-iop-goldman-le-0" name="Example Observation - observation-iop-goldman-le-0"/>
+<artifact id="Observation/observation-iop-goldman-re-0" key="Observation-observation-iop-goldman-re-0" name="Example Observation - observation-iop-goldman-re-0"/>
+<artifact id="Observation/observation-iop-icare-home-le-0" key="Observation-observation-iop-icare-home-le-0" name="Example Observation - observation-iop-icare-home-le-0"/>
+<artifact id="Observation/observation-iop-icare-home-re-0" key="Observation-observation-iop-icare-home-re-0" name="Example Observation - observation-iop-icare-home-re-0"/>
+<artifact id="Observation/observation-refraction-le-0" key="Observation-observation-refraction-le-0" name="Example Observation - observation-refraction-le-0"/>
+<artifact id="Observation/observation-refraction-re-0" key="Observation-observation-refraction-re-0" name="Example Observation - observation-refraction-re-0"/>
+<artifact id="Observation/va-snellen-best-corrected-le-0" key="Observation-va-snellen-best-corrected-le-0" name="Example Observation - va-snellen-best-corrected-le-0"/>
+<artifact id="Observation/va-snellen-best-corrected-re-0" key="Observation-va-snellen-best-corrected-re-0" name="Example Observation - va-snellen-best-corrected-re-0"/>
+<artifact id="Observation/va-snellen-corrected-le-0" key="Observation-va-snellen-corrected-le-0" name="Example Observation - va-snellen-corrected-le-0"/>
+<artifact id="Observation/va-snellen-corrected-re-0" key="Observation-va-snellen-corrected-re-0" name="Example Observation - va-snellen-corrected-re-0"/>
+<artifact id="Observation/va-snellen-distance-le-0" key="Observation-va-snellen-distance-le-0" name="Example Observation - va-snellen-distance-le-0"/>
+<artifact id="Observation/va-snellen-distance-re-0" key="Observation-va-snellen-distance-re-0" name="Example Observation - va-snellen-distance-re-0"/>
+<artifact id="Observation/vf-false-positives-le-0" key="Observation-vf-false-positives-le-0" name="Example Observation - vf-false-positives-le-0"/>
+<artifact id="Observation/vf-false-positives-re-0" key="Observation-vf-false-positives-re-0" name="Example Observation - vf-false-positives-re-0"/>
+<artifact id="Observation/vf-fixation-loss-le-0" key="Observation-vf-fixation-loss-le-0" name="Example Observation - vf-fixation-loss-le-0"/>
+<artifact id="Observation/vf-fixation-loss-re-0" key="Observation-vf-fixation-loss-re-0" name="Example Observation - vf-fixation-loss-re-0"/>
+<artifact id="Observation/vf-mean-deviation-le-0" key="Observation-vf-mean-deviation-le-0" name="Example Observation - vf-mean-deviation-le-0"/>
+<artifact id="Observation/vf-mean-deviation-re-0" key="Observation-vf-mean-deviation-re-0" name="Example Observation - vf-mean-deviation-re-0"/>
+<artifact id="Observation/vf-pattern-standard-deviation-le-0" key="Observation-vf-pattern-standard-deviation-le-0" name="Example Observation - vf-pattern-standard-deviation-le-0"/>
+<artifact id="Observation/vf-pattern-standard-deviation-re-0" key="Observation-vf-pattern-standard-deviation-re-0" name="Example Observation - vf-pattern-standard-deviation-re-0"/>
+<artifact id="Observation/vf-test-duration-le-0" key="Observation-vf-test-duration-le-0" name="Example Observation - vf-test-duration-le-0"/>
+<artifact id="Observation/vf-test-duration-re-0" key="Observation-vf-test-duration-re-0" name="Example Observation - vf-test-duration-re-0"/>
+<artifact id="Procedure/perimetry-24-2-perimetry-test" key="Procedure-perimetry-24-2-perimetry-test" name="Example Procedure - perimetry-24-2-perimetry-test"/>
+<artifact id="ValueSet/observation-final-status" key="ValueSet-observation-final-status" name="Final States Value Set"/>
+<artifact id="StructureDefinition/observation-iop" key="StructureDefinition-observation-iop" name="IOP"/>
+<artifact id="CodeSystem/iop-methods" key="CodeSystem-iop-methods" name="IOP Methods Code System"/>
+<artifact id="ValueSet/iop-methods" key="ValueSet-iop-methods" name="IOP Methods Value Set"/>
+<artifact id="BodyStructure/bodystructure-left-eye" key="BodyStructure-bodystructure-left-eye" name="Left Eye Body Structure"/>
+<artifact id="Media/visual-field-le-0" key="Media-visual-field-le-0" name="Media Example"/>
+<artifact id="Media/visual-field-re-0" key="Media-visual-field-re-0" name="Media Example"/>
+<artifact id="ValueSet/observation-oct-macula" key="ValueSet-observation-oct-macula" name="OCT Macula Observable Entities ValueSet"/>
+<artifact id="StructureDefinition/observation-oct-rnfl" key="StructureDefinition-observation-oct-rnfl" name="OCT RFNL observations"/>
+<artifact id="ValueSet/observation-oct-rnfl" key="ValueSet-observation-oct-rnfl" name="OCT RNFL Observable Entities ValueSet"/>
+<artifact id="StructureDefinition/observation-oct-macula" key="StructureDefinition-observation-oct-macula" name="OCT macular observations"/>
+<artifact id="ValueSet/observable-entities" key="ValueSet-observable-entities" name="Observable Entities Value Set"/>
+<artifact id="StructureDefinition/observation-base" key="StructureDefinition-observation-base" name="Observation Base"/>
+<artifact id="StructureDefinition/diagnostic-report-oct-rnfl" key="StructureDefinition-diagnostic-report-oct-rnfl" name="Ophthalmic OCT RFNL Report"/>
+<artifact id="StructureDefinition/diagnostic-report-oct-macula" key="StructureDefinition-diagnostic-report-oct-macula" name="Ophthalmic OCT Report"/>
+<artifact id="StructureDefinition/diagnostic-report-visual-field" key="StructureDefinition-diagnostic-report-visual-field" name="Ophthalmic Visual Field Report"/>
+<artifact id="StructureDefinition/diagnostic-report-base" key="StructureDefinition-diagnostic-report-base" name="Ophthalmic diagnostic test report"/>
+<artifact id="ValueSet/body-site-eye" key="ValueSet-body-site-eye" name="Ophthalmology Body Site Eye"/>
+<artifact id="StructureDefinition/observation-horizontal-cdr" key="StructureDefinition-observation-horizontal-cdr" name="Ophthalmology CDR observation"/>
+<artifact id="ValueSet/procedure-cpt" key="ValueSet-procedure-cpt" name="Ophthalmology CPT Procedures ValueSet"/>
+<artifact id="ValueSet/conditions" key="ValueSet-conditions" name="Ophthalmology Condition ICD10 and SNOMED codes ValueSet"/>
+<artifact id="StructureDefinition/observation-eye-region-finding" key="StructureDefinition-observation-eye-region-finding" name="Ophthalmology Eye Region Finding"/>
+<artifact id="ValueSet/procedure-snomed" key="ValueSet-procedure-snomed" name="Ophthalmology SNOMED Procedures ValueSet"/>
+<artifact id="ValueSet/observation-visual-acuity" key="ValueSet-observation-visual-acuity" name="Ophthalmology VA Observable Entities ValueSet"/>
+<artifact id="ValueSet/observation-visual-acuity-methods" key="ValueSet-observation-visual-acuity-methods" name="Ophthalmology Visual Acuity Methods ValueSet"/>
+<artifact id="Patient/ophthal-patient-example-0" key="Patient-ophthal-patient-example-0" name="Patient Example"/>
+<artifact id="Practitioner/ophthal-practitioner-example-0" key="Practitioner-ophthal-practitioner-example-0" name="Practitioner Example"/>
+<artifact id="ValueSet/qualifiers" key="ValueSet-qualifiers" name="Qualifiers Value Set"/>
+<artifact id="BodyStructure/bodystructure-right-eye" key="BodyStructure-bodystructure-right-eye" name="Right Eye Body Structure"/>
+<artifact id="StructureDefinition/observation-visual-acuity" key="StructureDefinition-observation-visual-acuity" name="Visual Acuity"/>
+<artifact id="ValueSet/observation-visual-field" key="ValueSet-observation-visual-field" name="Visual Field Observable Entities ValueSet"/>
+<artifact id="StructureDefinition/observation-visual-field" key="StructureDefinition-observation-visual-field" name="Visual field observations"/>
+<artifact id="CodeSystem/visual-field-observations" key="CodeSystem-visual-field-observations" name="Visual field test parameter observations"/>
+<page key="NA" name="(NA)"/>
+<page key="many" name="(many)"/>
+<page key="artifacts" name="Artifacts Summary"/>
+<page key="clinic_optimisation" name="Clinic Optimisation Use Case"/>
+<page key="contributors" name="Contributors"/>
+<page key="guidance" name="Guidance"/>
+<page deprecated="true" key="home" name="Home"/>
+<page key="index" name="Home Page"/>
+<page key="changes" name="IG Change History"/>
+<page key="life_science" name="Life Science Use Case"/>
+<page key="patient_journey" name="Patient Journey Use Case"/>
+<page key="physician_tools" name="Physician Tools Use Case"/>
+<page key="profiles" name="Profiles"/>
+<page key="registry" name="Registry Use Case"/>
+<page key="toc" name="Table of Contents"/>
+<page key="terminology" name="Terminology"/>
+<page key="usecases" name="Use Cases"/>
+<page key="downloads" name="Useful Downloads"/>
+</specification>
