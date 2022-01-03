@@ -21,7 +21,7 @@
       <binding>
         <strength value="required" />
         <description value="Reduced status set" />
-        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/observation-final-status" />
+        <valueSet value="http://terminology.hl7.org/uv/eyecare/ValueSet/observation-final-status" />
       </binding>
     </element>
     <element id="Observation.category">

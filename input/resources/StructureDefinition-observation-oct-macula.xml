@@ -26,7 +26,7 @@
       <short value="OCT macula Observables" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/observation-oct-macula" />
+        <valueSet value="http://terminology.hl7.org/uv/eyecare/ValueSet/observation-oct-macula" />
       </binding>
     </element>
   </differential>

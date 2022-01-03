@@ -26,7 +26,7 @@
       <min value="1" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/observation-visual-field" />
+        <valueSet value="http://terminology.hl7.org/uv/eyecare/ValueSet/observation-visual-field" />
       </binding>
     </element>
   </differential>

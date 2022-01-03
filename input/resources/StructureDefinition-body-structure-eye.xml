@@ -19,7 +19,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/body-site-eye" />
+        <valueSet value="http://terminology.hl7.org/uv/eyecare/ValueSet/body-site-eye" />
       </binding>
     </element>
     <element id="BodyStructure.locationQualifier">
@@ -27,7 +27,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/qualifiers" />
+        <valueSet value="http://terminology.hl7.org/uv/eyecare/ValueSet/qualifiers" />
       </binding>
     </element>
   </differential>

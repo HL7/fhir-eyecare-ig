@@ -1,7 +1,7 @@
 <!-- UPDATE TO VA test methods -->
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/valueset.xsd">
 	<id value="procedure-cpt"/>
-	<url value="http://hl7.org/fhir/uv/eyecare/ValueSet/procedure-cpt"/>
+	<url value="http://terminology.hl7.org/uv/eyecare/ValueSet/procedure-cpt"/>
 	<version value="0.1.0"/>
 	<name value="OphthalmologyCPTProceduresValueSet"/>
 	<title value="Ophthalmology CPT Procedures ValueSet"/>

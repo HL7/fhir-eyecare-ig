@@ -1,6 +1,6 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="observation-final-status"/>
-  <url value="http://hl7.org/fhir/uv/eyecare/ValueSet/observation-final-status"/>
+  <url value="http://terminology.hl7.org/uv/eyecare/ValueSet/observation-final-status"/>
   <version value="0.1.0"/>
   <name value="ObservationFinalStatus"/>
   <title value="ObservationFinalStatus"/>

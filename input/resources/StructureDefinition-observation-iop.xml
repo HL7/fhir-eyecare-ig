@@ -91,7 +91,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/iop-methods" />
+        <valueSet value="http://terminology.hl7.org/uv/eyecare/ValueSet/iop-methods" />
       </binding>
     </element>
   </differential>

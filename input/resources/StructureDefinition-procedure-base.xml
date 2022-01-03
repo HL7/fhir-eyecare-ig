@@ -41,7 +41,7 @@
       <max value="1" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/procedure-cpt" />
+        <valueSet value="http://terminology.hl7.org/uv/eyecare/ValueSet/procedure-cpt" />
       </binding>
     </element>
     <element id="Procedure.code.coding:cptCode.system">
@@ -55,7 +55,7 @@
       <max value="1" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/procedure-snomed" />
+        <valueSet value="http://terminology.hl7.org/uv/eyecare/ValueSet/procedure-snomed" />
       </binding>
     </element>
     <element id="Procedure.code.coding:snomedCode.system">
