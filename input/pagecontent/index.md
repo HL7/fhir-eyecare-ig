@@ -7,7 +7,12 @@ Despite FHIR's® popularity and maturity accelerating as a community driven and 
 This is due to a core problem – there is no universal implementation guidance (IG), which is required to enable truly systemic interoperability that holds promise to advance clinical care and catalyze biomedical research.
 Hence, "Eyes on FHIR" initiative was formed with the overarching mission to develop the  international standards that can enable FHIR ® to enhance the quality and outcomes of ophthalmic healthcare delivery. 
 
-To do this, "Eyes on FHIR" aims to represent the comprehensive ophthalmic clinical lexicon in FHIR ® format and through a series of compiled real world use cases, develop this IG to address the data exchange problems through semantically interoperable .
+Hence, the “Eyes on FHIR®” initiative's primary goal is to represent the comprehensive ophthalmic clinical lexicon in FHIR® format. In order to achieve this, the main project objectives are:
+* Develop a series of structured use cases that describe real world interoperability problems in clinical and academic eye care (see "use case" tab).
+* Identify the necessary terminologies from existing clinical vocabularies (and, in doing so, note any relevant standards gaps) required to characterize the scenario (use case) in a codified manner. 
+* Compile this implementation guide for developers, including the terminologies and any necessary specialty-specific modifications made to the base FHIR specifications needed to represent the use cases to enable FHIR®-based data exchanged that are relevant and contextually useful in ophthalmology to solve the various clinical, research and communication problems described (use cases). This IG will undergo iterative additions and refinement through developing and and testing more use cases in  sequential connectathons and ballot cycles. The IG should be presented in a way that is consumable for both technical and clinical audiences. This will be achieved by maintaining a collabrative multidisciplinary approach to development of use cases and IG authorship, by including accompanying explanatory wrap around textual and imaging content to (i) outcline the fundamentals of clinical content (and provide references and links where appropriate) and (ii) provide rationale for any new ValueSets and CodeSystems created, any artefactual adaptations made, such as constraints / extensions / cardinality / binding strength / slicing etc., as well as (iii) providing conformance guidance.
+* This evolving resource will be enriched by increasingly seeking input from and interfacing with various HL7 Working Groups and Accellerator Programs and seek community feedback tri-annually in the formal balloting process.
+
 <p>
 <img width=250 src="eye.jpg"/>
 </p>
