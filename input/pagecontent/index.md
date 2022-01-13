@@ -1,5 +1,5 @@
 ### Introduction
-“Eyes on FHIR ®” background and introduction Heading
+
 
 #### Purpose 
 Despite FHIR's® popularity and maturity accelerating as a community driven and implementer-focused modern flagship of healthcare standards to support interoperable healthcare data exchange, its application to medical specialties such as ophthalmology remains limited. 
