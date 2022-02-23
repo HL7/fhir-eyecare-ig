@@ -3,10 +3,10 @@
   <id value="observation-base" />
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-base" />
   <name value="ObservationBase" />
-  <title value="Base Observation for Ophthalmology" />
+  <title value="Base ophthalmic Observation profile" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="A profile describing an Observation for ophthalmology" />
+  <description value="Base profile specifically constrained for describing ophthalmic Observations" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />

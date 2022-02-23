@@ -19,7 +19,7 @@ Hence, the “Eyes on FHIR®” initiative's primary goal is to represent the co
 
 Please see the HL7 confluence page for more details and context [here](https://confluence.hl7.org/pages/viewpage.action?pageId=82914199).
  
-A notable achievement was demonstrated in [May ‘21 connectathon](Eyes on FHIR ophthalmology track connectathon 27May2021.pdf), which showcased bidirectional real-time data exchange between various real world electronic medical record (EMR) vendors and fundamental ophthalmic diagnostic device and PACS manufacturers. This was a world first proof of concept, strongly endorsed by the NIH - please see the output connectathon report here for more details (link to PDF report)
+A notable achievement was demonstrated in [May ‘21 connectathon](Eyes on FHIR ophthalmology track connectathon 27May2021.pdf), which showcased bidirectional real-time data exchange between various real world electronic medical record (EMR) vendors and fundamental ophthalmic diagnostic device and PACS manufacturers. This was a world first proof of concept, strongly endorsed by the NIH.
 As a multimodal imaging-dependant specialty, there have already been significant artificial intelligence (AI) publications and implementations for automating the diagnosis and triaging of eye disease. A few cardinal publications are referenced here: 
 * Gulshan V, Peng L, Coram M, et al. Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs. JAMA. 2016;316(22):2402-2410. doi:10.1001/jama.2016.17216
 * Poplin R, Varadarajan AV, Blumer K, Liu Y, McConnell MV, Corrado GS, et al. Prediction of cardiovascular risk factors from retinal fundus photographs via deep learning. Nature Biomedical Engineering. 2018;2: 158–164.
