@@ -10,10 +10,10 @@
   </text>
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-visual-acuity" />
   <name value="ObservationVisualAcuity" />
-  <title value="Visual acuity observation" />
+  <title value="Visual Acuity (VA)" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="A profile for the visual acuity observation" />
+  <description value="An assessment of a patients ability to see." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />

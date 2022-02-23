@@ -9,10 +9,10 @@
   </text>
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-iop" />
   <name value="ObservationIOP" />
-  <title value="Intraocular pressure of Eye Profile" />
+  <title value="Intraocular Pressure (IOP)" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="A profile describing the observation for intraocular pressure of Eye" />
+  <description value="A measurement of a patient's intraocular (within the eyeball) pressure (in mmHg)." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
