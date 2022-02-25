@@ -4,11 +4,12 @@
 	<url value="http://hl7.org/fhir/uv/eyecare/ValueSet/qualifiers"/>
 	<version value="0.1.0"/>
 	<name value="BodyStructureQualifiers"/>
-	<title value="Body Structure Qualifiers"/>
+	<title value="Ophthalmic anatomical location qualifiers"/>
 	<status value="active"/>
 	<experimental value="true"/>
 	<date value="2019-05-01"/>
 	<publisher value="Patient Care Working Group"/>
+	<description value="Describes whether a recorded observation is either final or amended"/>
 	<contact>
 		<telecom>
 			<system value="url" />

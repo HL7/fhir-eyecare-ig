@@ -3,11 +3,12 @@
 	<url value="http://terminology.hl7.org/uv/eyecare/ValueSet/observable-entities"/>
 	<version value="0.1.0"/>
 	<name value="OphthalmologyObservableEntitiesValueSet"/>
-	<title value="Ophthalmology Observable Entities ValueSet"/>
+	<title value="Ophthalmology observations (SNOMED)"/>
 	<status value="active"/>
 	<experimental value="true"/>
 	<date value="2019-05-01"/>
 	<publisher value="Patient Care Working Group"/>
+	<description value="concept descends from 363926002 - Eye/vision observable (observable entity)"/>
 	<contact>
 		<telecom>
 		  <system value="url" />

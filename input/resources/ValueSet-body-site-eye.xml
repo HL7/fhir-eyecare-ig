@@ -3,11 +3,12 @@
 	<url value="http://terminology.hl7.org/uv/eyecare/ValueSet/body-site-eye"/>
 	<version value="0.1.0"/>
 	<name value="OphthalmologyBodySiteEye"/>
-	<title value="Ophthalmology Body Site Eye"/>
+	<title value="Ophthalmic anatomical location"/>
 	<status value="active"/>
 	<experimental value="true"/>
 	<date value="2021-08-03"/>
 	<publisher value="Patient Care Working Group"/>
+	<description value="Describes the ophthalmic structure being referenced"/>
 	<contact>
 		<telecom>
 		  <system value="url" />
