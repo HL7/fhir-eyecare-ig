@@ -1,8 +1,8 @@
 
 ### Ophthalmic ValueSets
-* [Ophthalmic Body Site](ValueSet-body-site-eye.html) - Eye region body sites
-* [Restricted Observation Status](ValueSet-observation-final-status.html) - only final observation states
-* [Ophthalmic Body Structure Qualifiers](ValueSet-qualifiers.html) - qualifiers for body structure
+* [Observation Status](ValueSet-observation-final-status.html) -Describes whether a recorded observation is either final or amended
+* [Ophthalmic anatomical location](ValueSet-body-site-eye.html) - Describes the ophthalmic structure being referenced
+* [Ophthalmic anatomical location qualifiers](ValueSet-qualifiers.html) - Describes the relative locality of an ocular anatomical region (either a whole structure, or particular region within one)
 
 ### Observation ValueSets
 * [Observable Entity Codes](ValueSet-observable-entities.html) - Codes to be used for Observation.code

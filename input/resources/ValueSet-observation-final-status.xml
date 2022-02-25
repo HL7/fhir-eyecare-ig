@@ -2,13 +2,13 @@
   <id value="observation-final-status"/>
   <url value="http://terminology.hl7.org/uv/eyecare/ValueSet/observation-final-status"/>
   <version value="0.1.0"/>
-  <name value="ObservationFinalStatus"/>
-  <title value="ObservationFinalStatus"/>
+  <name value="ObservationStatus"/>
+  <title value="Observation Status"/>
   <status value="active"/>
   <experimental value="true"/>
   <date value="2021-07-24T09:29:23+11:00"/>
  <publisher value="Patient Care Working Group"/>
-  <description value="Codes providing the status of an observation. Only final states."/>
+  <description value="Describes whether a recorded observation is either final or amended"/>
   <immutable value="true"/>
   <compose>
     <include>
