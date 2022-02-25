@@ -9,7 +9,6 @@
 	<experimental value="true"/>
 	<date value="2019-05-01"/>
 	<publisher value="Patient Care Working Group"/>
-	<description value="Describes whether a recorded observation is either final or amended"/>
 	<contact>
 		<telecom>
 			<system value="url" />
@@ -17,6 +16,7 @@
 			<use value="work" />
 		</telecom>
 	</contact>
+    <description value="Describes whether a recorded observation is either final or amended"/>
 	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
 	<compose>
 		<include>

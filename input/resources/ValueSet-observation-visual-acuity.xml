@@ -4,7 +4,7 @@
 	<url value="http://terminology.hl7.org/uv/eyecare/ValueSet/observation-visual-acuity"/>
 	<version value="0.1.0"/>
 	<name value="OphthalmologyVisualAcuityObservableEntitiesValueSet"/>
-	<title value="Ophthalmology VA Observable Entities ValueSet"/>
+	<title value="Visual acuity valueset (SNOMED observation result and method)"/>
 	<status value="active"/>
 	<experimental value="true"/>
 	<date value="2019-05-01"/>
@@ -16,7 +16,7 @@
 		  <use value="work" />
 		</telecom>
 	</contact>
-	<description value="This ValueSet represents all of the observations that are descendants of the Visual Acuity observable SNOMED CT concept"/>
+	<description value="Describes the visual acuity observation result, where concept descends from 363983007 (Visual acuity)"/>
 	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
 	<compose>
 		<include>

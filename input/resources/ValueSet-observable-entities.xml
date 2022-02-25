@@ -8,7 +8,6 @@
 	<experimental value="true"/>
 	<date value="2019-05-01"/>
 	<publisher value="Patient Care Working Group"/>
-	<description value="concept descends from 363926002 - Eye/vision observable (observable entity)"/>
 	<contact>
 		<telecom>
 		  <system value="url" />
@@ -16,7 +15,7 @@
 		  <use value="work" />
 		</telecom>
 	</contact>
-	<description value="This ValueSet represents all of the observations that are descendants of the Eye/Vision observable SNOMED CT concept"/>
+	<description value="Concept descends from 363926002 - Eye/vision observable (observable entity)"/>
 	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
 	<compose>
 		<include>

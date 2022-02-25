@@ -3,7 +3,7 @@
 	<url value="http://hl7.org/fhir/uv/eyecare/ValueSet/observation-visual-acuity-methods"/>
 	<version value="0.1.0"/>
 	<name value="OphthalmologyVisualAcuityMethods"/>
-	<title value="Ophthalmology Visual Acuity Methods ValueSet"/>
+	<title value="Visual acuity chart valueset (SNOMED)"/>
 	<status value="active"/>
 	<experimental value="true"/>
 	<date value="2019-05-01"/>
@@ -15,7 +15,7 @@
 		  <use value="work" />
 		</telecom>
 	</contact>
-	<description value="Ophthalmology Visual Acuity Methods ValueSet"/>
+	<description value="Describes the various charts that can be used to assess visual acuity where concept descends from 400912000 (Visual acuity test equipment (physical object))"/>
 	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
 	<compose>
 		<include>
