@@ -31,54 +31,6 @@
   <!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
   <fhirVersion value="4.0.1"/>
   <definition>
-      <resource>
-      <reference>
-        <reference value="ValueSet/observation-final-status"/>
-      </reference>
-       <name value="Final States Value Set"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/observable-entities"/>
-      </reference>
-      <name value="Observable Entities Value Set"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/iop-methods"/>
-      </reference>
-       <name value="IOP Methods Value Set"/>
-    </resource>
-        <resource>
-      <reference>
-        <reference value="ValueSet/qualifiers"/>
-      </reference>
-       <name value="Qualifiers Value Set"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/iop-methods"/>
-      </reference>
-       <name value="IOP Methods Code System"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/observation-base"/>
-      </reference>
-       <name value="Observation Base"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/observation-visual-acuity"/>
-      </reference>
-       <name value="Visual Acuity"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/observation-iop"/>
-      </reference>
-       <name value="IOP"/>
-    </resource>
     <resource>
       <reference>
         <reference value="BodyStructure/bodystructure-right-eye"/>
