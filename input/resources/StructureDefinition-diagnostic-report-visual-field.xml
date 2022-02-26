@@ -12,6 +12,7 @@
   <title value="Ophthalmic Visual Field Report" />
   <status value="draft" />
   <experimental value="true" />
+<description value="Profile to represent visual field report"/>
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
