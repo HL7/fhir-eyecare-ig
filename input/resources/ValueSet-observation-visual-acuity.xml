@@ -4,7 +4,7 @@
 	<url value="http://terminology.hl7.org/uv/eyecare/ValueSet/observation-visual-acuity"/>
 	<version value="0.1.0"/>
 	<name value="OphthalmologyVisualAcuityObservableEntitiesValueSet"/>
-	<title value="Visual acuity valueset (SNOMED observation result and method)"/>
+	<title value="Visual acuity method valueset (SNOMED)"/>
 	<status value="active"/>
 	<experimental value="true"/>
 	<date value="2019-05-01"/>
