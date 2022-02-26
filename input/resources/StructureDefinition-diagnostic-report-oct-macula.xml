@@ -19,22 +19,35 @@
   <baseDefinition value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-base" />
   <derivation value="constraint" />
   <differential>
-    <element id="DiagnosticReport.code">
-      <path value="DiagnosticReport.code" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.code.coding">
+ <element id="DiagnosticReport.code.coding">
       <path value="DiagnosticReport.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="code" />
+        </discriminator>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
       <min value="1" />
+    </element>
+    <element id="DiagnosticReport.code.coding:maculaCode">
+      <path value="DiagnosticReport.code.coding" />
+      <sliceName value="maculaCode" />
+      <min value="1" />
+      <max value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.code.coding.system">
+    <element id="DiagnosticReport.code.coding:maculaCode.system">
       <path value="DiagnosticReport.code.coding.system" />
       <min value="1" />
       <fixedUri value="http://loinc.org" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.code.coding.code">
+    <element id="DiagnosticReport.code.coding:maculaCode.code">
       <path value="DiagnosticReport.code.coding.code" />
       <min value="1" />
       <fixedCode value="57119-0" />

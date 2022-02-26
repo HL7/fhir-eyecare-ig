@@ -3,7 +3,7 @@
 	<url value="http://terminology.hl7.org/uv/eyecare/ValueSet/iop-methods"/>
 	<version value="0.1.0"/>
 	<name value="OphthalmologyIOPMethods"/>
-	<title value="Ophthalmology IOP Methods ValueSet"/>
+	<title value="Intraocular pressure (IOP) method valueset"/>
 	<status value="active"/>
 	<experimental value="true"/>
 	<date value="2019-05-01"/>
@@ -15,7 +15,7 @@
 		  <use value="work" />
 		</telecom>
 	</contact>
-	<description value="IOP Methods"/>
+	<description value="Describes the various methods of capturing IOP that relate to the IOP Observation profile"/>
 	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
 	<compose>
 		<include>
