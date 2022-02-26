@@ -24,44 +24,10 @@
       <path value="Procedure.code" />
       <min value="1" />
       <mustSupport value="true" />
-    </element>
-    <element id="Procedure.code.coding">
-      <path value="Procedure.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Procedure.code.coding:cptCode">
-      <path value="Procedure.code.coding" />
-      <sliceName value="cptCode" />
-      <max value="1" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://terminology.hl7.org/uv/eyecare/ValueSet/procedure-cpt" />
+        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/procedures" />
       </binding>
-    </element>
-    <element id="Procedure.code.coding:cptCode.system">
-      <path value="Procedure.code.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://www.ama-assn.org/go/cpt" />
-    </element>
-    <element id="Procedure.code.coding:snomedCode">
-      <path value="Procedure.code.coding" />
-      <sliceName value="snomedCode" />
-      <max value="1" />
-      <binding>
-        <strength value="preferred" />
-        <valueSet value="http://terminology.hl7.org/uv/eyecare/ValueSet/procedure-snomed" />
-      </binding>
-    </element>
-    <element id="Procedure.code.coding:snomedCode.system">
-      <path value="Procedure.code.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://snomed.info/sct" />
     </element>
     <element id="Procedure.bodySite">
       <path value="Procedure.bodySite" />
@@ -76,10 +42,12 @@
         </discriminator>
         <rules value="open" />
       </slicing>
+      <min value="0" />
     </element>
     <element id="Procedure.bodySite.extension:bodySiteEye">
       <path value="Procedure.bodySite.extension" />
       <sliceName value="bodySiteEye" />
+      <min value="0" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/StructureDefinition/bodySite" />
