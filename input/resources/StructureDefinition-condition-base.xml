@@ -4,7 +4,13 @@
   <text>
     <status value="extensions" />
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <div>The base Condition for Ophthalmology.</div>
+      <div>A profile to describe the past/present clinical diagnosis of a specific ophthalmic Condition made by a Practitioner.
+
+As noted above, although this same Condition Resource / ValueSet combination is referenced as in the 'Other ophthalmic clinical Observation' profile, this profile is a modification of the base Condition Resource (as opposed to a base Obervation Resource modification, referencing Condition).
+The 'Ocular anatomical location' profile should be used together with this profile.
+
+When a past/present clinical diagnosis of a specific non-ophthalmic pathological Condition is to be made it is expected the Condition resource will be used not profiled as 'Opthalmic Diagnoses'.  
+It is not expected that the 'Ocular anatomical location' profile will be used together with this profile.</div>
     </div>
   </text>
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/condition-base" />
