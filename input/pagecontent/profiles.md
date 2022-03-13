@@ -54,11 +54,11 @@ The 'Ocular anatomical location' profile should be used together with this profi
 * [VF DiagnosticReport](StructureDefinition-diagnostic-report-visual-field.html) - The DiagnosticReport profile for a visual field DT
 
 #### OCT Macula
-* [OCT macula Obserations](StructureDefinition-observation-oct-macula.html) - The Observations associated with the OCT macula DiagnosticReport (note: this valueset can also be used independently to describe specific findings/Observations captured by a VF test, which may not necessarily be referenced by the DiagnosticReport.) 
+* [OCT macula Obserations](StructureDefinition-observation-oct-macula.html) - The Observations associated with the OCT macula DiagnosticReport (note: this valueset can also be used independently to describe specific findings/Observations captured by a OCT test, which may not necessarily be referenced by the DiagnosticReport.) 
 * [OCT macula DiagnosticReport](StructureDefinition-diagnostic-report-oct-macula.html) -The DiagnosticReport profile for an OCT macula
 
 #### OCT RNFL
-* [OCT RNFL Observations](StructureDefinition-observation-oct-rnfl.html) -The Observations associated with the OCT RNFL DiagnosticReport (note: this valueset can also be used independently to describe specific findings/Observations captured by a VF test, which may not necessarily be referenced by the DiagnosticReport.)
+* [OCT RNFL Observations](StructureDefinition-observation-oct-rnfl.html) -The Observations associated with the OCT RNFL DiagnosticReport (note: this valueset can also be used independently to describe specific findings/Observations captured by a OCT test, which may not necessarily be referenced by the DiagnosticReport.)
 * [OCT RNFL Diagnostic Report](StructureDefinition-diagnostic-report-oct-rnfl.html) - The DiagnosticReport profile for an OCT RNFL
 
 
