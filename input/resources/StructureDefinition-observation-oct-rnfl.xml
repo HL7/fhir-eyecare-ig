@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="observation-oct-rnfl" />
-  <text>
-    <status value="extensions" />
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>A specific observation from an OCT RNFL test</p>
-      <p></p>
-    </div>
-  </text>
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-oct-rnfl" />
   <name value="ObservationOCTRFNL" />
   <title value="OCT RFNL observations" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="An OCT RNFL test will produce a number of observations" />
+  <description value="The Observations associated with the OCT RNFL DiagnosticReport (note: this valueset can also be used independently to describe specific findings/Observations captured by a OCT test, which may not necessarily be referenced by the DiagnosticReport.)" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />

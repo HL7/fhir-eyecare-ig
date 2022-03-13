@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="diagnostic-report-oct-rnfl" />
-  <text>
-    <status value="extensions" />
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <div>Diagnostic test report for a RFNL OCT</div>
-    </div>
-  </text>
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-oct-rnfl" />
   <name value="OphthalDiagnosticReportOCTRFNL" />
   <title value="Ophthalmic OCT RFNL Report" />

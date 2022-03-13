@@ -4,7 +4,7 @@ The following clinical profiles have been technically validated.
 
 ### Opthalmic Observations
 
-* [Base ophthalmic Observation profile](StructureDefinition-observation-base.html) - common content for many ophthalmic observations 
+* [Base ophthalmic Observation profile](StructureDefinition-observation-base.html) - Base profile specifically constrained for describing ophthalmic Observations
 * [Ocular anatomical location](StructureDefinition-body-structure-eye.html) -The description of an ophthalmic anatomical site that is located within the following structures: the eyeball or the periocular or orbital regions (as opposed to non-ocular anatomical locations).
 This profile is used by combining the unique valueset (hyperlink) for relevant ophthalmic specific BodyStructure.locationQualifier (Body Site modifier) in combination with the base Observation BodyStructure.location (Body Site; descendants from SNOMED 371398005 ""Eye Region Structure), each with a preferred binding in order to refine the accuracy of the location decription of occular structures. This unique qualifying element is important because these locations are routinely described either diffently and/or more granularly than other body parts.
 Of note - non occular (or surrounding) anatomical location references of Observations (eg - arm) do not need to use this modified specialty profile.
@@ -52,7 +52,7 @@ The 'Ocular anatomical location' profile should be used together with this profi
 * [OCT macula DiagnosticReport](StructureDefinition-diagnostic-report-oct-macula.html) -The DiagnosticReport profile for an OCT macula
 
 #### OCT RNFL
-* [OCT RNFL Observations](StructureDefinition-observation-oct-rnfl.html) -The Observations associated with the OCT RNFL DiagnosticReport (note: this valueset can also be used independently to describe specific findings/Observations captured by a OCT test, which may not necessarily be referenced by the DiagnosticReport.)
+* [OCT RNFL Observations](StructureDefinition-observation-oct-rnfl.html) - The Observations associated with the OCT RNFL DiagnosticReport (note: this valueset can also be used independently to describe specific findings/Observations captured by a OCT test, which may not necessarily be referenced by the DiagnosticReport.)
 * [OCT RNFL Diagnostic Report](StructureDefinition-diagnostic-report-oct-rnfl.html) - The DiagnosticReport profile for an OCT RNFL
 
 

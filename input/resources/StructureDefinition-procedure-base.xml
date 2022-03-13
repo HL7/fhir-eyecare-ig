@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="procedure-base" />
-  <text>
-    <status value="extensions" />
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <div>The base Procedure for Ophthalmology.</div>
-    </div>
-  </text>
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/procedure-base" />
   <name value="ProcedureBase" />
   <title value="Base Procedure for Ophthalmology" />
