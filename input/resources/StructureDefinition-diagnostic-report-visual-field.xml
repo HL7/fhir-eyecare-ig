@@ -9,10 +9,10 @@
   </text>
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-visual-field" />
   <name value="OphthalDiagnosticReportForVisualField" />
-  <title value="Ophthalmic Visual Field Report" />
+  <title value="VF Diagnostic Report " />
   <status value="draft" />
-  <experimental value="true" />
-<description value="Profile to represent visual field report"/>
+  <experimental value="true" /> 
+  <description value="The DiagnosticReport profile for a visual field DT"/>
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />

@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="observation-oct-macula" />
-  <text>
-    <status value="extensions" />
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>A specific observation from an OCT macula test</p>
-      <p></p>
-    </div>
-  </text>
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-oct-macula" />
   <name value="ObservationOCTMacula" />
-  <title value="OCT macular observations" />
+  <title value="OCT macula Observations" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="OCT Macular panel observations" />
+  <description value="The Observations associated with the OCT macula DiagnosticReport (note: this valueset can also be used independently to describe specific findings/Observations captured by a OCT test, which may not necessarily be referenced by the DiagnosticReport.)" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />

@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="observation-visual-acuity" />
-  <text>
-    <status value="extensions" />
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>A specific observation for visual acuity</p>
-      <p>The quantity uses the LogMAR value</p>
-    </div>
-  </text>
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-visual-acuity" />
   <name value="ObservationVisualAcuity" />
   <title value="Visual Acuity (VA)" />

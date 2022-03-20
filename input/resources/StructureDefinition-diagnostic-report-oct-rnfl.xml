@@ -3,10 +3,10 @@
   <id value="diagnostic-report-oct-rnfl" />
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-oct-rnfl" />
   <name value="OphthalDiagnosticReportOCTRFNL" />
-  <title value="Ophthalmic OCT RFNL Report" />
+  <title value="OCT RNFL Diagnostic Report" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="Profile to represent OCT RNFL report"/>
+  <description value="The DiagnosticReport profile for an OCT RNFL"/>
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />

@@ -9,10 +9,10 @@
   </text>
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/diagnostic-report-oct-macula" />
   <name value="OphthalDiagnosticReportOCTMacula" />
-  <title value="Ophthalmic OCT Report" />
+  <title value="OCT macula Diagnostic Report" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="Profile to represent OCT macula report"/>
+  <description value="The DiagnosticReport profile for an OCT macula"/>
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />

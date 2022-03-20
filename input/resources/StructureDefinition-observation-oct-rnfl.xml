@@ -3,7 +3,7 @@
   <id value="observation-oct-rnfl" />
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-oct-rnfl" />
   <name value="ObservationOCTRFNL" />
-  <title value="OCT RFNL observations" />
+  <title value="OCT RFNL Observations" />
   <status value="draft" />
   <experimental value="true" />
   <description value="The Observations associated with the OCT RNFL DiagnosticReport (note: this valueset can also be used independently to describe specific findings/Observations captured by a OCT test, which may not necessarily be referenced by the DiagnosticReport.)" />

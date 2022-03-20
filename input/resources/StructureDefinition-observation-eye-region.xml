@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="observation-eye-region-finding" />
-  <text>
-    <status value="extensions" />
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <p> Obsvervations made during an ophthalmic clinical examination that relate to ocular structures (and hence should use the ""ocular anatomic location"" profile). 
-
-Although the Condition resource is used in this profile (with the preferred binding of a specific ophthalmic valueset), this does not intend to indicate that a definitive clinical diagnosis has been made. Rather, that a certain finding has been observed.
-
-Observations made during a clinical examination which may or may not be related to the routine ophthalmic examination, but describes findings that are not necessarily related to the ocular, periocular or orbital anatomical location or pathology (and hence is unlikely to requre the use of the "ocular anatomic profile"). The following examples illustrate scenarios where this may apply; a practitioner may identify - 
-
-i) likely unrelated - an incidental gait as the patient walks into the room
-ii) possibly related - an enlarged thyroid gland, which could be associated with thyroid eye disease
-iii) likely related - a high blood pressure reading. This may be a non-ocular/systemic cause of numerous potentially blinding ophthalmic conditions, such as severe hypertensive retinopathy or a retinal vascular occlusion.
-In this case it is appropriate to use an Observation resource not profiled as an 'Opthalmic Clinical Observation'.
-
-Again, although the Condition resource is referenced in this profile (with the preferred binding of a specific ophthalmic valueset), this does not intend to indicate that a definitive clinical diagnosis has been made. Rather, that a certain finding has been observed.  </p>
-      <p></p>
-    </div>
-  </text>
   <url value="http://hl7.org/fhir/uv/eyecare/StructureDefinition/observation-eye-region-finding" />
   <name value="ObservationEyeRegionFinding" />
-  <title value="Ophthalmology Eye Region Finding" />
+  <title value="Other ophthalmic clinical Observation" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="Observable finding for eye region" />
+  <description value="Observations made during an ophthalmic clinical examination that relate to ocular structures (and hence should use the ““ocular anatomic location”” profile). Although the Condition resource is used in this profile (with the preferred binding of a specific ophthalmic valueset), this does not intend to indicate that a definitive clinical diagnosis has been made. Rather, that a certain finding has been observed. Observations made during a clinical examination which may or may not be related to the routine ophthalmic examination, but describes findings that are not necessarily related to the ocular, periocular or orbital anatomical location or pathology (and hence is unlikely to requre the use of the “ocular anatomic profile”)." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
