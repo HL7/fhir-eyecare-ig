@@ -19,13 +19,15 @@ Of note - non occular (or surrounding) anatomical location references of Observa
 Although the Condition resource is used in this profile (with the preferred binding of a specific ophthalmic valueset), this does not intend to indicate that a definitive clinical diagnosis has been made. Rather, that a certain finding has been observed.
 Observations made during a clinical examination which may or may not be related to the routine ophthalmic examination, but describes findings that are not necessarily related to the ocular, periocular or orbital anatomical location or pathology (and hence is unlikely to requre the use of the "ocular anatomic profile"). The following examples illustrate scenarios where this may apply; a practitioner may identify - 
 
+<p>
 i) likely unrelated - an incidental gait as the patient walks into the room
 ii) possibly related - an enlarged thyroid gland, which could be associated with thyroid eye disease
 iii) likely related - a high blood pressure reading. This may be a non-ocular/systemic cause of numerous potentially blinding ophthalmic conditions, such as severe hypertensive retinopathy or a retinal vascular occlusion.
 In this case it is appropriate to use an Observation resource not profiled as an 'Opthalmic Clinical Observation'.
-
+</p>
+<p>
 Again, although the Condition resource is referenced in this profile (with the preferred binding of a specific ophthalmic valueset), this does not intend to indicate that a definitive clinical diagnosis has been made. Rather, that a certain finding has been observed.  
-
+</p>
 ### Ophthalmic Diagnoses / Conditions 
 * [Ophthalmic Diagnoses](StructureDefinition-condition-base.html) - A profile to describe the past/present clinical diagnosis of a specific ophthalmic Condition made by a Practitioner.
 As noted above, although this same Condition Resource / ValueSet combination is referenced as in the 'Other ophthalmic clinical Observation' profile, this profile is a modification of the base Condition Resource (as opposed to a base Obervation Resource modification, referencing Condition).
