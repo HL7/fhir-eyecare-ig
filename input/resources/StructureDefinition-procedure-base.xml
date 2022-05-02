@@ -20,7 +20,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/eyecare/ValueSet/procedures" />
+        <valueSet value="http://terminology.hl7.org/uv/eyecare/ValueSet/procedures" />
       </binding>
     </element>
     <element id="Procedure.bodySite">

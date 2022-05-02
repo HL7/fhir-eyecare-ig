@@ -34,7 +34,7 @@
 			</filter>
 		</include>
 		<include>
-			<system value="http://hl7.org/fhir/uv/eyecare/CodeSystem/visual-field-observations"/>
+			<system value="http://terminology.hl7.org/uv/eyecare/CodeSystem/visual-field-observations"/>
 		</include>
 	</compose>
 </ValueSet>

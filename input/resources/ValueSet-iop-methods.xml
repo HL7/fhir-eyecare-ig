@@ -27,7 +27,7 @@
 			</filter>
 		</include>
 		<include>
-			<system value="http://hl7.org/fhir/uv/eyecare/CodeSystem/iop-methods"/>
+			<system value="http://terminology.hl7.org/uv/eyecare/CodeSystem/iop-methods"/>
 		</include>
 	</compose>
 </ValueSet>

@@ -18,7 +18,7 @@
 * [Ophthalmology conditions valuset (SNOMED & ICD-10 combined)](ValueSet-conditions.html) - ICD 10 and SNOMED codes for ophthalmic conditions
 
 ### Procedure ValueSets
-* [Ophthalmology Procedures Valueset](ValueSet-procedure-snomed.html) - SNOMED and CPT combined codes for ophthalmic procedures
+* [Ophthalmology Procedures Valueset](ValueSet-procedures.html) - SNOMED and CPT combined codes for ophthalmic procedures
 
 ### Code Systems
 * [Additional Ophthalmic Body Structure Qualifiers](CodeSystem-qualifiers.html) - additional qualifiers for body structure
