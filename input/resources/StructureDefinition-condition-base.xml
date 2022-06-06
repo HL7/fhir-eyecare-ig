@@ -6,9 +6,8 @@
   <title value="Ophthalmic Diagnoses" />
   <status value="draft" />
   <experimental value="true" />
-
   <description value="A profile to describe the formal past/present clinical diagnosis of a specific non-ophthalmic pathological Condition.
-As noted above, although the Condition Resource is also referenced in the "non-ophthalmic findings" profile, this profile is a modification of the base Condition Resource (as opposed to a base Obervation Resource modification, referencing Condition).
+As noted above, although the Condition Resource is also referenced in the non-ophthalmic findings profile, this profile is a modification of the base Condition Resource (as opposed to a base Obervation Resource modification, referencing Condition).
 The 'Ocular anatomical location' profile should not be used together with this profile." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
