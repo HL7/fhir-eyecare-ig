@@ -162,32 +162,5 @@
       <code value="jira-code"/>
       <value value="uv-eyecare"/>
     </parameter>
-
-    <!-- <parameter>
-      <code value="path-resource"/>
-      <value value="input\history"/>
-    </parameter>
-    <parameter>
-      <code value="path-binary"/>
-      <value value="input\cql"/>
-    </parameter>
-    -->
-    <!-- Uncomment one or more of these if you want to limit which syntaxes are supported or want to disable the display of mappings
-    <parameter>
-      <code value="excludexml"/>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code value="excludejson"/>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code value="excludettl"/>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code value="excludemap"/>
-      <value value="true"/>
-    </parameter>-->
   </definition>
 </ImplementationGuide>
